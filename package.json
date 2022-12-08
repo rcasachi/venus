@@ -1,0 +1,37 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "description": "VenusUI Design System package collection",
+  "keywords": [
+    "venus",
+    "venus-ui",
+    "VenusUI",
+    "design",
+    "system"
+  ],
+  "author": "Rafael Alessandro Casachi",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/rcasachi/venus.git",
+  "devDependencies": {
+    "lerna": "^6.1.0",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run --parallel build",
+    "clean": "npx lerna clean -y",
+    "test:ci": "lerna run --parallel test:ci",
+    "coverage": "lerna run --parallel test:cov",
+    "test": "lerna run --parallel test",
+    "versionup": "lerna version --conventional-commits --yes",
+    "publishup": "lerna publish from-git --yes",
+    "add:tokens": "yarn workspace @venus/tokens add",
+    "add:components": "yarn workspace @venus/components add",
+    "add:docs": "yarn workspace @venus/docs add"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

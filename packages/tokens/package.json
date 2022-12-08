@@ -1,0 +1,43 @@
+{
+  "name": "@venus/tokens",
+  "version": "0.0.0",
+  "description": "VenusUI Design System Tokens",
+  "author": "Rafael Alessandro Casachi",
+  "homepage": "https://github.com/rcasachi/venus#readme",
+  "keywords": [
+    "venus",
+    "venus-ui",
+    "VenusUI",
+    "design",
+    "system",
+    "tokens"
+  ],
+  "private": false,
+  "main": "./dist",
+  "license": "MIT",
+  "repository": "https://github.com/rcasachi/venus.git",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "echo 'No start script'",
+    "build": "tsc -p tsconfig.json",
+    "test:ci": "echo 'No test CI script'",
+    "test:cov": "echo 'No test coverage script'",
+    "test": "echo 'No test script'"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "@stitches/react": "^1.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25"
+  },
+  "bugs": {
+    "url": "https://github.com/rcasachi/venus/issues"
+  }
+}

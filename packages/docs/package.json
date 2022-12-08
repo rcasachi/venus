@@ -1,0 +1,45 @@
+{
+  "name": "@venus/docs",
+  "version": "0.1.0",
+  "description": "Storybook docs from VenusUI components",
+  "author": "rafael.casachi <rcasachi@gmail.com>",
+  "homepage": "https://github.com/rcasachi/venus#readme",
+  "license": "MIT",
+  "private": true,
+  "main": "./dist",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcasachi/venus.git"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook --docs",
+    "docs:dev": "npm run storybook"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "babel-loader": "^8.2.5"
+  },
+  "bugs": {
+    "url": "https://github.com/rcasachi/venus/issues"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "es6", "es2016", "es2017"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es5",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "include": ["packages"],
+  "exclude": ["node_modules", "./**/dist", "public", "./**/*.js"]
+}
