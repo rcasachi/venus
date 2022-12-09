@@ -1,3 +1,7 @@
-# @venus/tokens
+# @venusui/tokens
 
-// TODO: create README for tokens
+## Install
+
+```bash
+yarn add @venusui/tokens
+```
