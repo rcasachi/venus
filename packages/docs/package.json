@@ -1,5 +1,5 @@
 {
-  "name": "@venus/docs",
+  "name": "@venusui/docs",
   "version": "0.1.1",
   "description": "Storybook docs from VenusUI components",
   "author": "rafael.casachi <rcasachi@gmail.com>",
