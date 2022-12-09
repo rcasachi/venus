@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/rcasachi/venus/compare/@venusui/components@0.1.2...@venusui/components@0.1.3) (2022-12-09)
+
+
+### Bug Fixes
+
+* **components:** add public scope ([c74e884](https://github.com/rcasachi/venus/commit/c74e884d82274e16265258eeb5c96dd0944f6dd9))
+
+
+
+
+
 ## 0.1.2 (2022-12-09)
 
 

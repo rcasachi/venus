@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.4](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.0.3...@venusui/tokens@0.0.4) (2022-12-09)
+
+
+### Bug Fixes
+
+* **tokens:** add public scope ([47e830d](https://github.com/rcasachi/venus/commit/47e830d39ab43bb35401fe70f82624f9c8c0982a))
+
+
+
+
+
 ## [0.0.3](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.0.2...@venusui/tokens@0.0.3) (2022-12-09)
 
 
