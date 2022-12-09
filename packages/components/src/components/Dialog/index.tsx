@@ -1,4 +1,4 @@
-import { styled, keyframes } from '@venus/tokens';
+import { styled, keyframes } from '@venusui/tokens';
 import { Cross1Icon } from '@radix-ui/react-icons';
 import { Root, Overlay, Content, Close, Trigger } from '@radix-ui/react-dialog';
 import React, { ReactNode } from 'react';

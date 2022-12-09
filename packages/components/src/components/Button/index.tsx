@@ -1,4 +1,4 @@
-import { styled } from '@venus/tokens';
+import { styled } from '@venusui/tokens';
 
 export const Button = styled('button', {
   // borderRadius: '$round',
