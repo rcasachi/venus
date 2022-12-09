@@ -39,5 +39,8 @@
   },
   "bugs": {
     "url": "https://github.com/rcasachi/venus/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
