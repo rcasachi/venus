@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.2 (2022-12-09)
+
+
+### Bug Fixes
+
+* **docs:** fix venus-ui scope ([4a94e2b](https://github.com/rcasachi/venus/commit/4a94e2b85d2c73ea48a38bd83668d0853957d0d5))
+* **root:** restart ds project ([f447cc3](https://github.com/rcasachi/venus/commit/f447cc3a7492141e253b7448287fe4f15bcab8eb))
+
+
+
+
+
 ## 0.1.1 (2022-12-09)
 
 
