@@ -113,7 +113,7 @@ import {
   brownDarkA,
   bronzeDarkA,
   goldDarkA,
-} from '@radix-ui/colors';
+} from "@radix-ui/colors";
 
 export const lightTone = {
   ...gray,

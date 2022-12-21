@@ -1,14 +1,14 @@
-// import { PropertyValue } from '@stitches/react';
+import { PropertyValue } from "../type";
 
 export const fontUtils = {
-  // ta: (value: PropertyValue<'textAlign'>) => ({ textAlign: value }),
-  // lh: (value: PropertyValue<'lineHeight'>) => ({ lineHeight: value }),
-  // us: (value: PropertyValue<'userSelect'>) => ({
-  //   WebkitUserSelect: value,
-  //   userSelect: value,
-  // }),
-  // userSelect: (value: PropertyValue<'userSelect'>) => ({
-  //   WebkitUserSelect: value,
-  //   userSelect: value,
-  // }),
+  ta: (value: PropertyValue<"textAlign">) => ({ textAlign: value }),
+  lh: (value: PropertyValue<"lineHeight">) => ({ lineHeight: value }),
+  us: (value: PropertyValue<"userSelect">) => ({
+    WebkitUserSelect: value,
+    userSelect: value,
+  }),
+  userSelect: (value: PropertyValue<"userSelect">) => ({
+    WebkitUserSelect: value,
+    userSelect: value,
+  }),
 };

@@ -24,8 +24,8 @@
   ],
   "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "echo 'No start script'",
-    "build": "tsc -p tsconfig.json",
+    "start": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
     "test:ci": "echo 'No test CI script'",
     "test:cov": "echo 'No test coverage script'",
     "test": "echo 'No test script'"
@@ -33,9 +33,6 @@
   "dependencies": {
     "@radix-ui/colors": "^0.1.8",
     "@stitches/react": "^1.2.8"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.25"
   },
   "bugs": {
     "url": "https://github.com/rcasachi/venus/issues"
