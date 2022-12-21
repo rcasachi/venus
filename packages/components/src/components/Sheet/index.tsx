@@ -1,20 +1,16 @@
 import React from 'react';
 
-import { CSS } from '@venusui/tokens';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { Cross1Icon } from '@radix-ui/react-icons';
 
 import { IconButton } from '../IconButton';
 import { StyledCloseButton, StyledContent, StyledOverlay } from './styles';
+import { SheetContentProps } from './types';
 
-const Dialog = DialogPrimitive.Root;
-const DialogTrigger = DialogPrimitive.Trigger;
+const Sheet = DialogPrimitive.Root;
+const SheetTrigger = DialogPrimitive.Trigger;
 
-
-type DialogContentPrimitiveProps = React.ComponentProps<typeof DialogPrimitive.Content>;
-type DialogContentProps = DialogContentPrimitiveProps & { css?: CSS };
-
-const DialogContent = React.forwardRef<React.ElementRef<typeof StyledContent>, DialogContentProps>(
+const SheetContent = React.forwardRef<React.ElementRef<typeof StyledContent>, SheetContentProps>(
   ({ children, ...props }, forwardedRef) => (
     <DialogPrimitive.Portal>
       <StyledOverlay />
@@ -30,8 +26,8 @@ const DialogContent = React.forwardRef<React.ElementRef<typeof StyledContent>, D
   )
 );
 
-const DialogClose = DialogPrimitive.Close;
-const DialogTitle = DialogPrimitive.Title;
-const DialogDescription = DialogPrimitive.Description;
+const SheetClose = DialogPrimitive.Close;
+const SheetTitle = DialogPrimitive.Title;
+const SheetDescription = DialogPrimitive.Description;
 
-export { Dialog, DialogTrigger, DialogContent, DialogClose, DialogTitle, DialogDescription };
+export { Sheet, SheetTrigger, SheetContent, SheetClose, SheetTitle, SheetDescription };
