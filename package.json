@@ -16,7 +16,22 @@
   "repository": "https://github.com/rcasachi/venus.git",
   "devDependencies": {
     "lerna": "^6.1.0",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.3",
+    "@types/react": "^18.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "tsup": "^6.2.3"
   },
   "scripts": {
     "start": "lerna run --parallel start",
@@ -27,9 +42,9 @@
     "test": "lerna run --parallel test",
     "versionup": "lerna version --conventional-commits --yes",
     "publishup": "lerna publish from-git --yes",
-    "add:tokens": "yarn workspace @venus/tokens add",
-    "add:components": "yarn workspace @venus/components add",
-    "add:docs": "yarn workspace @venus/docs add"
+    "add:tokens": "yarn workspace @venusui/tokens add",
+    "add:components": "yarn workspace @venusui/components add",
+    "add:docs": "yarn workspace @venusui/docs add"
   },
   "workspaces": [
     "packages/*"

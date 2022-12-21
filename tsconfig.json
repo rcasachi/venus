@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "composite": false,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -8,10 +9,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "strict": true,
-    "target": "es5",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "target": "es6",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "declaration": true,
+    "declarationMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
   },
-  "include": ["packages"],
+  "include": ["packages", "eslintrc.js"],
   "exclude": ["node_modules", "./**/dist", "public", "./**/*.js"]
 }
