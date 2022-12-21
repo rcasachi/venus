@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.0...@venusui/components@0.2.1) (2022-12-21)
+
+**Note:** Version bump only for package @venusui/components
+
 # [0.2.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.1.3...@venusui/components@0.2.0) (2022-12-21)
 
 ### Features
