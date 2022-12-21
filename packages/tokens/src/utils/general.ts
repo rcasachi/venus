@@ -1,18 +1,12 @@
-import { PropertyValue } from "../type";
-
 export const generalUtils = {
-  bc: (value: PropertyValue<"backgroundColor">) => ({
-    backgroundColor: value,
-  }),
-  bs: (value: PropertyValue<"boxShadow">) => ({ boxShadow: value }),
-  pe: (value: PropertyValue<"pointerEvents">) => ({
-    pointerEvents: value,
-  }),
-  appearance: (value: PropertyValue<"appearance">) => ({
+  bc: (value: any) => ({ backgroundColor: value }),
+  bs: (value: any) => ({ boxShadow: value }),
+  pe: (value: any) => ({ pointerEvents: value }),
+  appearance: (value: any) => ({
     WebkitAppearance: value,
     appearance: value,
   }),
-  backgroundClip: (value: PropertyValue<"backgroundClip">) => ({
+  backgroundClip: (value: any) => ({
     WebkitBackgroundClip: value,
     backgroundClip: value,
   }),

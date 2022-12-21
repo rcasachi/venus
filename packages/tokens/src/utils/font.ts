@@ -1,13 +1,11 @@
-import { PropertyValue } from "../type";
-
 export const fontUtils = {
-  ta: (value: PropertyValue<"textAlign">) => ({ textAlign: value }),
-  lh: (value: PropertyValue<"lineHeight">) => ({ lineHeight: value }),
-  us: (value: PropertyValue<"userSelect">) => ({
+  ta: (value: any) => ({ textAlign: value }),
+  lh: (value: any) => ({ lineHeight: value }),
+  us: (value: any) => ({
     WebkitUserSelect: value,
     userSelect: value,
   }),
-  userSelect: (value: PropertyValue<"userSelect">) => ({
+  userSelect: (value: any) => ({
     WebkitUserSelect: value,
     userSelect: value,
   }),

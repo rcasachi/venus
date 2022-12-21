@@ -1,23 +1,11 @@
-import { PropertyValue } from "../type";
-
 export const flexUtils = {
-  fd: (value: PropertyValue<"flexDirection">) => ({
-    flexDirection: value,
-  }),
-  fw: (value: PropertyValue<"flexWrap">) => ({ flexWrap: value }),
-  ai: (value: PropertyValue<"alignItems">) => ({
-    alignItems: value,
-  }),
-  ac: (value: PropertyValue<"alignContent">) => ({
-    alignContent: value,
-  }),
-  jc: (value: PropertyValue<"justifyContent">) => ({
-    justifyContent: value,
-  }),
-  as: (value: PropertyValue<"alignSelf">) => ({ alignSelf: value }),
-  fg: (value: PropertyValue<"flexGrow">) => ({ flexGrow: value }),
-  fs: (value: PropertyValue<"flexShrink">) => ({
-    flexShrink: value,
-  }),
-  fb: (value: PropertyValue<"flexBasis">) => ({ flexBasis: value }),
+  fd: (value: any) => ({ flexDirection: value }),
+  fw: (value: any) => ({ flexWrap: value }),
+  ai: (value: any) => ({ alignItems: value }),
+  ac: (value: any) => ({ alignContent: value }),
+  jc: (value: any) => ({ justifyContent: value }),
+  as: (value: any) => ({ alignSelf: value }),
+  fg: (value: any) => ({ flexGrow: value }),
+  fs: (value: any) => ({ flexShrink: value }),
+  fb: (value: any) => ({ flexBasis: value }),
 };

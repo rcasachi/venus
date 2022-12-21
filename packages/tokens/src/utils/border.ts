@@ -1,19 +1,7 @@
-import { PropertyValue } from "../type";
-
 export const borderUtils = {
-  br: (value: PropertyValue<"borderRadius">) => ({
-    borderRadius: value,
-  }),
-  btrr: (value: PropertyValue<"borderTopRightRadius">) => ({
-    borderTopRightRadius: value,
-  }),
-  bbrr: (value: PropertyValue<"borderBottomRightRadius">) => ({
-    borderBottomRightRadius: value,
-  }),
-  bblr: (value: PropertyValue<"borderBottomLeftRadius">) => ({
-    borderBottomLeftRadius: value,
-  }),
-  btlr: (value: PropertyValue<"borderTopLeftRadius">) => ({
-    borderTopLeftRadius: value,
-  }),
+  br: (value: any) => ({ borderRadius: value }),
+  btrr: (value: any) => ({ borderTopRightRadius: value }),
+  bbrr: (value: any) => ({ borderBottomRightRadius: value }),
+  bblr: (value: any) => ({ borderBottomLeftRadius: value }),
+  btlr: (value: any) => ({ borderTopLeftRadius: value }),
 };

@@ -1,26 +1,14 @@
-import { PropertyValue } from "../type";
-
 export const paddingUtils = {
-  p: (value: PropertyValue<"padding">) => ({
-    padding: value,
-  }),
-  pt: (value: PropertyValue<"paddingTop">) => ({
-    paddingTop: value,
-  }),
-  pr: (value: PropertyValue<"paddingRight">) => ({
-    paddingRight: value,
-  }),
-  pb: (value: PropertyValue<"paddingBottom">) => ({
-    paddingBottom: value,
-  }),
-  pl: (value: PropertyValue<"paddingLeft">) => ({
-    paddingLeft: value,
-  }),
-  px: (value: PropertyValue<"paddingLeft">) => ({
+  p: (value: any) => ({ padding: value }),
+  pt: (value: any) => ({ paddingTop: value }),
+  pr: (value: any) => ({ paddingRight: value }),
+  pb: (value: any) => ({ paddingBottom: value }),
+  pl: (value: any) => ({ paddingLeft: value }),
+  px: (value: any) => ({
     paddingLeft: value,
     paddingRight: value,
   }),
-  py: (value: PropertyValue<"paddingTop">) => ({
+  py: (value: any) => ({
     paddingTop: value,
     paddingBottom: value,
   }),

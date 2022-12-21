@@ -1,26 +1,14 @@
-import { PropertyValue } from "../type";
-
 export const marginUtils = {
-  m: (value: PropertyValue<"margin">) => ({
-    margin: value,
-  }),
-  mt: (value: PropertyValue<"marginTop">) => ({
-    marginTop: value,
-  }),
-  mr: (value: PropertyValue<"marginRight">) => ({
-    marginRight: value,
-  }),
-  mb: (value: PropertyValue<"marginBottom">) => ({
-    marginBottom: value,
-  }),
-  ml: (value: PropertyValue<"marginLeft">) => ({
-    marginLeft: value,
-  }),
-  mx: (value: PropertyValue<"marginLeft">) => ({
+  m: (value: any) => ({ margin: value }),
+  mt: (value: any) => ({ marginTop: value }),
+  mr: (value: any) => ({ marginRight: value }),
+  mb: (value: any) => ({ marginBottom: value }),
+  ml: (value: any) => ({ marginLeft: value }),
+  mx: (value: any) => ({
     marginLeft: value,
     marginRight: value,
   }),
-  my: (value: PropertyValue<"marginTop">) => ({
+  my: (value: any) => ({
     marginTop: value,
     marginBottom: value,
   }),

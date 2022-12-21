@@ -1,9 +1,7 @@
-import { PropertyValue } from "../type";
-
 export const spacingUtils = {
-  ox: (value: PropertyValue<"overflowX">) => ({ overflowX: value }),
-  oy: (value: PropertyValue<"overflowY">) => ({ overflowY: value }),
-  size: (value: PropertyValue<"width">) => ({
+  ox: (value: any) => ({ overflowX: value }),
+  oy: (value: any) => ({ overflowY: value }),
+  size: (value: any) => ({
     width: value,
     height: value,
   }),
