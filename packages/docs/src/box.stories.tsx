@@ -1,42 +1,12 @@
-import React from 'react';
-
-// import { Box, VariantBox, ResponsiveBox } from '@venus/components';
+import React from "react";
+import { Box } from "@venusui/components";
 
 export default { title: 'Box' };
 
-export const withStyle = () => (
-  // <Box
-  //   css={{
-  //     backgroundColor: '$turq',
-  //     color: '$black',
-  //     fontSize: '$5',
-  //     padding: '$4',
-  //   }}
-  // >
-  //   Box
-  // </Box>
-  <div></div>
-);
-
-export const withAsAttribute = () => (
-  // <Box as="h1" css={{ color: '$turq' }}>
-  //   Box as h1
-  // </Box>
-  <div></div>
-);
-
-export const withResponsiveVariants = () => (
+export const boxes = () => (
   <>
-    {/* <ResponsiveBox>responsive</ResponsiveBox>
-    <VariantBox
-      color={{
-        '@initial': 'orange',
-        '@bp1': 'pink',
-        '@bp2': 'turq',
-      }}
-    >
-      variant
-    </VariantBox> */}
-    <div></div>
+    <Box css={{ width: '$8', height: '$8', backgroundColor: '$blue9' }}></Box>
+    <Box css={{ width: '$5', height: '$5', backgroundColor: '$blue8' }}></Box>
+    <Box css={{ width: '$7', height: '$7', backgroundColor: '$gray9' }}></Box>
   </>
 );

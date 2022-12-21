@@ -1,9 +1,12 @@
 import React from 'react';
+import { ThemeProvider } from '@venusui/components';
 
 export const decorators = [
   Story => (
     <>
-      <Story />
+      <ThemeProvider>
+        <Story />
+      </ThemeProvider>
     </>
   ),
 ];
