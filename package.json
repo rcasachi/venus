@@ -17,7 +17,6 @@
   "devDependencies": {
     "lerna": "^6.1.0",
     "typescript": "4.9.4",
-    "@types/react": "^18.0.25",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "eslint": "^8.24.0",
@@ -36,6 +35,7 @@
   "scripts": {
     "start": "lerna run --parallel start",
     "build": "lerna run --parallel build",
+    "lint": "lerna run --parallel lint",
     "clean": "npx lerna clean -y",
     "test:ci": "lerna run --parallel test:ci",
     "coverage": "lerna run --parallel test:cov",
