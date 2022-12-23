@@ -1,15 +1,13 @@
-import React from 'react';
+import { ElementRef, forwardRef } from 'react'
+import { SliderRange, SliderThumb, SliderTrack, StyledSlider } from './styles'
+import { SliderProps } from './types'
 
-import { SliderRange, SliderThumb, SliderTrack, StyledSlider } from './styles';
-import { SliderProps } from './types';
-
-
-export const Slider = React.forwardRef<React.ElementRef<typeof StyledSlider>, SliderProps>(
-  (props, forwardedRef) => {
-    const hasRange = Array.isArray(props.defaultValue || (props as any).value);
+export const Slider = forwardRef<ElementRef<typeof StyledSlider>, SliderProps>(
+  function SliderRef(props, forwardedRef) {
+    const hasRange = Array.isArray(props.defaultValue || (props as any).value)
     const thumbsArray = hasRange
       ? props.defaultValue || (props as any).value
-      : [props.defaultValue || (props as any).value];
+      : [props.defaultValue || (props as any).value]
 
     return (
       <StyledSlider {...props} ref={forwardedRef}>
@@ -20,6 +18,6 @@ export const Slider = React.forwardRef<React.ElementRef<typeof StyledSlider>, Sl
           <SliderThumb key={i} />
         ))}
       </StyledSlider>
-    );
-  }
-);
+    )
+  },
+)

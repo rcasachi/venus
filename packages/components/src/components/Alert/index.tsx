@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Alert = styled('div', {
   boxSizing: 'border-box',
@@ -46,4 +46,4 @@ export const Alert = styled('div', {
     size: '1',
     variant: 'gray',
   },
-});
+})

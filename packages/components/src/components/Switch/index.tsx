@@ -1,13 +1,13 @@
-import React from 'react';
+import { ElementRef, forwardRef } from 'react'
+import { StyledSwitch, StyledThumb } from './styles'
+import { SwitchProps } from './types'
 
-import { StyledSwitch, StyledThumb } from './styles';
-import { SwitchProps } from './types';
-
-
-export const Switch = React.forwardRef<React.ElementRef<typeof StyledSwitch>, SwitchProps>(
-  (props, forwardedRef) => (
-    <StyledSwitch {...props} ref={forwardedRef}>
-      <StyledThumb />
-    </StyledSwitch>
-  )
-);
+export const Switch = forwardRef<ElementRef<typeof StyledSwitch>, SwitchProps>(
+  function SwitchRef(props, forwardedRef) {
+    return (
+      <StyledSwitch {...props} ref={forwardedRef}>
+        <StyledThumb />
+      </StyledSwitch>
+    )
+  },
+)

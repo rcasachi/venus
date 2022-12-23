@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Grid = styled('div', {
   boxSizing: 'border-box',
@@ -155,4 +155,4 @@ export const Grid = styled('div', {
       },
     },
   },
-});
+})

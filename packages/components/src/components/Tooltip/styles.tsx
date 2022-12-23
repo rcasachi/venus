@@ -1,5 +1,5 @@
-import { styled } from "@venusui/tokens";
-import { Content } from '@radix-ui/react-tooltip';
+import { styled } from '@theme'
+import { Content } from '@radix-ui/react-tooltip'
 
 export const StyledContent = styled(Content, {
   backgroundColor: '$transparentPanel',
@@ -14,4 +14,4 @@ export const StyledContent = styled(Content, {
       },
     },
   },
-});
+})

@@ -1,15 +1,17 @@
-import React from 'react';
+// import { CheckIcon } from '@radix-ui/react-icons'
+// import { ElementRef, forwardRef } from 'react'
 
-import { CheckIcon } from '@radix-ui/react-icons';
+// import { StyledVerifiedBadge } from './styles'
+// import { VerifiedBadgeProps } from './types'
 
-import { StyledVerifiedBadge } from './styles';
-import { VerifiedBadgeProps } from './types';
-
-export const VerifiedBadge = React.forwardRef<
-  React.ElementRef<typeof StyledVerifiedBadge>,
-  VerifiedBadgeProps
->((props, forwardedRef) => (
-  <StyledVerifiedBadge {...props} ref={forwardedRef}>
-    <CheckIcon />
-  </StyledVerifiedBadge>
-));
+export const VerifiedBadge = <></>
+// export const VerifiedBadge = forwardRef<
+//   ElementRef<typeof StyledVerifiedBadge>,
+//   VerifiedBadgeProps
+// >(function VerifiedBadgeRef(props, forwardedRef) {
+//   return (
+//     <StyledVerifiedBadge {...props} ref={forwardedRef}>
+//       <CheckIcon />
+//     </StyledVerifiedBadge>
+//   )
+// })

@@ -1,10 +1,10 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Text = styled('span', {
   lineHeight: '1',
   margin: '0',
   fontWeight: 400,
-  fontFamily: "$untitled",
+  fontFamily: '$untitled',
   display: 'block',
 
   variants: {
@@ -230,4 +230,4 @@ export const Text = styled('span', {
     size: '3',
     variant: 'contrast',
   },
-});
+})

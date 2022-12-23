@@ -1,28 +1,29 @@
-import React from 'react';
+import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog'
+import { ElementRef, forwardRef } from 'react'
+import { StyledContent, StyledOverlay } from './styles'
+import { AlertDialogContentProps } from './types'
 
-import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
-import { StyledContent, StyledOverlay } from './styles';
-import { AlertDialogContentProps } from './types';
+const AlertDialog = AlertDialogPrimitive.Root
+const AlertDialogTrigger = AlertDialogPrimitive.Trigger
 
-const AlertDialog = AlertDialogPrimitive.Root;
-const AlertDialogTrigger = AlertDialogPrimitive.Trigger;
-
-const AlertDialogContent = React.forwardRef<
-  React.ElementRef<typeof StyledContent>,
+const AlertDialogContent = forwardRef<
+  ElementRef<typeof StyledContent>,
   AlertDialogContentProps
->(({ children, ...props }, forwardedRef) => (
-  <AlertDialogPrimitive.Portal>
-    <StyledOverlay />
-    <StyledContent {...props} ref={forwardedRef}>
-      {children}
-    </StyledContent>
-  </AlertDialogPrimitive.Portal>
-));
+>(function AlertDialogContentRef({ children, ...props }, forwardedRef) {
+  return (
+    <AlertDialogPrimitive.Portal>
+      <StyledOverlay />
+      <StyledContent {...props} ref={forwardedRef}>
+        {children}
+      </StyledContent>
+    </AlertDialogPrimitive.Portal>
+  )
+})
 
-const AlertDialogTitle = AlertDialogPrimitive.Title;
-const AlertDialogDescription = AlertDialogPrimitive.Description;
-const AlertDialogAction = AlertDialogPrimitive.Action;
-const AlertDialogCancel = AlertDialogPrimitive.Cancel;
+const AlertDialogTitle = AlertDialogPrimitive.Title
+const AlertDialogDescription = AlertDialogPrimitive.Description
+const AlertDialogAction = AlertDialogPrimitive.Action
+const AlertDialogCancel = AlertDialogPrimitive.Cancel
 
 export {
   AlertDialog,
@@ -32,4 +33,4 @@ export {
   AlertDialogDescription,
   AlertDialogAction,
   AlertDialogCancel,
-};
+}

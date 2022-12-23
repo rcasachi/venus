@@ -1,12 +1,12 @@
-import { Content, List, Root, Trigger } from "@radix-ui/react-tabs";
-import { styled } from "@venusui/tokens";
+import { Content, List, Root, Trigger } from '@radix-ui/react-tabs'
+import { styled } from '@theme'
 
 export const StylesTabs = styled(Root, {
   display: 'flex',
   '&[data-orientation="horizontal"]': {
     flexDirection: 'column',
   },
-});
+})
 
 export const StyledTabsTrigger = styled(Trigger, {
   flexShrink: 0,
@@ -48,7 +48,7 @@ export const StyledTabsTrigger = styled(Trigger, {
       borderRightColor: 'transparent',
     },
   },
-});
+})
 
 export const StyledTabsList = styled(List, {
   flexShrink: 0,
@@ -61,7 +61,7 @@ export const StyledTabsList = styled(List, {
     flexDirection: 'column',
     boxShadow: 'inset -1px 0 0 $slate6',
   },
-});
+})
 
 export const StyledTabsContent = styled(Content, {
   flexGrow: 1,
@@ -69,4 +69,4 @@ export const StyledTabsContent = styled(Content, {
     outline: 'none',
     boxShadow: 'inset 0 0 0 1px $slate8, 0 0 0 1px $slate8',
   },
-});
+})

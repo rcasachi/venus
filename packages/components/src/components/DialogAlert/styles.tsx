@@ -1,8 +1,8 @@
-import { Content, Overlay } from "@radix-ui/react-alert-dialog";
-import { styled } from "@venusui/tokens";
+import { Content, Overlay } from '@radix-ui/react-alert-dialog'
+import { styled } from '@theme'
 
-import { overlayStyles } from "../Overlay";
-import { panelStyles } from "../Panel";
+import { overlayStyles } from '@components/Overlay'
+import { panelStyles } from '@components/Panel'
 
 export const StyledOverlay = styled(Overlay, overlayStyles, {
   position: 'fixed',
@@ -10,7 +10,7 @@ export const StyledOverlay = styled(Overlay, overlayStyles, {
   right: 0,
   bottom: 0,
   left: 0,
-});
+})
 
 export const StyledContent = styled(Content, panelStyles, {
   position: 'fixed',
@@ -25,4 +25,4 @@ export const StyledContent = styled(Content, panelStyles, {
   '&:focus': {
     outline: 'none',
   },
-});
+})

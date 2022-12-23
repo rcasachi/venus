@@ -1,10 +1,9 @@
-import React from 'react';
-import * as TooltipPrimitive from '@radix-ui/react-tooltip';
+import * as TooltipPrimitive from '@radix-ui/react-tooltip'
 
-import { Box } from '../Box';
-import { Text } from '../Text';
-import { StyledContent } from './styles';
-import { TooltipProps } from './types';
+import { Box } from '@components/Box'
+import { Text } from '@components/Text'
+import { StyledContent } from './styles'
+import { TooltipProps } from './types'
 
 export function Tooltip({
   children,
@@ -17,12 +16,24 @@ export function Tooltip({
   multiline,
   ...props
 }: TooltipProps) {
-  const rootProps = { open, defaultOpen, onOpenChange, delayDuration, disableHoverableContent };
+  const rootProps = {
+    open,
+    defaultOpen,
+    onOpenChange,
+    delayDuration,
+    disableHoverableContent,
+  }
   return (
     <TooltipPrimitive.Root {...rootProps}>
       <TooltipPrimitive.Trigger asChild>{children}</TooltipPrimitive.Trigger>
       <TooltipPrimitive.Portal>
-        <StyledContent side="top" align="center" sideOffset={5} {...props} multiline={multiline}>
+        <StyledContent
+          side="top"
+          align="center"
+          sideOffset={5}
+          {...props}
+          multiline={multiline}
+        >
           <Text
             size="1"
             as="p"
@@ -34,10 +45,14 @@ export function Tooltip({
             {content}
           </Text>
           <Box css={{ color: '$transparentExtreme' }}>
-            <TooltipPrimitive.Arrow width={11} height={5} style={{ fill: 'currentColor' }} />
+            <TooltipPrimitive.Arrow
+              width={11}
+              height={5}
+              style={{ fill: 'currentColor' }}
+            />
           </Box>
         </StyledContent>
       </TooltipPrimitive.Portal>
     </TooltipPrimitive.Root>
-  );
+  )
 }

@@ -1,5 +1,6 @@
-import { List } from "@radix-ui/react-tabs";
-import { CSS } from "@venusui/tokens";
+import { List } from '@radix-ui/react-tabs'
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-export type TabsListPrimitiveProps = React.ComponentProps<typeof List>;
-export type TabsListProps = TabsListPrimitiveProps & { css?: CSS };
+export type TabsListPrimitiveProps = ComponentProps<typeof List>
+export type TabsListProps = TabsListPrimitiveProps & { css?: CSS }

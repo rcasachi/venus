@@ -1,7 +1,10 @@
-import { CSS } from "@venusui/tokens";
-import { RadioItem } from "@radix-ui/react-menu";
+import { RadioItem, CheckboxItem } from '@radix-ui/react-menu'
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-export type MenuRadioItemPrimitiveProps = React.ComponentProps<
-  typeof RadioItem
->;
-export type MenuRadioItemProps = MenuRadioItemPrimitiveProps & { css?: CSS };
+export type MenuRadioItemPrimitiveProps = ComponentProps<typeof RadioItem>
+export type MenuRadioItemProps = MenuRadioItemPrimitiveProps & { css?: CSS }
+export type MenuCheckboxItemPrimitiveProps = ComponentProps<typeof CheckboxItem>
+export type MenuCheckboxItemProps = MenuCheckboxItemPrimitiveProps & {
+  css?: CSS
+}

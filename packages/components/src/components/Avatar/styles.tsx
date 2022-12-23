@@ -1,5 +1,6 @@
-import { styled } from '@venusui/tokens';
-import * as AvatarPrimitive from '@radix-ui/react-avatar';
+import * as AvatarPrimitive from '@radix-ui/react-avatar'
+
+import { styled } from '@theme'
 
 export const StyledAvatar = styled(AvatarPrimitive.Root, {
   alignItems: 'center',
@@ -181,7 +182,7 @@ export const StyledAvatar = styled(AvatarPrimitive.Root, {
     variant: 'gray',
     shape: 'circle',
   },
-});
+})
 
 export const StyledAvatarImage = styled(AvatarPrimitive.Image, {
   display: 'flex',
@@ -190,7 +191,7 @@ export const StyledAvatarImage = styled(AvatarPrimitive.Image, {
   height: '100%',
   verticalAlign: 'middle',
   width: '100%',
-});
+})
 
 export const StyledAvatarFallback = styled(AvatarPrimitive.Fallback, {
   textTransform: 'uppercase',
@@ -221,12 +222,12 @@ export const StyledAvatarFallback = styled(AvatarPrimitive.Fallback, {
   defaultVariants: {
     size: '2',
   },
-});
+})
 
 export const StyledAvatarNestedItem = styled('div', {
   boxShadow: '0 0 0 2px $colors$loContrast',
   borderRadius: '50%',
-});
+})
 
 export const StyledAvatarGroup = styled('div', {
   display: 'flex',
@@ -234,4 +235,4 @@ export const StyledAvatarGroup = styled('div', {
   [`& ${StyledAvatarNestedItem}:nth-child(n+2)`]: {
     marginRight: '-$1',
   },
-});
+})

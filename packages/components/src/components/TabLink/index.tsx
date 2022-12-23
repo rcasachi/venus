@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const TabLink = styled('a', {
   position: 'relative',
@@ -40,4 +40,4 @@ export const TabLink = styled('a', {
       },
     },
   },
-});
+})

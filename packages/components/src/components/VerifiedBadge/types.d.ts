@@ -1,9 +1,8 @@
-import { CSS } from "@venusui/tokens";
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-import { StyledVerifiedBadge } from "./styles";
+import { StyledVerifiedBadge } from './styles'
 
-export type VerifiedBadgeProps = React.ComponentProps<
-  typeof StyledVerifiedBadge
-> & {
-  css?: CSS;
-};
+export type VerifiedBadgeProps = ComponentProps<typeof StyledVerifiedBadge> & {
+  css?: CSS
+}

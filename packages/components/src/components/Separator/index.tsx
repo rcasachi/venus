@@ -1,5 +1,5 @@
-import { styled } from '@venusui/tokens';
-import * as SeparatorPrimitive from '@radix-ui/react-separator';
+import { styled } from '@theme'
+import * as SeparatorPrimitive from '@radix-ui/react-separator'
 
 export const Separator = styled(SeparatorPrimitive.Root, {
   border: 'none',
@@ -37,4 +37,4 @@ export const Separator = styled(SeparatorPrimitive.Root, {
   defaultVariants: {
     size: '1',
   },
-});
+})

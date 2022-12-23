@@ -1,5 +1,5 @@
-import { styled } from '@venusui/tokens';
-import { Indicator, Root } from '@radix-ui/react-checkbox';
+import { styled } from '@theme'
+import { Indicator, Root } from '@radix-ui/react-checkbox'
 
 export const StyledCheckbox = styled(Root, {
   all: 'unset',
@@ -53,7 +53,7 @@ export const StyledCheckbox = styled(Root, {
   defaultVariants: {
     size: '1',
   },
-});
+})
 
 export const StyledIndicator = styled(Indicator, {
   alignItems: 'center',
@@ -61,4 +61,4 @@ export const StyledIndicator = styled(Indicator, {
   height: '100%',
   justifyContent: 'center',
   width: '100%',
-});
+})

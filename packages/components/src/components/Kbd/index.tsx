@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Kbd = styled('kbd', {
   boxSizing: 'border-box',
@@ -84,4 +84,4 @@ export const Kbd = styled('kbd', {
   defaultVariants: {
     size: '2',
   },
-});
+})

@@ -1,9 +1,10 @@
-import { styled } from '@venusui/tokens';
-import { Root, Item, Header, Trigger } from '@radix-ui/react-accordion';
+import { Root, Item, Header, Trigger } from '@radix-ui/react-accordion'
+
+import { styled } from '@theme'
 
 export const StyledAccordion = styled(Root, {
   backgroundColor: '$amber1',
-});
+})
 
 export const StyledItem = styled(Item, {
   borderTop: '1px solid $colors$slate6',
@@ -11,9 +12,9 @@ export const StyledItem = styled(Item, {
   '&:last-of-type': {
     borderBottom: '1px solid $colors$slate6',
   },
-});
+})
 
-export const StyledHeader = styled(Header, {});
+export const StyledHeader = styled(Header, {})
 
 export const StyledTrigger = styled(Trigger, {
   all: 'unset',
@@ -53,4 +54,4 @@ export const StyledTrigger = styled(Trigger, {
       transform: 'rotate(180deg)',
     },
   },
-});
+})

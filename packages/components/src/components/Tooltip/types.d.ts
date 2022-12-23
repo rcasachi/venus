@@ -1,9 +1,10 @@
-import { Content, Root } from "@radix-ui/react-tooltip";
+import { Content, Root } from '@radix-ui/react-tooltip'
+import { ComponentProps, ReactElement, ReactNode } from 'react'
 
-export type TooltipPrimitiveProps = React.ComponentProps<typeof Root>;
+export type TooltipPrimitiveProps = ComponentProps<typeof Root>
 export type TooltipProps = TooltipPrimitiveProps &
-  React.ComponentProps<typeof Content> & {
-    children: React.ReactElement;
-    content: React.ReactNode;
-    multiline?: boolean;
-  };
+  ComponentProps<typeof Content> & {
+    children: ReactElement
+    content: ReactNode
+    multiline?: boolean
+  }

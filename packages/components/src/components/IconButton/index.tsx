@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const IconButton = styled('button', {
   alignItems: 'center',
@@ -76,14 +76,16 @@ export const IconButton = styled('button', {
           },
         },
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$slateA8, 0 0 0 1px $colors$slateA8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$slateA8, 0 0 0 1px $colors$slateA8',
         },
         '&:active': {
           backgroundColor: '$slateA4',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$slateA4',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$slateA4',
+          },
       },
       raised: {
         boxShadow:
@@ -135,4 +137,4 @@ export const IconButton = styled('button', {
     size: '1',
     variant: 'ghost',
   },
-});
+})

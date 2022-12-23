@@ -1,6 +1,6 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Image = styled('img', {
   verticalAlign: 'middle',
   maxWidth: '100%',
-});
+})

@@ -1,7 +1,8 @@
-import { CSS } from "@venusui/tokens";
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-import { StyledSelect } from "./styles";
+import { StyledSelect } from './styles'
 
-export type SelectProps = React.ComponentProps<typeof StyledSelect> & {
-  css?: CSS;
-};
+export type SelectProps = ComponentProps<typeof StyledSelect> & {
+  css?: CSS
+}

@@ -1,10 +1,17 @@
-import React from 'react';
+import { ElementRef, forwardRef } from 'react'
+import {
+  StyledRadio,
+  StyledRadioButton,
+  StyledRadioCardGroup,
+  StyledRadioIndicator,
+} from './styles'
+import { RadioCardProps } from './types'
 
-import { StyledRadio, StyledRadioButton, StyledRadioCardGroup, StyledRadioIndicator } from './styles';
-import { RadioCardProps } from './types';
-
-export const RadioCard = React.forwardRef<React.ElementRef<typeof StyledRadio>, RadioCardProps>(
-  (props, forwardedRef) => (
+export const RadioCard = forwardRef<
+  ElementRef<typeof StyledRadio>,
+  RadioCardProps
+>(function RadioCardRef(props, forwardedRef) {
+  return (
     <StyledRadio {...props} ref={forwardedRef}>
       <StyledRadioButton>
         <StyledRadioIndicator />
@@ -12,6 +19,6 @@ export const RadioCard = React.forwardRef<React.ElementRef<typeof StyledRadio>, 
       {props.children}
     </StyledRadio>
   )
-);
+})
 
-export const RadioCardGroup = StyledRadioCardGroup;
+export const RadioCardGroup = StyledRadioCardGroup

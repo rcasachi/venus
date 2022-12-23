@@ -1,14 +1,22 @@
-import React from 'react';
+import * as AccordionPrimitive from '@radix-ui/react-accordion'
+import { ChevronDownIcon } from '@radix-ui/react-icons'
 
-import { styled } from '@venusui/tokens';
-import * as AccordionPrimitive from '@radix-ui/react-accordion';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { styled } from '@theme'
 
-import { StyledAccordion, StyledHeader, StyledItem, StyledTrigger } from './styles';
-import { AccordionProps, AccordionTriggerProps } from './types';
+import {
+  StyledAccordion,
+  StyledHeader,
+  StyledItem,
+  StyledTrigger,
+} from './styles'
+import { AccordionProps, AccordionTriggerProps } from './types'
+import { ElementRef, forwardRef } from 'react'
 
-export const Accordion = React.forwardRef<React.ElementRef<typeof StyledAccordion>, AccordionProps>(
-  ({ children, ...props }, forwardedRef) => (
+export const Accordion = forwardRef<
+  ElementRef<typeof StyledAccordion>,
+  AccordionProps
+>(function AccordionRef({ children, ...props }, forwardedRef) {
+  return (
     <StyledAccordion
       ref={forwardedRef}
       {...props}
@@ -17,24 +25,25 @@ export const Accordion = React.forwardRef<React.ElementRef<typeof StyledAccordio
       {children}
     </StyledAccordion>
   )
-);
+})
 
-
-export const AccordionTrigger = React.forwardRef<
-  React.ElementRef<typeof StyledTrigger>,
+export const AccordionTrigger = forwardRef<
+  ElementRef<typeof StyledTrigger>,
   AccordionTriggerProps
->(({ children, ...props }, forwardedRef) => (
-  <StyledHeader>
-    <StyledTrigger {...props} ref={forwardedRef}>
-      {children}
-      <ChevronDownIcon />
-    </StyledTrigger>
-  </StyledHeader>
-));
+>(function AccordionTriggerRef({ children, ...props }, forwardedRef) {
+  return (
+    <StyledHeader>
+      <StyledTrigger {...props} ref={forwardedRef}>
+        {children}
+        <ChevronDownIcon />
+      </StyledTrigger>
+    </StyledHeader>
+  )
+})
 
 const StyledContent = styled(AccordionPrimitive.Content, {
   p: '$2',
-});
+})
 
-export const AccordionItem = StyledItem;
-export const AccordionContent = StyledContent;
+export const AccordionItem = StyledItem
+export const AccordionContent = StyledContent

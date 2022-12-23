@@ -1,6 +1,6 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
-import { Text } from '../Text';
+import { Text } from '@components/Text'
 
 export const Link = styled('a', {
   alignItems: 'center',
@@ -60,4 +60,4 @@ export const Link = styled('a', {
   defaultVariants: {
     variant: 'contrast',
   },
-});
+})

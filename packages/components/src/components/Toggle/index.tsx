@@ -1,5 +1,5 @@
-import { styled } from '@venusui/tokens';
-import * as TogglePrimitive from '@radix-ui/react-toggle';
+import { styled } from '@theme'
+import * as TogglePrimitive from '@radix-ui/react-toggle'
 
 export const Toggle = styled(TogglePrimitive.Root, {
   alignItems: 'center',
@@ -62,4 +62,4 @@ export const Toggle = styled(TogglePrimitive.Root, {
       },
     },
   },
-});
+})

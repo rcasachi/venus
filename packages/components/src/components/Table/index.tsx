@@ -1,17 +1,17 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Caption = styled('caption', {
   textAlign: 'start',
   marginBottom: '$5',
-});
+})
 
 export const Tbody = styled('tbody', {
   width: '100%',
-});
+})
 
-export const Tfoot = styled('tfoot', {});
+export const Tfoot = styled('tfoot', {})
 
-export const Tr = styled('tr', {});
+export const Tr = styled('tr', {})
 
 export const Th = styled('th', {
   fontWeight: 'unset',
@@ -44,7 +44,7 @@ export const Th = styled('th', {
     align: 'start',
     border: 'solid',
   },
-});
+})
 
 export const Td = styled('td', {
   py: '$2',
@@ -75,7 +75,7 @@ export const Td = styled('td', {
     align: 'start',
     border: 'solid',
   },
-});
+})
 
 export const Thead = styled('thead', {
   [`& ${Th}`]: {
@@ -86,7 +86,7 @@ export const Thead = styled('thead', {
     fontSize: '$1',
     color: '$gray11',
   },
-});
+})
 
 export const Table = styled('table', {
   width: '100%',
@@ -105,4 +105,4 @@ export const Table = styled('table', {
       },
     },
   },
-});
+})

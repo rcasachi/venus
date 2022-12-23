@@ -1,5 +1,5 @@
-import { styled } from '@venusui/tokens';
-import { Flex } from '../Flex';
+import { styled } from '@theme'
+import { Flex } from '@components/Flex'
 
 export const StyledVerifiedBadge = styled('div', Flex, {
   alignItems: 'center',
@@ -10,4 +10,4 @@ export const StyledVerifiedBadge = styled('div', Flex, {
   justifyContent: 'center',
   width: '$3',
   height: '$3',
-});
+})

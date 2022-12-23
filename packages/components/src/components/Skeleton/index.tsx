@@ -1,9 +1,9 @@
-import { styled, keyframes } from '@venusui/tokens';
+import { styled, keyframes } from '@theme'
 
 const pulse = keyframes({
   '0%': { opacity: 0 },
   '100%': { opacity: '100%' },
-});
+})
 
 export const Skeleton = styled('div', {
   backgroundColor: '$slate4',
@@ -77,4 +77,4 @@ export const Skeleton = styled('div', {
   defaultVariants: {
     variant: 'text',
   },
-});
+})

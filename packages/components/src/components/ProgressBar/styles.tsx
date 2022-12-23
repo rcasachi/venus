@@ -1,5 +1,5 @@
-import { Indicator, Root } from "@radix-ui/react-progress";
-import { keyframes, styled } from "@venusui/tokens";
+import { Indicator, Root } from '@radix-ui/react-progress'
+import { keyframes, styled } from '@theme'
 
 export const indeterminateProgress = keyframes({
   '0%': {
@@ -14,7 +14,7 @@ export const indeterminateProgress = keyframes({
     transform: 'scaleX(1) translateX(2000%)',
     transformOrigin: 'left',
   },
-});
+})
 
 export const StyledProgressBar = styled(Root, {
   boxSizing: 'border-box',
@@ -59,7 +59,7 @@ export const StyledProgressBar = styled(Root, {
   defaultVariants: {
     variant: 'gray',
   },
-});
+})
 
 export const ProgressBarIndicator = styled(Indicator, {
   boxSizing: 'border-box',
@@ -71,4 +71,4 @@ export const ProgressBarIndicator = styled(Indicator, {
   width: '100%',
   backgroundColor: '$slate4',
   transition: 'transform 150ms cubic-bezier(0.65, 0, 0.35, 1)',
-});
+})

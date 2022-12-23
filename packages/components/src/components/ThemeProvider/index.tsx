@@ -1,9 +1,8 @@
-import React from 'react';
+import { TooltipProvider } from '@radix-ui/react-tooltip'
+import { FC } from 'react'
 
-import { TooltipProvider } from '@radix-ui/react-tooltip';
+import { ThemeProviderProps } from './types'
 
-import { ThemeProviderProps } from './types';
-
-export const ThemeProvider: React.FC<ThemeProviderProps> = (props) => {
-  return <TooltipProvider {...props} />;
-};
+export const ThemeProvider: FC<ThemeProviderProps> = (props) => {
+  return <TooltipProvider {...props}>{props.children}</TooltipProvider>
+}

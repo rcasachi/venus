@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const AppBar = styled('div', {
   boxSizing: 'border-box',
@@ -97,4 +97,4 @@ export const AppBar = styled('div', {
     size: '1',
     color: 'loContrast',
   },
-});
+})

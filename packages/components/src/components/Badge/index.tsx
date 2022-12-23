@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Badge = styled('span', {
   alignItems: 'center',
@@ -70,7 +70,8 @@ export const Badge = styled('span', {
         backgroundColor: '$crimson3',
         color: '$crimson11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$crimson8, 0 0 0 1px $colors$crimson8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$crimson8, 0 0 0 1px $colors$crimson8',
         },
       },
       pink: {
@@ -84,21 +85,24 @@ export const Badge = styled('span', {
         backgroundColor: '$purple3',
         color: '$purple11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$purple8, 0 0 0 1px $colors$purple8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$purple8, 0 0 0 1px $colors$purple8',
         },
       },
       violet: {
         backgroundColor: '$violet3',
         color: '$violet11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$violet8, 0 0 0 1px $colors$violet8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$violet8, 0 0 0 1px $colors$violet8',
         },
       },
       indigo: {
         backgroundColor: '$indigo3',
         color: '$indigo11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$indigo8, 0 0 0 1px $colors$indigo8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$indigo8, 0 0 0 1px $colors$indigo8',
         },
       },
       blue: {
@@ -140,14 +144,16 @@ export const Badge = styled('span', {
         backgroundColor: '$yellow3',
         color: '$yellow11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$yellow8, 0 0 0 1px $colors$yellow8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$yellow8, 0 0 0 1px $colors$yellow8',
         },
       },
       orange: {
         backgroundColor: '$orange3',
         color: '$orange11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$orange8, 0 0 0 1px $colors$orange8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$orange8, 0 0 0 1px $colors$orange8',
         },
       },
       gold: {
@@ -161,7 +167,8 @@ export const Badge = styled('span', {
         backgroundColor: '$bronze3',
         color: '$bronze11',
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $colors$bronze8, 0 0 0 1px $colors$bronze8',
+          boxShadow:
+            'inset 0 0 0 1px $colors$bronze8, 0 0 0 1px $colors$bronze8',
         },
       },
     },
@@ -183,9 +190,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$red5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$red5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$red5',
+          },
       },
     },
     {
@@ -200,9 +208,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$crimson5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$crimson5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$crimson5',
+          },
       },
     },
     {
@@ -217,9 +226,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$pink5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$pink5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$pink5',
+          },
       },
     },
     {
@@ -234,9 +244,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$purple5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$purple5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$purple5',
+          },
       },
     },
     {
@@ -251,9 +262,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$violet5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$violet5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$violet5',
+          },
       },
     },
     {
@@ -268,9 +280,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$indigo5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$indigo5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$indigo5',
+          },
       },
     },
     {
@@ -285,9 +298,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$blue5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$blue5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$blue5',
+          },
       },
     },
     {
@@ -302,9 +316,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$cyan5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$cyan5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$cyan5',
+          },
       },
     },
     {
@@ -319,9 +334,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$teal5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$teal5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$teal5',
+          },
       },
     },
     {
@@ -336,9 +352,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$green5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$green5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$green5',
+          },
       },
     },
     {
@@ -353,9 +370,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$lime5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$lime5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$lime5',
+          },
       },
     },
     {
@@ -370,9 +388,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$yellow5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$yellow5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$yellow5',
+          },
       },
     },
     {
@@ -387,9 +406,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$orange5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$orange5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$orange5',
+          },
       },
     },
     {
@@ -404,9 +424,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$gold5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$gold5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$gold5',
+          },
       },
     },
     {
@@ -421,9 +442,10 @@ export const Badge = styled('span', {
         '&:active': {
           backgroundColor: '$bronze5',
         },
-        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]': {
-          backgroundColor: '$bronze5',
-        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$bronze5',
+          },
       },
     },
   ],
@@ -431,4 +453,4 @@ export const Badge = styled('span', {
     size: '1',
     variant: 'gray',
   },
-});
+})

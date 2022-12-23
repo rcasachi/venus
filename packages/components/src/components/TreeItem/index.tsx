@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const TreeItem = styled('div', {
   alignItems: 'center',
@@ -188,4 +188,4 @@ export const TreeItem = styled('div', {
       },
     },
   },
-});
+})

@@ -1,21 +1,19 @@
-import React from 'react';
+import * as DialogPrimitive from '@radix-ui/react-dialog'
+import { Cross1Icon } from '@radix-ui/react-icons'
 
-import { CSS } from '@venusui/tokens';
-import * as DialogPrimitive from '@radix-ui/react-dialog';
-import { Cross1Icon } from '@radix-ui/react-icons';
+import { IconButton } from '@components/IconButton'
+import { StyledCloseButton, StyledContent, StyledOverlay } from './styles'
+import { ElementRef, forwardRef } from 'react'
+import { DialogContentProps } from './types'
 
-import { IconButton } from '../IconButton';
-import { StyledCloseButton, StyledContent, StyledOverlay } from './styles';
+const Dialog = DialogPrimitive.Root
+const DialogTrigger = DialogPrimitive.Trigger
 
-const Dialog = DialogPrimitive.Root;
-const DialogTrigger = DialogPrimitive.Trigger;
-
-
-type DialogContentPrimitiveProps = React.ComponentProps<typeof DialogPrimitive.Content>;
-type DialogContentProps = DialogContentPrimitiveProps & { css?: CSS };
-
-const DialogContent = React.forwardRef<React.ElementRef<typeof StyledContent>, DialogContentProps>(
-  ({ children, ...props }, forwardedRef) => (
+const DialogContent = forwardRef<
+  ElementRef<typeof StyledContent>,
+  DialogContentProps
+>(function DialogContent({ children, ...props }, forwardedRef) {
+  return (
     <DialogPrimitive.Portal>
       <StyledOverlay />
       <StyledContent {...props} ref={forwardedRef}>
@@ -28,10 +26,17 @@ const DialogContent = React.forwardRef<React.ElementRef<typeof StyledContent>, D
       </StyledContent>
     </DialogPrimitive.Portal>
   )
-);
+})
 
-const DialogClose = DialogPrimitive.Close;
-const DialogTitle = DialogPrimitive.Title;
-const DialogDescription = DialogPrimitive.Description;
+const DialogClose = DialogPrimitive.Close
+const DialogTitle = DialogPrimitive.Title
+const DialogDescription = DialogPrimitive.Description
 
-export { Dialog, DialogTrigger, DialogContent, DialogClose, DialogTitle, DialogDescription };
+export {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogClose,
+  DialogTitle,
+  DialogDescription,
+}

@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Container = styled('div', {
   boxSizing: 'border-box',
@@ -28,4 +28,4 @@ export const Container = styled('div', {
   defaultVariants: {
     size: '4',
   },
-});
+})

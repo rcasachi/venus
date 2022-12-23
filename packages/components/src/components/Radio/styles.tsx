@@ -1,9 +1,9 @@
-import { Indicator, Item, Root } from "@radix-ui/react-radio-group";
-import { styled } from "@venusui/tokens";
+import { Indicator, Item, Root } from '@radix-ui/react-radio-group'
+import { styled } from '@theme'
 
 export const StyledRadioGroup = styled(Root, {
   display: 'flex',
-});
+})
 
 export const StyledIndicator = styled(Indicator, {
   alignItems: 'center',
@@ -20,7 +20,7 @@ export const StyledIndicator = styled(Indicator, {
     borderRadius: '50%',
     backgroundColor: '$blue9',
   },
-});
+})
 
 export const StyledRadio = styled(Item, {
   all: 'unset',
@@ -80,4 +80,4 @@ export const StyledRadio = styled(Item, {
   defaultVariants: {
     size: '1',
   },
-});
+})

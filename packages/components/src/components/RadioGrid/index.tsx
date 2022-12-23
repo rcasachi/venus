@@ -1,11 +1,11 @@
-import { styled } from '@venusui/tokens';
-import * as RadioGroupPrimitive from '@radix-ui/react-radio-group';
+import { styled } from '@theme'
+import * as RadioGroupPrimitive from '@radix-ui/react-radio-group'
 
 export const RadioGridGroup = styled(RadioGroupPrimitive.Root, {
   display: 'grid',
   gap: '$1',
   gridTemplateColumns: 'repeat(5, 1fr)',
-});
+})
 
 export const RadioGrid = styled(RadioGroupPrimitive.Item, {
   all: 'unset',
@@ -33,4 +33,4 @@ export const RadioGrid = styled(RadioGroupPrimitive.Item, {
     boxShadow: 'inset 0 0 0 1px $colors$slate8',
     backgroundColor: '$slate4',
   },
-});
+})

@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Card = styled('div', {
   appearance: 'none',
@@ -51,7 +51,8 @@ export const Card = styled('div', {
       },
       ghost: {
         backgroundColor: 'transparent',
-        transition: 'transform 200ms cubic-bezier(0.22, 1, 0.36, 1), background-color 25ms linear',
+        transition:
+          'transform 200ms cubic-bezier(0.22, 1, 0.36, 1), background-color 25ms linear',
         willChange: 'transform',
         '&::before': {
           boxShadow:
@@ -95,4 +96,4 @@ export const Card = styled('div', {
       },
     },
   },
-});
+})

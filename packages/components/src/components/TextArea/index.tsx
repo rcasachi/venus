@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const TextArea = styled('textarea', {
   appearance: 'none',
@@ -18,7 +18,8 @@ export const TextArea = styled('textarea', {
   resize: 'vertical',
 
   '&:focus': {
-    boxShadow: 'inset 0px 0px 0px 1px $colors$blue8, 0px 0px 0px 1px $colors$blue8',
+    boxShadow:
+      'inset 0px 0px 0px 1px $colors$blue8, 0px 0px 0px 1px $colors$blue8',
     zIndex: '1',
   },
   '&::placeholder': {
@@ -66,13 +67,15 @@ export const TextArea = styled('textarea', {
       invalid: {
         boxShadow: 'inset 0 0 0 1px $colors$red7',
         '&:focus': {
-          boxShadow: 'inset 0px 0px 0px 1px $colors$red8, 0px 0px 0px 1px $colors$red8',
+          boxShadow:
+            'inset 0px 0px 0px 1px $colors$red8, 0px 0px 0px 1px $colors$red8',
         },
       },
       valid: {
         boxShadow: 'inset 0 0 0 1px $colors$green7',
         '&:focus': {
-          boxShadow: 'inset 0px 0px 0px 1px $colors$green8, 0px 0px 0px 1px $colors$green8',
+          boxShadow:
+            'inset 0px 0px 0px 1px $colors$green8, 0px 0px 0px 1px $colors$green8',
         },
       },
     },
@@ -91,4 +94,4 @@ export const TextArea = styled('textarea', {
   defaultVariants: {
     size: '1',
   },
-});
+})

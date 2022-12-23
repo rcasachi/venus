@@ -1,5 +1,5 @@
-import { CaretSortIcon } from "@radix-ui/react-icons";
-import { styled } from "@venusui/tokens";
+import { CaretSortIcon } from '@radix-ui/react-icons'
+import { styled } from '@theme'
 
 export const SelectWrapper = styled('div', {
   backgroundColor: '$loContrast',
@@ -15,9 +15,10 @@ export const SelectWrapper = styled('div', {
 
   '&:focus-within': {
     zIndex: 1,
-    boxShadow: 'inset 0px 0px 0px 1px $colors$blue8, 0px 0px 0px 1px $colors$blue8',
+    boxShadow:
+      'inset 0px 0px 0px 1px $colors$blue8, 0px 0px 0px 1px $colors$blue8',
   },
-});
+})
 
 export const StyledSelect = styled('select', {
   appearance: 'none',
@@ -32,7 +33,7 @@ export const StyledSelect = styled('select', {
   pl: '$1',
   pr: '$3',
   lineHeight: '25px',
-});
+})
 
 export const StyledCaretSortIcon = styled(CaretSortIcon, {
   position: 'absolute',
@@ -40,4 +41,4 @@ export const StyledCaretSortIcon = styled(CaretSortIcon, {
   display: 'inline',
   marginTop: 5,
   marginLeft: -16,
-});
+})

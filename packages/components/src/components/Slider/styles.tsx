@@ -1,5 +1,5 @@
-import { Range, Root, Thumb, Track } from "@radix-ui/react-slider";
-import { styled } from "@venusui/tokens";
+import { Range, Root, Thumb, Track } from '@radix-ui/react-slider'
+import { styled } from '@theme'
 
 export const SliderTrack = styled(Track, {
   position: 'relative',
@@ -13,7 +13,7 @@ export const SliderTrack = styled(Track, {
     width: 2,
     height: 100,
   },
-});
+})
 
 export const SliderRange = styled(Range, {
   position: 'absolute',
@@ -25,7 +25,7 @@ export const SliderRange = styled(Range, {
   '&[data-orientation="vertical"]': {
     width: '100%',
   },
-});
+})
 
 export const SliderThumb = styled(Thumb, {
   position: 'relative',
@@ -57,7 +57,7 @@ export const SliderThumb = styled(Thumb, {
       transform: 'scale(2)',
     },
   },
-});
+})
 
 export const StyledSlider = styled(Root, {
   position: 'relative',
@@ -84,4 +84,4 @@ export const StyledSlider = styled(Root, {
       },
     },
   },
-});
+})

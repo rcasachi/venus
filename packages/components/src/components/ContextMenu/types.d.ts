@@ -1,9 +1,23 @@
-import { RadioItem } from "@radix-ui/react-context-menu";
-import { CSS } from "@venusui/tokens";
+import { RadioItem, Content, CheckboxItem } from '@radix-ui/react-context-menu'
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-export type ContextMenuRadioItemPrimitiveProps = React.ComponentProps<
+export type ContextMenuRadioItemPrimitiveProps = ComponentProps<
   typeof RadioItem
->;
+>
 export type ContextMenuRadioItemProps = ContextMenuRadioItemPrimitiveProps & {
-  css?: CSS;
-};
+  css?: CSS
+}
+
+export type ContextMenuContentPrimitiveProps = ComponentProps<typeof Content>
+export type ContextMenuContentProps = ContextMenuContentPrimitiveProps & {
+  css?: CSS
+}
+
+export type ContextMenuCheckboxItemPrimitiveProps = ComponentProps<
+  typeof CheckboxItem
+>
+export type ContextMenuCheckboxItemProps =
+  ContextMenuCheckboxItemPrimitiveProps & {
+    css?: CSS
+  }

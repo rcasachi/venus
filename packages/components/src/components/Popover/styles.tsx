@@ -1,7 +1,7 @@
-import { Content } from "@radix-ui/react-popover";
-import { styled } from "@venusui/tokens";
+import { Content } from '@radix-ui/react-popover'
+import { styled } from '@theme'
 
-import { panelStyles } from "../Panel";
+import { panelStyles } from '../Panel'
 
 export const StyledContent = styled(Content, panelStyles, {
   minWidth: 200,
@@ -10,4 +10,4 @@ export const StyledContent = styled(Content, panelStyles, {
   '&:focus': {
     outline: 'none',
   },
-});
+})

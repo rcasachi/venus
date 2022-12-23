@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Code = styled('code', {
   fontFamily: '$mono',
@@ -21,4 +21,4 @@ export const Code = styled('code', {
   defaultVariants: {
     variant: 'violet',
   },
-});
+})

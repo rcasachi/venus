@@ -1,4 +1,4 @@
-import { styled } from '@venusui/tokens';
+import { styled } from '@theme'
 
 export const Status = styled('div', {
   borderRadius: '50%',
@@ -37,4 +37,4 @@ export const Status = styled('div', {
     size: '2',
     variant: 'gray',
   },
-});
+})

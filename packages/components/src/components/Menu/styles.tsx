@@ -1,7 +1,7 @@
-import { Content, Item, RadioItem, Root, Separator } from '@radix-ui/react-menu';
-import { styled, css } from '@venusui/tokens';
+import { Content, Item, RadioItem, Root, Separator } from '@radix-ui/react-menu'
+import { styled, css } from '@theme'
 
-import { panelStyles } from '../Panel';
+import { panelStyles } from '@components/Panel'
 
 export const baseItemCss = css({
   display: 'flex',
@@ -17,7 +17,7 @@ export const baseItemCss = css({
   height: '$5',
   paddingLeft: '$5',
   paddingRight: '$5',
-});
+})
 
 export const itemCss = css(baseItemCss, {
   position: 'relative',
@@ -32,30 +32,30 @@ export const itemCss = css(baseItemCss, {
   '&[data-disabled]': {
     color: '$slate9',
   },
-});
+})
 
 export const labelCss = css(baseItemCss, {
   color: '$slate11',
-});
+})
 
 export const menuCss = css({
   boxSizing: 'border-box',
   minWidth: 120,
   py: '$1',
-});
+})
 
 export const separatorCss = css({
   height: 1,
   marginTop: '$1',
   marginBottom: '$1',
   backgroundColor: '$slate6',
-});
+})
 
-export const StyledMenu = styled(Root, menuCss);
-export const StyledMenuContent = styled(Content, panelStyles);
+export const StyledMenu = styled(Root, menuCss)
+export const StyledMenuContent = styled(Content, panelStyles)
 
-export const StyledMenuSeparator = styled(Separator, separatorCss);
+export const StyledMenuSeparator = styled(Separator, separatorCss)
 
-export const StyledMenuItem = styled(Item, itemCss);
+export const StyledMenuItem = styled(Item, itemCss)
 
-export const StyledMenuRadioItem = styled(RadioItem, itemCss);
+export const StyledMenuRadioItem = styled(RadioItem, itemCss)

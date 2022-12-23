@@ -1,5 +1,5 @@
-import { Root, Thumb } from "@radix-ui/react-switch";
-import { styled } from "@venusui/tokens";
+import { Root, Thumb } from '@radix-ui/react-switch'
+import { styled } from '@theme'
 
 export const StyledThumb = styled(Thumb, {
   position: 'absolute',
@@ -16,7 +16,7 @@ export const StyledThumb = styled(Thumb, {
   '&[data-state="checked"]': {
     transform: 'translateX(11px)',
   },
-});
+})
 
 export const StyledSwitch = styled(Root, {
   all: 'unset',
@@ -74,4 +74,4 @@ export const StyledSwitch = styled(Root, {
   defaultVariants: {
     size: '1',
   },
-});
+})
