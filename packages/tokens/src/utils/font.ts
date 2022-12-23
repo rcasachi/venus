@@ -1,12 +1,12 @@
-export const fontUtils = {
-  ta: (value: any) => ({ textAlign: value }),
-  lh: (value: any) => ({ lineHeight: value }),
-  us: (value: any) => ({
-    WebkitUserSelect: value,
-    userSelect: value,
-  }),
-  userSelect: (value: any) => ({
-    WebkitUserSelect: value,
-    userSelect: value,
-  }),
-};
+const ta = (value: any) => ({ textAlign: value })
+const lh = (value: any) => ({ lineHeight: value })
+const us = (value: any) => ({
+  WebkitUserSelect: value,
+  userSelect: value,
+})
+const userSelect = (value: any) => ({
+  WebkitUserSelect: value,
+  userSelect: value,
+})
+
+export { ta, lh, us, userSelect }

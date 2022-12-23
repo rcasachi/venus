@@ -1,7 +1,7 @@
-export const borderUtils = {
-  br: (value: any) => ({ borderRadius: value }),
-  btrr: (value: any) => ({ borderTopRightRadius: value }),
-  bbrr: (value: any) => ({ borderBottomRightRadius: value }),
-  bblr: (value: any) => ({ borderBottomLeftRadius: value }),
-  btlr: (value: any) => ({ borderTopLeftRadius: value }),
-};
+const br = (value: any) => ({ borderRadius: value })
+const btrr = (value: any) => ({ borderTopRightRadius: value })
+const bbrr = (value: any) => ({ borderBottomRightRadius: value })
+const bblr = (value: any) => ({ borderBottomLeftRadius: value })
+const btlr = (value: any) => ({ borderTopLeftRadius: value })
+
+export { br, btrr, bbrr, bblr, btlr }

@@ -1,1 +1,1 @@
-export const transitions = {};
+export const transitions = {}

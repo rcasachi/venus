@@ -1,4 +1,4 @@
-import { darkTone } from "../commons/colors";
-import { darkColors } from "./colors";
+import { darkTone as tone } from '../commons/colors'
+import { darkColors as colors } from './colors'
 
-export default { ...darkTone, ...darkColors };
+export { tone, colors }
