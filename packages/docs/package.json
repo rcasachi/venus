@@ -1,6 +1,6 @@
 {
   "name": "@venusui/docs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Storybook docs from VenusUI components",
   "author": "rafael.casachi <rcasachi@gmail.com>",
   "homepage": "https://github.com/rcasachi/venus#readme",
@@ -25,23 +25,23 @@
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.15",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "polished": "^4.2.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.3",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
     "@storybook/addon-links": "^6.5.15",
     "@storybook/builder-vite": "^0.2.3",
-    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/react": "^6.5.15",
+    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^2.1.0",
-    "vite": "^3.1.4",
-    "@babel/core": "^7.19.3",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "vite": "^3.1.4"
   },
   "bugs": {
     "url": "https://github.com/rcasachi/venus/issues"

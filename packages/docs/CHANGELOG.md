@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.2.0...@venusui/docs@0.2.1) (2022-12-23)
+
+### Bug Fixes
+
+- **docs:** new structure of storybook ([0898de3](https://github.com/rcasachi/venus/commit/0898de36262018f80b98f6d2f5f44b9af84fea25))
+
 # [0.2.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.1.3...@venusui/docs@0.2.0) (2022-12-21)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.1.1...@venusui/tokens@0.2.0) (2022-12-23)
+
+### Features
+
+- **tokens:** new structure of tokens ([3416450](https://github.com/rcasachi/venus/commit/34164507688cdb46819f9d93add279acdce3559f))
+
 ## [0.1.1](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.1.0...@venusui/tokens@0.1.1) (2022-12-21)
 
 ### Bug Fixes
