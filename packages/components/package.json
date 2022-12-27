@@ -12,7 +12,7 @@
     "system",
     "components"
   ],
-  "private": true,
+  "private": false,
   "main": "./dist",
   "license": "MIT",
   "repository": "https://github.com/rcasachi/venus.git",
@@ -43,7 +43,8 @@
     "@radix-ui/react-toggle": "^1.0.1",
     "@radix-ui/react-tooltip": "^1.0.2",
     "@radix-ui/react-use-layout-effect": "^1.0.0",
-    "@stitches/react": "^1.2.8"
+    "@stitches/react": "^1.2.8",
+    "@venusui/tokens": "^0.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
