@@ -5,3 +5,4 @@ lerna-debug.log
 packages/**/dist
 storybook-static/
 .npmrc
+.DS_Store
