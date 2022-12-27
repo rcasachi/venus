@@ -1,0 +1,47 @@
+import { Meta } from "@storybook/addon-docs";
+import { TokensGrid } from "../../components/TokensGrid";
+import { Fonts } from "@venusui/tokens";
+
+<Meta title="Tokens/Fonts" />
+
+# Fonts
+
+---
+
+#### Faces
+
+Font Face is the font used for the text elements.
+
+<TokensGrid tokens={Fonts.faces} />
+
+---
+
+#### Sizes
+
+The font size is the size of the text that will be displayed on the screen.
+
+<TokensGrid tokens={Fonts.sizes} hasRemValue />
+
+---
+
+#### Weights
+
+The font weight defines the weight of the text in the interface.
+
+<TokensGrid tokens={Fonts.weights} />
+
+---
+
+#### Line Heights
+
+The line height is the property that defines the height of the box that contains the text.
+
+<TokensGrid tokens={Fonts.lineHeights} hasRemValue />
+
+---
+
+#### Letter Spacings
+
+Letter spacings dets extra spacing between text characters.
+
+<TokensGrid tokens={Fonts.letterSpacings} />
