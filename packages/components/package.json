@@ -51,8 +51,8 @@
     "react": "^18.2.0"
   },
   "scripts": {
-    "start": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "start": "rm -rf dist && tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "build": "rm -rf dist && tsup src/index.tsx --format esm,cjs --dts --external react",
     "lint": "eslint src/**/*.ts* --fix",
     "test": "echo 'No test available yet'",
     "test:cov": "echo 'No test available yet'",
