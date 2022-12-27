@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.4.0...@venusui/docs@0.4.1) (2022-12-27)
+
+### Bug Fixes
+
+- **docs:** change build script ([a988d71](https://github.com/rcasachi/venus/commit/a988d7121f589bc18065160105bb4a314462ca51))
+
 # [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.3.0...@venusui/docs@0.4.0) (2022-12-27)
 
 ### Features
