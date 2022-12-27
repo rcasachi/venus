@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.2.1...@venusui/docs@0.3.0) (2022-12-27)
+
+### Features
+
+- **docs:** add pages for each token sets ([217c0af](https://github.com/rcasachi/venus/commit/217c0af6c9689f8adf5133e4fc0a1f28b6cb2794))
+
 ## [0.2.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.2.0...@venusui/docs@0.2.1) (2022-12-23)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.0...@venusui/tokens@0.2.1) (2022-12-27)
+
+### Bug Fixes
+
+- **tokens:** delete dist folder at build script ([f479696](https://github.com/rcasachi/venus/commit/f479696d21f60cbe7a847756d7edb916e2462699))
+
 # [0.2.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.1.1...@venusui/tokens@0.2.0) (2022-12-23)
 
 ### Features

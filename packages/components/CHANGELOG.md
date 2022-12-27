@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.2...@venusui/components@0.2.3) (2022-12-27)
+
+### Bug Fixes
+
+- **components:** delete dist folder at build script ([8b13dd2](https://github.com/rcasachi/venus/commit/8b13dd23dc6fae321c54293eab1a257e20b0f576))
+
 ## [0.2.2](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.1...@venusui/components@0.2.2) (2022-12-23)
 
 ### Bug Fixes
