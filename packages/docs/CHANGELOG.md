@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.3.0...@venusui/docs@0.4.0) (2022-12-27)
+
+### Features
+
+- **docs:** add venusui packages ([3c0fadf](https://github.com/rcasachi/venus/commit/3c0fadf64b3455b654900d7c90b1440129387ea9))
+
 # [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.2.1...@venusui/docs@0.3.0) (2022-12-27)
 
 ### Features
