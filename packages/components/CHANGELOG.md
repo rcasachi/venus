@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.3...@venusui/components@0.3.0) (2022-12-27)
+
+### Features
+
+- **components:** publish components package ([3c46050](https://github.com/rcasachi/venus/commit/3c46050fd6c2a6ae95b607dc5456e5a4e750baf4))
+
 ## [0.2.3](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.2...@venusui/components@0.2.3) (2022-12-27)
 
 ### Bug Fixes
