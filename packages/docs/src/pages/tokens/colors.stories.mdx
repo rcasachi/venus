@@ -10,3 +10,126 @@ Color tokens help guide the user through a consistent, scalable and semantic int
 When working with colors, it is extremely important to pay attention to accessibility in the interface. The critical points at this moment are taking care of the contrast of the interactive elements and not using color as the only means of differentiating the objects.
 
 <ColorsGrid />
+
+---
+
+### Use Cases
+
+There are 12 steps in each scale. Each step was designed for at least one specific use case.
+
+This table is a simple overview of the most common use case for each step. However, there are many exceptions and caveats to factor in, which are covered in further detail below.
+
+| Step | Use Case                                |
+| ---- | --------------------------------------- |
+| 1    | App background                          |
+| 2    | Subtle background                       |
+| 3    | UI element background                   |
+| 4    | Hovered UI element background           |
+| 5    | Active / Selected UI element background |
+| 6    | Subtle borders and separators           |
+| 7    | UI element border and focus rings       |
+| 8    | Hovered UI element border               |
+| 9    | Solid backgrounds                       |
+| 10   | Hovered solid backgrounds               |
+| 11   | Low-contrast text                       |
+| 12   | High-contrast text                      |
+
+---
+
+#### Steps 1–2: backgrounds
+
+Steps 1 and 2 are designed for app backgrounds and subtle component backgrounds. You can use them interchangeably, depending on the vibe you're going for.
+
+Appropriate applications include:
+
+- Main app background
+
+- Striped table background
+
+- Code block background
+
+- Card background
+
+- Sidebar background
+
+- Canvas area background
+
+_You may want to use white for your app background in light mode, and Step 1 or 2 from a gray or coloured scale in dark mode. In this case, set up a mutable alias for AppBg and map it to a different color for each color mode._
+
+---
+
+#### Steps 3–5: Component backgrounds
+
+Steps 3, 4, and 5 are designed for UI component backgrounds.
+
+- Step 3 is for normal states.
+
+- Step 4 is for hover states.
+
+- Step 5 is for pressed or selected states.
+
+Even if your component has a transparent background in its default state, you should skip Step 3 and use Step 4 for its hover state.
+
+For call-to-action components that you want to draw particular attention to, you can bump each color one step higher to steps 4, 5, and 6.
+
+For complex components where you need many subtle colors to communicate different meanings, you can get creative and do something like:
+
+- Step 3 for hovered backgrounds.
+
+- Step 4 for selected / pressed backgrounds.
+
+- Step 5 for "unread" backgrounds.
+
+- Step 6 for hovered "unread" backgrounds.
+
+_Steps 11 and 12—which are designed for text—are guaranteed to pass 4.5:1 contrast ratio on top of a step 3 background from the same scale._
+
+---
+
+#### Steps 6–8: Borders
+
+Steps 6, 7, and 8 are designed for borders.
+
+- Step 6 is designed for subtle borders on components which are not interactive. For example sidebars, headers, cards, alerts, and separators.
+
+- Step 7 is designed for borders on interactive components, but can also be used for focus rings.
+
+- Step 8 is designed for borders on interactive components in their hover state.
+
+---
+
+#### Steps 9–10: Solid backgrounds
+
+Steps 9 and 10 are designed for solid backgrounds.
+
+Step 9 has the highest chroma of all steps in the scale. In other words, it's the purest step, the step mixed with the least amount of white or black. Because 9 is the purest step, it has a wide range of applications:
+
+- Website/App backgrounds
+
+- Website section backgrounds
+
+- Header backgrounds
+
+- Component backgrounds
+
+- Graphics/Logos
+
+- Overlays
+
+- Coloured shadows
+
+- Accent borders
+
+Step 10 is designed for component hover states, where step 9 is the component's normal state background.
+
+_Most step 9 colors are designed for white foreground text. Sky, Mint, Lime, Yellow, and Amber are designed for black foreground text and steps 9 and 10._
+
+---
+
+#### Steps 11–12: text
+
+Steps 11 and 12 are designed for text.
+
+- Step 11 is designed for low-contrast text.
+
+- Step 12 is designed for high-contrast text.
