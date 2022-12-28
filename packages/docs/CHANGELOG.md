@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.5.0...@venusui/docs@0.6.0) (2022-12-28)
+
+### Features
+
+- **docs:** improve box, button, text and heading stories ([269beaa](https://github.com/rcasachi/venus/commit/269beaacb96c9db2165543ed1c79325f20fe9af9))
+
 # [0.5.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.4.2...@venusui/docs@0.5.0) (2022-12-28)
 
 ### Features
