@@ -1,11 +1,10 @@
 import { styled } from '@theme'
 
-export const Text = styled('span', {
-  lineHeight: '1',
-  margin: '0',
-  fontWeight: 400,
+export const Text = styled('p', {
   fontFamily: '$untitled',
-  display: 'block',
+  fontWeight: '$1',
+  margin: '$0',
+  lineHeight: '$3',
 
   variants: {
     size: {
@@ -41,6 +40,26 @@ export const Text = styled('span', {
       },
       '9': {
         fontSize: '$9',
+        letterSpacing: '-.055em',
+        textIndent: '-.025em',
+      },
+      '10': {
+        fontSize: '$10',
+        letterSpacing: '-.055em',
+        textIndent: '-.025em',
+      },
+      '11': {
+        fontSize: '$11',
+        letterSpacing: '-.055em',
+        textIndent: '-.025em',
+      },
+      '12': {
+        fontSize: '$12',
+        letterSpacing: '-.055em',
+        textIndent: '-.025em',
+      },
+      '13': {
+        fontSize: '$13',
         letterSpacing: '-.055em',
         textIndent: '-.025em',
       },
@@ -102,6 +121,17 @@ export const Text = styled('span', {
       true: {
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
+      },
+    },
+    weight: {
+      normal: {
+        fontWeight: '$1',
+      },
+      semi: {
+        fontWeight: '$2',
+      },
+      bold: {
+        fontWeight: '$3',
       },
     },
   },
@@ -231,3 +261,5 @@ export const Text = styled('span', {
     variant: 'contrast',
   },
 })
+
+Text.displayName = 'Text'
