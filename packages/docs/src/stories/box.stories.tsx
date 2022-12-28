@@ -1,11 +1,20 @@
-import { Box } from '@venusui/components'
+import { Box, BoxProps, Text } from '@venusui/components'
+import type { Meta, StoryObj } from '@storybook/react'
 
-export default { title: 'Box' }
+export default {
+  title: 'Surfaces/Box',
+  component: Box,
+  args: {
+    children: <Text>Box element testing</Text>,
+    css: { backgroundColor: '$blue9', px: '$2', py: '$4' },
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
+} as Meta<BoxProps>
 
-export const boxes = () => (
-  <>
-    <Box css={{ width: '$8', height: '$8', backgroundColor: '$blue9' }}></Box>
-    <Box css={{ width: '$5', height: '$5', backgroundColor: '$blue8' }}></Box>
-    <Box css={{ width: '$7', height: '$7', backgroundColor: '$gray9' }}></Box>
-  </>
-)
+export const Primary: StoryObj<BoxProps> = {}

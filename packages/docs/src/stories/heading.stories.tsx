@@ -1,13 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@venusui/components'
+import { Heading, HeadingProps } from '@venusui/components'
 
 export default {
-  title: 'Typography/Text',
-  component: Text,
+  title: 'Typography/Heading',
+  component: Heading,
   args: {
-    size: '1',
-    children:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
+    children: 'Custom title',
+    size: '3',
   },
   argTypes: {
     size: {
@@ -66,13 +65,21 @@ export default {
       },
     },
   },
-} as Meta<TextProps>
+} as Meta<HeadingProps>
 
-export const Primary: StoryObj<TextProps> = {}
+export const Primary: StoryObj<HeadingProps> = {}
 
-export const CustomTag: StoryObj<TextProps> = {
+export const CustomTag: StoryObj<HeadingProps> = {
   args: {
-    children: 'Strong text',
-    as: 'strong',
+    children: 'H2 Heading',
+    as: 'h2',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
+      },
+    },
   },
 }
