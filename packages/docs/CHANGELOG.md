@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.4.2...@venusui/docs@0.5.0) (2022-12-28)
+
+### Features
+
+- **docs:** add colors description ([a62f3fc](https://github.com/rcasachi/venus/commit/a62f3fcb9656c6cdd4eabe5bf0495bcb1d76ca1c))
+
 ## [0.4.2](https://github.com/rcasachi/venus/compare/@venusui/docs@0.4.1...@venusui/docs@0.4.2) (2022-12-27)
 
 ### Bug Fixes

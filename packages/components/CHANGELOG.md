@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.3.0...@venusui/components@0.4.0) (2022-12-28)
+
+### Features
+
+- **components:** improve box component ([c215ead](https://github.com/rcasachi/venus/commit/c215ead114614a465bc19479c7d7d5b424e7d89d))
+- **components:** improve button component ([5832044](https://github.com/rcasachi/venus/commit/58320448c46188da347af171d9cabe06363cb57a))
+- **components:** improve heading component ([298c74a](https://github.com/rcasachi/venus/commit/298c74a7fca7ec138efaf8cbfe25a5b939e709cc))
+- **components:** improve text component ([63f0ede](https://github.com/rcasachi/venus/commit/63f0ede8707a4b55e3f3339c798de77351c84442))
+
 # [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.2.3...@venusui/components@0.3.0) (2022-12-27)
 
 ### Features
