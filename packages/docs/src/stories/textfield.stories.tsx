@@ -1,30 +1,75 @@
-import { Flex, TextField } from '@venusui/components'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, Text, TextField, TextFieldProps } from '@venusui/components'
 
-export default { title: 'TextField' }
+export default {
+  title: 'Interaction/TextField',
+  component: TextField,
+  args: {},
+  argTypes: {
+    variant: {
+      options: ['ghost', null],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    state: {
+      options: ['invalid', 'valid', null],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    size: {
+      options: [1, 2],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    readOnly: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    cursor: {
+      options: ['default', 'text'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+  decorators: [
+    (Story) => {
+      return (
+        <Box
+          as="label"
+          css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
+        >
+          <Text size="1">Email address</Text>
+          {Story()}
+        </Box>
+      )
+    },
+  ],
+} as Meta<TextFieldProps>
 
-export const textfields = () => (
-  <>
-    <Flex css={{ alignItems: 'flex-start', gap: '$6' }}>
-      <TextField size="1" placeholder="Size 1" />
-      <TextField size="2" placeholder="Size 2" />
-    </Flex>
-    <Flex css={{ alignItems: 'flex-start', gap: '$6', marginTop: '$6' }}>
-      <TextField size="1" placeholder="Ghost" variant="ghost" />
-      <TextField size="2" placeholder="Ghost" variant="ghost" />
-    </Flex>
-    <Flex css={{ alignItems: 'flex-start', gap: '$6', marginTop: '$6' }}>
-      <TextField placeholder="Invalid" state="invalid" />
-      <TextField placeholder="Valid" state="valid" />
-    </Flex>
-    <Flex css={{ alignItems: 'flex-start', gap: '$6', marginTop: '$6' }}>
-      <TextField placeholder="Cursor default" cursor="default" />
-      <TextField placeholder="Cursor text" cursor="text" />
-    </Flex>
-    <Flex css={{ alignItems: 'flex-start', gap: '$6', marginTop: '$6' }}>
-      <TextField placeholder="Read only placeholder" readOnly />
-      <TextField placeholder="Read only value" defaultValue="100" readOnly />
-      <TextField placeholder="Disabled placeholder" disabled />
-      <TextField placeholder="Disabled value" defaultValue="100" disabled />
-    </Flex>
-  </>
-)
+export const Primary: StoryObj<TextFieldProps> = {
+  args: {
+    placeholder: 'Type your name',
+  },
+}
+
+export const Disabled: StoryObj<TextFieldProps> = {
+  args: {
+    disabled: true,
+  },
+}
+
+export const WithPrefix: StoryObj<TextFieldProps> = {
+  args: {
+    prefix: 'cal.com/',
+  },
+}

@@ -40,6 +40,11 @@ export default {
         type: 'boolean',
       },
     },
+    readOnly: {
+      control: {
+        type: 'boolean',
+      },
+    },
     onClick: { action: 'clicked' },
   },
 } as Meta<ButtonProps>
