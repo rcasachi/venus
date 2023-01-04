@@ -1,12 +1,14 @@
 import { styled } from '@theme'
+import { ComponentProps } from 'react'
 
 export const TextArea = styled('textarea', {
   appearance: 'none',
+  boxSizing: 'border-box',
   borderWidth: '0',
   fontFamily: 'inherit',
   margin: '0',
   outline: 'none',
-  padding: '$1',
+  borderRadius: '$1',
   width: '100%',
   WebkitTapHighlightColor: 'rgba(0,0,0,0)',
   backgroundColor: '$loContrast',
@@ -16,11 +18,13 @@ export const TextArea = styled('textarea', {
   position: 'relative',
   minHeight: 80,
   resize: 'vertical',
+  fontWeight: '$regular',
 
   '&:focus': {
     boxShadow:
       'inset 0px 0px 0px 1px $colors$blue8, 0px 0px 0px 1px $colors$blue8',
     zIndex: '1',
+    outline: 0,
   },
   '&::placeholder': {
     color: '$slate9',
@@ -48,19 +52,19 @@ export const TextArea = styled('textarea', {
         borderRadius: '$1',
         fontSize: '$1',
         lineHeight: '16px',
-        px: '$1',
+        padding: '$1 $2',
       },
       '2': {
         borderRadius: '$1',
         fontSize: '$2',
         lineHeight: '20px',
-        px: '$1',
+        padding: '$2 $3',
       },
       '3': {
         borderRadius: '$2',
         fontSize: '$3',
         lineHeight: '23px',
-        px: '$2',
+        padding: '$3 $4',
       },
     },
     state: {
@@ -95,3 +99,7 @@ export const TextArea = styled('textarea', {
     size: '1',
   },
 })
+
+export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+
+TextArea.displayName = 'TextArea'
