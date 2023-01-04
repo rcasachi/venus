@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.4.0...@venusui/components@0.5.0) (2023-01-04)
+
+### Features
+
+- **components:** adjust avatar, checkbox, multistep, textarea and textfield ([3729212](https://github.com/rcasachi/venus/commit/37292121da5a8825dc677137a82b164fabe52f2e))
+
 # [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.3.0...@venusui/components@0.4.0) (2022-12-28)
 
 ### Features
