@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.0...@venusui/docs@0.8.1) (2023-01-05)
+
+### Bug Fixes
+
+- **docs:** change assets folder ([96abd82](https://github.com/rcasachi/venus/commit/96abd8289bdd33f24c0f1ca46342616cc98fbebd))
+
 # [0.8.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.7.1...@venusui/docs@0.8.0) (2023-01-05)
 
 ### Features
