@@ -7,6 +7,7 @@ export const global = {
     WebkitFontSmoothing: 'antialiased',
     MozOsxFontSmoothing: 'grayscale',
     lineHeight: 1,
+    fontFamily: '$untitled',
   },
   svg: {
     display: 'block',
