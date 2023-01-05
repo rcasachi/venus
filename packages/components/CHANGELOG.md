@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.5.1...@venusui/components@0.6.0) (2023-01-05)
+
+### Features
+
+- **components:** create theme provider with theme switch ([d118b4e](https://github.com/rcasachi/venus/commit/d118b4e88fe830230056a3828288b65003104e03))
+
 ## [0.5.1](https://github.com/rcasachi/venus/compare/@venusui/components@0.5.0...@venusui/components@0.5.1) (2023-01-05)
 
 **Note:** Version bump only for package @venusui/components

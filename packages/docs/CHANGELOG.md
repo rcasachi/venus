@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.7.1...@venusui/docs@0.8.0) (2023-01-05)
+
+### Features
+
+- **components:** add theme provider to docs ([25bc4d6](https://github.com/rcasachi/venus/commit/25bc4d66b42c687cea18c4b9458f8814f88faf70))
+
 ## [0.7.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.7.0...@venusui/docs@0.7.1) (2023-01-05)
 
 **Note:** Version bump only for package @venusui/docs
