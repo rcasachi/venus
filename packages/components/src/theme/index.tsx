@@ -17,6 +17,7 @@ import {
   Spacing,
   SpacingUtils,
 } from '@venusui/tokens'
+import { AvailableThemes } from './types'
 
 export const {
   styled,
@@ -70,5 +71,10 @@ export const {
 export const darkTheme = createTheme('dark', {
   colors: { ...DarkThemeColors.tone, ...DarkThemeColors.colors },
 })
+
+export const availableThemes: AvailableThemes = {
+  light: theme,
+  dark: darkTheme,
+}
 
 export const GlobalStyles = globalCss({ ...Global })
