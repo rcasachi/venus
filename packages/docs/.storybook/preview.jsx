@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@venusui/components';
 import { themes } from '@storybook/theming'
+import { theme, darkTheme } from '@venusui/components'
 
 export const decorators = [
   Story => (
@@ -19,5 +20,17 @@ export const parameters = {
   },
   docs: {
     theme: themes.dark,
-  }
+  },
+  multipleThemesStitches: {
+    values: [
+      {
+        name: 'Light',
+        theme: theme
+      },
+      {
+        name: 'Dark',
+        theme: darkTheme
+      },
+    ]
+  },
 }
