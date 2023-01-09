@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.2](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.1...@venusui/docs@0.8.2) (2023-01-09)
+
+### Bug Fixes
+
+- **docs:** change colors strategy ([88a9605](https://github.com/rcasachi/venus/commit/88a9605099e8ef50f3e389660f932e62455816f9))
+
 ## [0.8.1](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.0...@venusui/docs@0.8.1) (2023-01-05)
 
 ### Bug Fixes
