@@ -11,7 +11,7 @@ export function ColorsGrid() {
       {Object.entries(colors).map(([key, color]) => {
         return (
           <Flex direction="column">
-            <Box key={key} css={{ backgroundColor: color, padding: '2rem' }} />
+            <Box key={key} css={{ backgroundColor: `$${key}`, padding: '2rem' }} />
             <Text css={{fontWeight: '$3', display: 'block'}} variant="yellow" as="div">${key}</Text>
           </Flex>
         )
