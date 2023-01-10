@@ -59,15 +59,3 @@ export * from './components/VerifiedBadge'
 export * from '@radix-ui/react-icons'
 
 export * from './theme'
-
-// const ColorModeToggleButton = () => {
-//   return (
-//     <ColourModeContext.Consumer>
-//       {(context: any) => (
-//         <Button onClick={context.cycleToggleMode}>
-//           Mode: {context.colorMode}
-//         </Button>
-//       )}
-//     </ColourModeContext.Consumer>
-//   );
-// };
