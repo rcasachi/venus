@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.3](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.2...@venusui/docs@0.8.3) (2023-01-10)
+
+### Bug Fixes
+
+- **docs:** add install instructions and colors tokens ([ce27747](https://github.com/rcasachi/venus/commit/ce27747135977c90c98ad21110df0221fd4883a3))
+
 ## [0.8.2](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.1...@venusui/docs@0.8.2) (2023-01-09)
 
 ### Bug Fixes

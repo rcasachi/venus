@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/rcasachi/venus/compare/@venusui/components@0.6.0...@venusui/components@0.6.1) (2023-01-10)
+
+### Bug Fixes
+
+- **components:** remove comments ([f3edf74](https://github.com/rcasachi/venus/commit/f3edf74207cf20c30a235dd58e105ad00d168204))
+
 # [0.6.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.5.1...@venusui/components@0.6.0) (2023-01-05)
 
 ### Features
