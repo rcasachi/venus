@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.4](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.3...@venusui/docs@0.8.4) (2023-01-11)
+
+### Bug Fixes
+
+- **docs:** adjust tokens pages ([bbd5643](https://github.com/rcasachi/venus/commit/bbd5643fda47526e597fb82d0d5389c3f7300726))
+
 ## [0.8.3](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.2...@venusui/docs@0.8.3) (2023-01-10)
 
 ### Bug Fixes
