@@ -1,0 +1,2 @@
+import{o as a}from"./index.ab77ce9b.js";import"./jsx-runtime.6c6bd70f.js";import"./iframe.737cbf69.js";import"./index.38bf7259.js";const c={title:"Display/Avatar",component:a,args:{src:"https://github.com/rcasachi.png",alt:"Rafael Casachi"},argTypes:{src:{control:{type:"text"}}}},i={},p={args:{src:void 0}},e=["Primary","WithFallback"];export{i as Primary,p as WithFallback,e as __namedExportsOrder,c as default};
+//# sourceMappingURL=avatars.stories.fb468eef.js.map
