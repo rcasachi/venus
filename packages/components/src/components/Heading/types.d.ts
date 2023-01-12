@@ -1,8 +1,8 @@
 import { ComponentProps, ElementType } from 'react'
-
-import { DEFAULT_TAG } from '.'
 import { CSS } from '@stitches/react'
+
 import { TextProps } from '@components/Text/types'
+import { DEFAULT_TAG } from '.'
 
 export type UnionProps = ComponentProps<typeof DEFAULT_TAG> & TextProps
 

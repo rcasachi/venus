@@ -1,10 +1,10 @@
 import { styled } from '@theme'
 
-export const Text = styled('p', {
+export const Text = styled('span', {
   fontFamily: '$untitled',
   fontWeight: '$1',
   margin: '$0',
-  lineHeight: '$3',
+  lineHeight: '$_1',
 
   variants: {
     size: {
@@ -13,35 +13,43 @@ export const Text = styled('p', {
       },
       '2': {
         fontSize: '$2',
+        lineHeight: '$_2',
       },
       '3': {
         fontSize: '$3',
+        lineHeight: '$_2',
       },
       '4': {
         fontSize: '$4',
+        lineHeight: '$_3',
       },
       '5': {
         fontSize: '$5',
         letterSpacing: '-.015em',
+        lineHeight: '$_3',
       },
       '6': {
         fontSize: '$6',
         letterSpacing: '-.016em',
+        lineHeight: '$_3',
       },
       '7': {
         fontSize: '$7',
         letterSpacing: '-.031em',
         textIndent: '-.005em',
+        lineHeight: '$_2',
       },
       '8': {
         fontSize: '$8',
         letterSpacing: '-.034em',
         textIndent: '-.018em',
+        lineHeight: '$_2',
       },
       '9': {
         fontSize: '$9',
         letterSpacing: '-.055em',
         textIndent: '-.025em',
+        lineHeight: '$_2',
       },
       '10': {
         fontSize: '$10',
@@ -138,121 +146,121 @@ export const Text = styled('p', {
   compoundVariants: [
     {
       variant: 'red',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $red11, $crimson11)',
+        backgroundImage: 'linear-gradient(to right, $red11, $crimson11)',
       },
     },
     {
       variant: 'crimson',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $crimson11, $pink11)',
+        backgroundImage: 'linear-gradient(to right, $crimson11, $pink11)',
       },
     },
     {
       variant: 'pink',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $pink11, $purple11)',
+        backgroundImage: 'linear-gradient(to right, $pink11, $purple11)',
       },
     },
     {
       variant: 'purple',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $purple11, $violet11)',
+        backgroundImage: 'linear-gradient(to right, $purple11, $violet11)',
       },
     },
     {
       variant: 'violet',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $violet11, $indigo11)',
+        backgroundImage: 'linear-gradient(to right, $violet11, $indigo11)',
       },
     },
     {
       variant: 'indigo',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $indigo11, $blue11)',
+        backgroundImage: 'linear-gradient(to right, $indigo11, $blue11)',
       },
     },
     {
       variant: 'blue',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $blue11, $cyan11)',
+        backgroundImage: 'linear-gradient(to right, $blue11, $cyan11)',
       },
     },
     {
       variant: 'cyan',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $cyan11, $teal11)',
+        backgroundImage: 'linear-gradient(to right, $cyan11, $teal11)',
       },
     },
     {
       variant: 'teal',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $teal11, $green11)',
+        backgroundImage: 'linear-gradient(to right, $teal11, $green11)',
       },
     },
     {
       variant: 'green',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $green11, $lime11)',
+        backgroundImage: 'linear-gradient(to right, $green11, $lime11)',
       },
     },
     {
       variant: 'lime',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $lime11, $yellow11)',
+        backgroundImage: 'linear-gradient(to right, $lime11, $yellow11)',
       },
     },
     {
       variant: 'yellow',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $yellow11, $orange11)',
+        backgroundImage: 'linear-gradient(to right, $yellow11, $orange11)',
       },
     },
     {
       variant: 'orange',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $orange11, $red11)',
+        backgroundImage: 'linear-gradient(to right, $orange11, $red11)',
       },
     },
     {
       variant: 'gold',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $gold11, $gold9)',
+        backgroundImage: 'linear-gradient(to right, $gold11, $gold9)',
       },
     },
     {
       variant: 'bronze',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $bronze11, $bronze9)',
+        backgroundImage: 'linear-gradient(to right, $bronze11, $bronze9)',
       },
     },
     {
       variant: 'gray',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $gray11, $gray12)',
+        backgroundImage: 'linear-gradient(to right, $gray11, $gray12)',
       },
     },
     {
       variant: 'contrast',
-      gradient: 'true',
+      gradient: true,
       css: {
-        background: 'linear-gradient(to right, $hiContrast, $gray12)',
+        backgroundImage: 'linear-gradient(to right, $hiContrast, $gray12)',
       },
     },
   ],

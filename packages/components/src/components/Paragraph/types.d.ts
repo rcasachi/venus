@@ -1,13 +1,12 @@
-import { VariantProps } from '@stitches/react'
 import { ComponentProps } from 'react'
-import { DEFAULT_TAG_P } from '.'
-import { Text } from '../Text'
+import { VariantProps } from '@stitches/react'
 
-export type TextSizeVariants = Pick<VariantProps<typeof Text>, 'size'>
-export type ParagraphSizeVariants = '1' | '2'
-export type ParagraphVariants = { size?: ParagraphSizeVariants } & Omit<
-  VariantProps<typeof Text>,
-  'size'
->
-export type ParagraphProps = ComponentProps<typeof DEFAULT_TAG_P> &
-  ParagraphVariants & { css?: CSS; as?: any }
+import { DEFAULT_TAG_P } from '.'
+import { Text } from '@components/Text'
+
+export type UnionProps = ComponentProps<typeof DEFAULT_TAG_P> & TextProps
+
+export interface ParagraphProps extends UnionProps {
+  as?: ElementType
+  css?: CSS
+}
