@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.5](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.4...@venusui/docs@0.8.5) (2023-01-12)
+
+### Bug Fixes
+
+- **docs:** improve text, heading and paragraph ([9fa925f](https://github.com/rcasachi/venus/commit/9fa925fd080b7f4f99b01671eca850be81bc8dd1))
+
 ## [0.8.4](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.3...@venusui/docs@0.8.4) (2023-01-11)
 
 ### Bug Fixes
