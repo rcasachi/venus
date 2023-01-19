@@ -18,37 +18,37 @@ export const Kbd = styled('kbd', {
     0px 2px 1px -1px $colors$slate8,
     0 1px $colors$slate8`,
   textShadow: '0 0 1px rgba(255, 255, 255, 0.5)',
-  fontFamily: 'inherit',
-  fontWeight: 400,
-  lineHeight: '1.5',
+  fontFamily: '$untitled',
+  fontWeight: '$1',
+  lineHeight: '$1',
   mx: '2px',
 
   variants: {
     size: {
       '1': {
-        borderRadius: '$1',
-        px: '0.3em',
-        height: '$3',
-        minWidth: '1.6em',
+        borderRadius: '$2',
+        px: '$2',
+        height: '$4',
+        minWidth: '$6',
         fontSize: '$1',
         lineHeight: '$spaces$3',
       },
       '2': {
         borderRadius: '$2',
-        px: '0.5em',
+        px: '$2',
         height: '$5',
-        minWidth: '2em',
+        minWidth: '$8',
         fontSize: '$2',
         lineHeight: '$spaces$5',
       },
     },
     width: {
       shift: {
-        width: '4em',
+        width: '$16',
         justifyContent: 'flex-start',
       },
       command: {
-        width: '3em',
+        width: '$12',
         justifyContent: 'flex-end',
       },
       space: {

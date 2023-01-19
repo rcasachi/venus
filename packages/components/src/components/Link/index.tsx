@@ -7,50 +7,67 @@ export const Link = styled('a', {
   gap: '$1',
   flexShrink: 0,
   outline: 'none',
-  textDecorationLine: 'none',
   textUnderlineOffset: '3px',
-  textDecorationColor: '$slate4',
   WebkitTapHighlightColor: 'rgba(0,0,0,0)',
   lineHeight: 'inherit',
-  '@hover': {
-    '&:hover': {
-      textDecorationLine: 'underline',
-    },
-  },
+  fontSize: 'inherit',
+  fontFamily: '$untitled',
+  cursor: 'pointer',
+
   '&:focus': {
     outlineWidth: '2px',
     outlineStyle: 'solid',
     outlineOffset: '2px',
     textDecorationLine: 'none',
   },
+
   [`& ${Text}`]: {
     color: 'inherit',
   },
+
   variants: {
     variant: {
       blue: {
         color: '$blue11',
-        textDecorationColor: '$blue4',
+        textDecoration: 'underline',
+        textDecorationColor: '$blue11',
+
+        '@hover': {
+          '&:hover': {
+            textDecorationColor: '$blue8',
+          },
+        },
+
         '&:focus': {
-          outlineColor: '$blue8',
+          outlineColor: '$blue12',
         },
       },
       subtle: {
         color: '$slate11',
-        textDecorationColor: '$slate4',
+        textDecoration: 'underline',
+        textDecorationColor: '$slate7',
+
+        '@hover': {
+          '&:hover': {
+            textDecorationColor: '$slate8',
+          },
+        },
+
         '&:focus': {
-          outlineColor: '$slate8',
+          outlineColor: '$slate12',
         },
       },
       contrast: {
         color: '$hiContrast',
         textDecoration: 'underline',
-        textDecorationColor: '$slate4',
+        textDecorationColor: '$slate9',
+
         '@hover': {
           '&:hover': {
-            textDecorationColor: '$slate7',
+            textDecorationColor: '$slate12',
           },
         },
+
         '&:focus': {
           outlineColor: '$slate8',
         },
