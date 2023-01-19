@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.6.2...@venusui/components@0.7.0) (2023-01-19)
+
+### Features
+
+- **components:** improve code, kbd, label, link, sub and sup ([6dbea5d](https://github.com/rcasachi/venus/commit/6dbea5db406f6df081cdb36b1d80cc57b22f8110))
+
 ## [0.6.2](https://github.com/rcasachi/venus/compare/@venusui/components@0.6.1...@venusui/components@0.6.2) (2023-01-12)
 
 **Note:** Version bump only for package @venusui/components

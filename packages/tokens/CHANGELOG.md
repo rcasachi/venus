@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.2...@venusui/tokens@0.2.3) (2023-01-19)
+
+### Bug Fixes
+
+- **tokens:** add font family reset at html ([79c16ad](https://github.com/rcasachi/venus/commit/79c16ad8dca5a8fefb508c090fe90acfd115a115))
+
 ## [0.2.2](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.1...@venusui/tokens@0.2.2) (2023-01-05)
 
 ### Bug Fixes

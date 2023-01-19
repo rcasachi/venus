@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.5...@venusui/docs@0.9.0) (2023-01-19)
+
+### Features
+
+- **docs:** add code, kbd, label, link, sub and sup ([ab5f274](https://github.com/rcasachi/venus/commit/ab5f274e23030522bdb210bd61804c1f0ef3f638))
+
 ## [0.8.5](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.4...@venusui/docs@0.8.5) (2023-01-12)
 
 ### Bug Fixes
