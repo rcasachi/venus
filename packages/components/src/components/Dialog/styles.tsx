@@ -1,8 +1,8 @@
 import { Close, Content, Overlay } from '@radix-ui/react-dialog'
 import { styled } from '@theme'
 
-import { overlayStyles } from '../Overlay'
-import { panelStyles } from '../Panel'
+import { overlayStyles } from '../surfaces/Overlay'
+import { panelStyles } from '../surfaces/Panel'
 
 export const StyledOverlay = styled(Overlay, overlayStyles, {
   position: 'fixed',

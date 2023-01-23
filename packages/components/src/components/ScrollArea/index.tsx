@@ -1,8 +1,8 @@
 import { useLayoutEffect } from '@radix-ui/react-use-layout-effect'
 import { useRef } from 'react'
 
-import { Flex } from '@components/Flex'
-import { Box } from '@components/Box'
+import { Flex } from '@components/surfaces/Flex'
+import { Box } from '@components/surfaces/Box'
 import { Point, ScrollAreaProps, Vector } from './types'
 
 export const ScrollArea = (props: ScrollAreaProps) => {

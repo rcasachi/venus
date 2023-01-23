@@ -1,5 +1,5 @@
 import { styled } from '@theme'
-import { Flex } from '@components/Flex'
+import { Flex } from '@components/surfaces/Flex'
 
 export const StyledVerifiedBadge = styled('div', Flex, {
   alignItems: 'center',

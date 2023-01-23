@@ -1,7 +1,7 @@
 import { Content } from '@radix-ui/react-popover'
 import { styled } from '@theme'
 
-import { panelStyles } from '../Panel'
+import { panelStyles } from '../surfaces/Panel'
 
 export const StyledContent = styled(Content, panelStyles, {
   minWidth: 200,

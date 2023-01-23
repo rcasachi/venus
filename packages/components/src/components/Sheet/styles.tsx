@@ -1,7 +1,7 @@
 import { Close, Content, Overlay } from '@radix-ui/react-dialog'
 import { keyframes, styled } from '@theme'
 
-import { overlayStyles } from '../Overlay'
+import { overlayStyles } from '../surfaces/Overlay'
 
 export const fadeIn = keyframes({
   from: { opacity: '0' },

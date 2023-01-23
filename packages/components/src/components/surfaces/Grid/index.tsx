@@ -35,6 +35,9 @@ export const Grid = styled('div', {
       between: {
         justifyContent: 'space-between',
       },
+      around: {
+        justifyContent: 'space-around',
+      },
     },
     flow: {
       row: {
@@ -111,7 +114,7 @@ export const Grid = styled('div', {
         gap: '$8',
       },
       9: {
-        gap: '$9',
+        gap: '$10',
       },
     },
     gapX: {
@@ -140,7 +143,7 @@ export const Grid = styled('div', {
         columnGap: '$8',
       },
       9: {
-        columnGap: '$9',
+        columnGap: '$10',
       },
     },
     gapY: {
@@ -169,7 +172,7 @@ export const Grid = styled('div', {
         rowGap: '$8',
       },
       9: {
-        rowGap: '$9',
+        rowGap: '$10',
       },
     },
   },

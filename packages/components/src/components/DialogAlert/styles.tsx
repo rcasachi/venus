@@ -1,8 +1,8 @@
 import { Content, Overlay } from '@radix-ui/react-alert-dialog'
 import { styled } from '@theme'
 
-import { overlayStyles } from '@components/Overlay'
-import { panelStyles } from '@components/Panel'
+import { overlayStyles } from '@components/surfaces/Overlay'
+import { panelStyles } from '@components/surfaces/Panel'
 
 export const StyledOverlay = styled(Overlay, overlayStyles, {
   position: 'fixed',

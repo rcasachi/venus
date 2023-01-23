@@ -2,8 +2,8 @@ import { styled } from '@theme'
 import * as MenuPrimitive from '@radix-ui/react-menu'
 import { CheckIcon } from '@radix-ui/react-icons'
 
-import { Box } from '@components/Box'
-import { Flex } from '@components/Flex'
+import { Box } from '@components/surfaces/Box'
+import { Flex } from '@components/surfaces/Flex'
 import {
   itemCss,
   labelCss,

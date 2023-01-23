@@ -1,7 +1,7 @@
 import * as PopoverPrimitive from '@radix-ui/react-popover'
 import { ElementRef, forwardRef } from 'react'
 
-import { Box } from '@components/Box'
+import { Box } from '@components/surfaces/Box'
 import { StyledContent } from './styles'
 import { PopoverContentProps } from './types'
 

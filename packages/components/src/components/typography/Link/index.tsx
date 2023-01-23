@@ -1,6 +1,6 @@
 import { styled } from '@theme'
 
-import { Text } from '@components/Text'
+import { Text } from '@components/typography/Text'
 
 export const Link = styled('a', {
   alignItems: 'center',

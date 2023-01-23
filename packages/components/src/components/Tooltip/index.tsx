@@ -1,7 +1,7 @@
 import * as TooltipPrimitive from '@radix-ui/react-tooltip'
 
-import { Box } from '@components/Box'
-import { Text } from '@components/Text'
+import { Box } from '@components/surfaces/Box'
+import { Text } from '@components/typography/Text'
 import { StyledContent } from './styles'
 import { TooltipProps } from './types'
 

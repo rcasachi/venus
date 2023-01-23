@@ -3,10 +3,12 @@ import { styled } from '@theme'
 export const Section = styled('section', {
   boxSizing: 'border-box',
   flexShrink: 0,
+
   '&::before': {
     boxSizing: 'border-box',
     content: '""',
   },
+
   '&::after': {
     boxSizing: 'border-box',
     content: '""',

@@ -1,7 +1,7 @@
 import { Content, Item, RadioItem, Root, Separator } from '@radix-ui/react-menu'
 import { styled, css } from '@theme'
 
-import { panelStyles } from '@components/Panel'
+import { panelStyles } from '@components/surfaces/Panel'
 
 export const baseItemCss = css({
   display: 'flex',

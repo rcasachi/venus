@@ -1,4 +1,4 @@
-import { Text } from '@components/Text'
+import { Text } from '@components/typography/Text'
 import { HeadingProps } from './types'
 
 export const DEFAULT_TAG = 'h1'

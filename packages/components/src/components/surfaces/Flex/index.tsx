@@ -49,6 +49,9 @@ export const Flex = styled('div', {
       between: {
         justifyContent: 'space-between',
       },
+      around: {
+        justifyContent: 'space-around',
+      },
     },
     wrap: {
       noWrap: {
@@ -87,7 +90,7 @@ export const Flex = styled('div', {
         gap: '$8',
       },
       9: {
-        gap: '$9',
+        gap: '$10',
       },
     },
   },

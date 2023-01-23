@@ -1,4 +1,4 @@
-import { Text } from '@components/Text'
+import { Text } from '@components/typography/Text'
 import { ParagraphProps } from './types'
 
 export const DEFAULT_TAG_P = 'p'

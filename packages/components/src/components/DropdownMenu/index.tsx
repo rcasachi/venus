@@ -5,9 +5,9 @@ import { ElementRef, forwardRef } from 'react'
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu'
 
 import { menuCss, separatorCss, itemCss, labelCss } from '../Menu/styles'
-import { Box } from '../Box'
-import { Flex } from '../Flex'
-import { panelStyles } from '../Panel'
+import { Box } from '@components/surfaces/Box'
+import { Flex } from '../surfaces/Flex'
+import { panelStyles } from '../surfaces/Panel'
 import {
   DialogMenuCheckboxItemProps,
   DialogMenuRadioItemProps,

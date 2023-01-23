@@ -8,9 +8,9 @@ import {
   itemCss,
   labelCss,
 } from '@components/Menu/styles'
-import { Box } from '@components/Box'
-import { Flex } from '@components/Flex'
-import { panelStyles } from '@components/Panel'
+import { Box } from '@components/surfaces/Box'
+import { Flex } from '@components/surfaces/Flex'
+import { panelStyles } from '@components/surfaces/Panel'
 import {
   ContextMenuCheckboxItemProps,
   ContextMenuContentProps,
