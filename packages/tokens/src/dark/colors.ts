@@ -5,6 +5,6 @@ export const darkColors = {
   canvas: 'hsl(0 0% 15%)',
   panel: '$slate3',
   transparentPanel: 'hsl(0 100% 100% / 97%)',
-  shadowLight: 'hsl(206 22% 7% / 35%)',
-  shadowDark: 'hsl(206 22% 7% / 20%)',
+  shadowLight: 'hsl(206 28% 43% / 30%)',
+  shadowDark: 'hsl(206 28% 43% / 35%)',
 }
