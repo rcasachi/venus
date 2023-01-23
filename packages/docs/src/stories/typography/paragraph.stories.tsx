@@ -67,4 +67,4 @@ export default {
   },
 } as Meta<ParagraphProps>
 
-export const Primary: StoryObj<ParagraphProps> = {}
+export const Default: StoryObj<ParagraphProps> = {}

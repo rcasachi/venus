@@ -20,7 +20,7 @@ export default {
   },
 } as Meta<CodeProps>
 
-export const Primary: StoryObj<CodeProps> = {}
+export const Default: StoryObj<CodeProps> = {}
 
 export const InsideParagraph: StoryObj<CodeProps> = {
   render: () => (

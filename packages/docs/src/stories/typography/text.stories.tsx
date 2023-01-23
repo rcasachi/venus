@@ -68,7 +68,7 @@ export default {
   },
 } as Meta<TextProps>
 
-export const Primary: StoryObj<TextProps> = {}
+export const Default: StoryObj<TextProps> = {}
 
 export const CustomTag: StoryObj<TextProps> = {
   args: {

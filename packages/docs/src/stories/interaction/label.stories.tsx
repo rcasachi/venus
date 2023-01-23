@@ -81,4 +81,4 @@ export default {
   },
 } as Meta<LabelProps>
 
-export const Primary: StoryObj<LabelProps> = {}
+export const Default: StoryObj<LabelProps> = {}

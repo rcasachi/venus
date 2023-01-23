@@ -9,7 +9,7 @@ export default {
   },
 } as Meta<SubProps>
 
-export const Primary: StoryObj<SubProps> = {}
+export const Default: StoryObj<SubProps> = {}
 
 export const InsideParagraph: StoryObj<SubProps> = {
   render: () => (

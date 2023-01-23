@@ -21,7 +21,7 @@ export default {
   },
 } as Meta<LinkProps>
 
-export const Primary: StoryObj<LinkProps> = {}
+export const Default: StoryObj<LinkProps> = {}
 
 export const Variants: StoryObj<LinkProps> = {
   render: () => (

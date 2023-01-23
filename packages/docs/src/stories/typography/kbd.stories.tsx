@@ -40,7 +40,7 @@ export default {
   },
 } as Meta<KbdProps>
 
-export const Primary: StoryObj<KbdProps> = {}
+export const Default: StoryObj<KbdProps> = {}
 
 export const Variants: StoryObj<KbdProps> = {
   render: () => (
