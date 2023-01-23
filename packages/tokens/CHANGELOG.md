@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.3...@venusui/tokens@0.2.4) (2023-01-23)
+
+### Bug Fixes
+
+- **tokens:** add dark shadow improvement ([ddeb0b2](https://github.com/rcasachi/venus/commit/ddeb0b2b5c6d1d9f2c43bb7a425271b9bdc184d1))
+
 ## [0.2.3](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.2...@venusui/tokens@0.2.3) (2023-01-19)
 
 ### Bug Fixes

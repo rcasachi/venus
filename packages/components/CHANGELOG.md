@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.7.0...@venusui/components@0.8.0) (2023-01-23)
+
+### Features
+
+- **components:** improve box, grid, flex, panel, overlay and section ([fc1e440](https://github.com/rcasachi/venus/commit/fc1e44030b0f1254f885c354197a4b19cbaab9e0))
+
 # [0.7.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.6.2...@venusui/components@0.7.0) (2023-01-19)
 
 ### Features

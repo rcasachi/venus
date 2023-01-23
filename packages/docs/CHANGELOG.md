@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.9.0...@venusui/docs@0.10.0) (2023-01-23)
+
+### Features
+
+- **docs:** add box, grid, flex, overlay, panel and section to docs ([d19f694](https://github.com/rcasachi/venus/commit/d19f694456511bbe343d098d6d05c222f29f239a))
+
 # [0.9.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.8.5...@venusui/docs@0.9.0) (2023-01-19)
 
 ### Features
