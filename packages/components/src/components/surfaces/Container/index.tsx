@@ -25,6 +25,7 @@ export const Container = styled('div', {
       },
     },
   },
+
   defaultVariants: {
     size: '4',
   },
