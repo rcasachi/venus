@@ -1,6 +1,6 @@
 {
   "name": "@venusui/docs",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Storybook docs from VenusUI components",
   "author": "rafael.casachi <rcasachi@gmail.com>",
   "homepage": "https://github.com/rcasachi/venus#readme",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.15",
-    "@venusui/components": "^0.8.0",
+    "@venusui/components": "^0.9.0",
     "@venusui/tokens": "^0.2.4",
     "polished": "^4.2.2",
     "react": "^18.2.0",

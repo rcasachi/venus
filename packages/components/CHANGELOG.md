@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.8.0...@venusui/components@0.9.0) (2023-01-25)
+
+### Features
+
+- **components:** improve container component ([3db8b4f](https://github.com/rcasachi/venus/commit/3db8b4fdaf961837c1e454e03a6eb11199899bb2))
+
 # [0.8.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.7.0...@venusui/components@0.8.0) (2023-01-23)
 
 ### Features

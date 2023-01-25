@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.10.0...@venusui/docs@0.11.0) (2023-01-25)
+
+### Features
+
+- **docs:** improve container documentation ([844d29a](https://github.com/rcasachi/venus/commit/844d29abf4198dca28e0dedbf41423da79728f15))
+
 # [0.10.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.9.0...@venusui/docs@0.10.0) (2023-01-23)
 
 ### Features
