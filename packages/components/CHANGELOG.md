@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.9.0...@venusui/components@0.10.0) (2023-01-26)
+
+### Bug Fixes
+
+- **components:** add display name ([7276f68](https://github.com/rcasachi/venus/commit/7276f689857e0c4675183a65ab3e6fdfbbb1c375))
+
+### Features
+
+- **components:** add scrollarea component ([7230803](https://github.com/rcasachi/venus/commit/72308033caba4ab4204a1545766ecdf886723ad6))
+
 # [0.9.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.8.0...@venusui/components@0.9.0) (2023-01-25)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.11.0...@venusui/docs@0.12.0) (2023-01-26)
+
+### Features
+
+- **docs:** add scrollarea docs ([ff071c8](https://github.com/rcasachi/venus/commit/ff071c83592512aba99779a369776070f925b403))
+
 # [0.11.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.10.0...@venusui/docs@0.11.0) (2023-01-25)
 
 ### Features
