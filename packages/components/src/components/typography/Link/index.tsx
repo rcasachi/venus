@@ -78,3 +78,5 @@ export const Link = styled('a', {
     variant: 'contrast',
   },
 })
+
+Link.displayName = 'Link'

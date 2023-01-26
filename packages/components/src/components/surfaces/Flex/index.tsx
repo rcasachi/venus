@@ -101,3 +101,5 @@ export const Flex = styled('div', {
     wrap: 'noWrap',
   },
 })
+
+Flex.displayName = 'Flex'

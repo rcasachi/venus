@@ -9,3 +9,5 @@ export const panelStyles = css({
 })
 
 export const Panel = styled('div', panelStyles)
+
+Panel.displayName = 'Panel'

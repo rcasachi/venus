@@ -7,3 +7,5 @@ export const Sup = styled('sup', {
   lineHeight: '1',
   verticalAlign: 'baseline',
 })
+
+Sup.displayName = 'Sup'

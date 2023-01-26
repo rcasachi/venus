@@ -7,3 +7,5 @@ export const Sub = styled('sub', {
   lineHeight: '1',
   verticalAlign: 'baseline',
 })
+
+Sub.displayName = 'Sub'

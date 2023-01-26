@@ -177,3 +177,5 @@ export const Grid = styled('div', {
     },
   },
 })
+
+Grid.displayName = 'Grid'

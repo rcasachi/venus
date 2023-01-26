@@ -22,3 +22,5 @@ export const Code = styled('code', {
     variant: 'violet',
   },
 })
+
+Code.displayName = 'Code'

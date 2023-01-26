@@ -8,3 +8,5 @@ export const Label = styled(LabelPrimitive.Root, Text, {
   verticalAlign: 'middle',
   cursor: 'default',
 })
+
+Label.displayName = 'Label'

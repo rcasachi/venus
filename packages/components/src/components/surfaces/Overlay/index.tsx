@@ -5,3 +5,5 @@ export const overlayStyles = css({
 })
 
 export const Overlay = styled('div', overlayStyles)
+
+Overlay.displayName = 'Overlay'

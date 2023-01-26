@@ -85,3 +85,5 @@ export const Kbd = styled('kbd', {
     size: '2',
   },
 })
+
+Kbd.displayName = 'Kbd'

@@ -34,3 +34,5 @@ export const Section = styled('section', {
     size: '3',
   },
 })
+
+Section.displayName = 'Section'

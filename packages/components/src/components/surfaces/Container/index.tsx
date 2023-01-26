@@ -30,3 +30,5 @@ export const Container = styled('div', {
     size: '4',
   },
 })
+
+Container.displayName = 'Container'
