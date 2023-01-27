@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.12.0...@venusui/docs@0.13.0) (2023-01-27)
+
+### Features
+
+- **docs:** improve sheets documentation ([0b17266](https://github.com/rcasachi/venus/commit/0b1726636ab1a1e4b3febcb3549198b53580ed78))
+
 # [0.12.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.11.0...@venusui/docs@0.12.0) (2023-01-26)
 
 ### Features

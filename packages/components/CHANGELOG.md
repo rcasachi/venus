@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.10.0...@venusui/components@0.11.0) (2023-01-27)
+
+### Features
+
+- **components:** improve sheets component ([4c15db4](https://github.com/rcasachi/venus/commit/4c15db4b77f731277b4dc7e17f3ad0db2bf006a2))
+
 # [0.10.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.9.0...@venusui/components@0.10.0) (2023-01-26)
 
 ### Bug Fixes
