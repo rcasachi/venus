@@ -1,19 +1,19 @@
-import { Close, Content, Overlay } from '@radix-ui/react-dialog'
+import { Close, Content as PrimitiveContent, Overlay } from '@radix-ui/react-dialog'
 import { keyframes, styled } from '@theme'
 
-import { overlayStyles } from '../surfaces/Overlay'
+import { overlayStyles } from '@components/surfaces/Overlay'
 
-export const fadeIn = keyframes({
-  from: { opacity: '0' },
-  to: { opacity: '1' },
+const fadeIn = keyframes({
+  from: { opacity: 0 },
+  to: { opacity: 1 },
 })
 
-export const fadeOut = keyframes({
-  from: { opacity: '1' },
-  to: { opacity: '0' },
+const fadeOut = keyframes({
+  from: { opacity: 1 },
+  to: { opacity: 0 },
 })
 
-export const StyledOverlay = styled(Overlay, overlayStyles, {
+export const SheetOverlay = styled(Overlay, overlayStyles, {
   position: 'fixed',
   top: 0,
   right: 0,
@@ -29,29 +29,31 @@ export const StyledOverlay = styled(Overlay, overlayStyles, {
   },
 })
 
-export const slideIn = keyframes({
+const slideIn = keyframes({
   from: { transform: '$$transformValue' },
   to: { transform: 'translate3d(0,0,0)' },
 })
 
-export const slideOut = keyframes({
+const slideOut = keyframes({
   from: { transform: 'translate3d(0,0,0)' },
   to: { transform: '$$transformValue' },
 })
 
-export const StyledContent = styled(Content, {
+export const Content = styled(PrimitiveContent, {
   backgroundColor: '$panel',
   boxShadow:
     '$colors$shadowLight 0 0 38px -10px, $colors$shadowDark 0 0 35px -15px',
   position: 'fixed',
   top: 0,
   bottom: 0,
-  width: 250,
+  left: 0,
+  right: 0,
+  width: 300,
   willChange: 'transform',
 
-  // '&:focus': {
-  //   outline: 'none',
-  // },
+  '&:focus': {
+    outline: 'none',
+  },
 
   '&[data-state="open"]': {
     animation: `${slideIn} 150ms cubic-bezier(0.22, 1, 0.36, 1)`,
@@ -67,22 +69,24 @@ export const StyledContent = styled(Content, {
         $$transformValue: 'translate3d(0,-100%,0)',
         width: '100%',
         height: 300,
-        bottom: 'auto',
+        bottom: 'auto'
       },
       right: {
         $$transformValue: 'translate3d(100%,0,0)',
         right: 0,
+        left: 'auto'
       },
       bottom: {
         $$transformValue: 'translate3d(0,100%,0)',
         width: '100%',
         height: 300,
         bottom: 0,
-        top: 'auto',
+        top: 'auto'
       },
       left: {
         $$transformValue: 'translate3d(-100%,0,0)',
         left: 0,
+        right: 'auto'
       },
     },
   },
@@ -92,7 +96,7 @@ export const StyledContent = styled(Content, {
   },
 })
 
-export const StyledCloseButton = styled(Close, {
+export const CloseButton = styled(Close, {
   position: 'absolute',
   top: '$2',
   right: '$2',
