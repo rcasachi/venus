@@ -1,5 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ContentProps, Sheet, SheetContent, SheetTrigger } from '@venusui/components'
+import {
+  Button,
+  ContentProps,
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from '@venusui/components'
 
 export default {
   title: 'Surfaces/Sheet',
@@ -16,12 +22,7 @@ export default {
   },
   argTypes: {
     side: {
-      options: [
-        'top',
-        'right',
-        'bottom',
-        'left',
-      ],
+      options: ['top', 'right', 'bottom', 'left'],
       control: {
         type: 'inline-radio',
       },
