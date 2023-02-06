@@ -1,15 +1,6 @@
 import { styled } from '@theme'
-import { Text } from '@components/typography/Text'
 
 export const MultiStepContainer = styled('div', {})
-
-export const Label = styled(Text, {
-  color: '$gray12',
-
-  defaultVariants: {
-    size: 'xs',
-  },
-})
 
 export const Steps = styled('div', {
   display: 'grid',
@@ -21,12 +12,12 @@ export const Steps = styled('div', {
 export const Step = styled('div', {
   height: '$1',
   borderRadius: '$px',
-  backgroundColor: '$gray12',
+  backgroundColor: '$blackA11',
 
   variants: {
     active: {
       true: {
-        backgroundColor: '$gray4',
+        backgroundColor: '$blackA8',
       },
     },
   },

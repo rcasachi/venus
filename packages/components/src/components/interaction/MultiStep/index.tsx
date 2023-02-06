@@ -1,14 +1,15 @@
-import { Label, MultiStepContainer, Step, Steps } from './styles'
+import { Label } from '@components/interaction/Label'
+import { MultiStepContainer, Step, Steps } from './styles'
 
-export interface MultiStepProps {
+interface Props {
   size: number
   currentStep?: number
 }
 
-export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
+export function MultiStep({ size, currentStep = 1 }: Props) {
   return (
     <MultiStepContainer>
-      <Label>
+      <Label size="2">
         {currentStep}/{size}
       </Label>
 
