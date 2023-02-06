@@ -1,6 +1,6 @@
 import { Description, Root, Title, Trigger } from '@radix-ui/react-dialog'
-import { CSS, VariantProps } from '@stitches/react'
-import { ComponentProps, ElementType } from 'react'
+import { CSS } from '@stitches/react'
+import { ComponentProps } from 'react'
 
 import { CloseButton, Content, SheetOverlay } from './styles'
 
@@ -28,6 +28,7 @@ export interface SheetTitleProps extends ComponentProps<typeof Title> {
   css?: CSS
 }
 
-export interface SheetDescriptionProps extends ComponentProps<typeof Description> {
+export interface SheetDescriptionProps
+  extends ComponentProps<typeof Description> {
   css?: CSS
 }

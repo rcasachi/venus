@@ -1,4 +1,8 @@
-import { Close, Content as PrimitiveContent, Overlay } from '@radix-ui/react-dialog'
+import {
+  Close,
+  Content as PrimitiveContent,
+  Overlay,
+} from '@radix-ui/react-dialog'
 import { keyframes, styled } from '@theme'
 
 import { overlayStyles } from '@components/surfaces/Overlay'
@@ -69,24 +73,24 @@ export const Content = styled(PrimitiveContent, {
         $$transformValue: 'translate3d(0,-100%,0)',
         width: '100%',
         height: 300,
-        bottom: 'auto'
+        bottom: 'auto',
       },
       right: {
         $$transformValue: 'translate3d(100%,0,0)',
         right: 0,
-        left: 'auto'
+        left: 'auto',
       },
       bottom: {
         $$transformValue: 'translate3d(0,100%,0)',
         width: '100%',
         height: 300,
         bottom: 0,
-        top: 'auto'
+        top: 'auto',
       },
       left: {
         $$transformValue: 'translate3d(-100%,0,0)',
         left: 0,
-        right: 'auto'
+        right: 'auto',
       },
     },
   },

@@ -20,7 +20,7 @@ const SheetContent = ({ children, ...props }: ContentProps) => (
       </CloseButton>
     </Content>
   </DialogPrimitive.Portal>
-);
+)
 
 const SheetTitle = DialogPrimitive.Title
 const SheetDescription = DialogPrimitive.Description
