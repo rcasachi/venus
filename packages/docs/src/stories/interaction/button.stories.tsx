@@ -12,27 +12,39 @@ export default {
   component: Button,
   args: {
     children: 'Send',
-    variant: 'primary',
-    size: '2',
+    color: 'highcontrast',
+    size: 1,
     disabled: false,
+    outlined: false,
+    transparent: false,
+    ghost: false,
   },
   argTypes: {
-    variant: {
-      options: [
-        'primary',
-        'secondary',
-        'ghost',
-        'transparentWhite',
-        'transparentBlack',
-      ],
+    size: {
+      options: [1, 2, 3],
       control: {
         type: 'inline-radio',
       },
     },
-    size: {
-      options: ['1', '2', '3'],
+    color: {
+      options: ['highcontrast', 'lowcontrast'],
       control: {
         type: 'inline-radio',
+      },
+    },
+    transparent: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    outlined: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    ghost: {
+      control: {
+        type: 'boolean',
       },
     },
     disabled: {
@@ -49,27 +61,7 @@ export default {
   },
 } as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonProps> = {}
-
-export const Secondary: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'secondary',
-    children: 'Create new',
-  },
-}
-
-export const Ghost: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'tertiary',
-    children: 'Cancel',
-  },
-}
-
-export const Small: StoryObj<ButtonProps> = {
-  args: {
-    size: '1',
-  },
-}
+export const Default: StoryObj<ButtonProps> = {}
 
 export const WithIcon: StoryObj<ButtonProps> = {
   args: {
@@ -105,11 +97,14 @@ export const TransparentBlack = () => {
           margin: '$4',
         }}
       >
-        <Button variant="transparentBlack">Transparent</Button>
+        <Button color="lowcontrast" transparent>
+          Transparent
+        </Button>
       </Box>
     </Box>
   )
 }
+
 export const TransparentWhite = () => {
   return (
     <Box
@@ -127,7 +122,9 @@ export const TransparentWhite = () => {
           margin: '$4',
         }}
       >
-        <Button variant="transparentWhite">Transparent</Button>
+        <Button color="highcontrast" transparent>
+          Transparent
+        </Button>
       </Box>
     </Box>
   )
