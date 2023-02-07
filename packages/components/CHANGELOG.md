@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.11.0...@venusui/components@0.12.0) (2023-02-07)
+
+### Bug Fixes
+
+- **components:** lint sheet component ([f5d3929](https://github.com/rcasachi/venus/commit/f5d39293a5b0ef4207d91930e4cc06ff2340cc54))
+
+### Features
+
+- **components:** improve button component ([3c263b6](https://github.com/rcasachi/venus/commit/3c263b66abe88b0a930de064d255a3aec60e3fb5))
+- **components:** improve checkbox component ([d06ac29](https://github.com/rcasachi/venus/commit/d06ac2970158d9e07b22d3cb0a190659931cef2c))
+- **components:** improve multistep component ([949b945](https://github.com/rcasachi/venus/commit/949b94505764e0eb352a93aa524c7f278641a91f))
+
 # [0.11.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.10.0...@venusui/components@0.11.0) (2023-01-27)
 
 ### Features
