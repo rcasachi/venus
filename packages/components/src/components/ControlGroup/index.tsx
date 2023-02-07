@@ -1,6 +1,6 @@
 import { styled } from '@theme'
 
-import { Button } from '@components/Button'
+import { Button } from '@components/interaction/Button'
 import { TextField } from '@components/TextField'
 import { Select } from '@components/Select'
 
