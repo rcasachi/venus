@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.15.0...@venusui/docs@0.16.0) (2023-02-10)
+
+### Features
+
+- **docs:** improve textarea docs ([eae72b4](https://github.com/rcasachi/venus/commit/eae72b4e8fa45a7e9c458e30edbc3dfb727a7efe))
+
 # [0.15.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.14.0...@venusui/docs@0.15.0) (2023-02-10)
 
 ### Features

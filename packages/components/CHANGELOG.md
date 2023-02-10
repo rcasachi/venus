@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.13.0...@venusui/components@0.14.0) (2023-02-10)
+
+### Features
+
+- **components:** improve textarea component ([9dfe67d](https://github.com/rcasachi/venus/commit/9dfe67d7eddc5866391c21aae38b83d6deb84606))
+
 # [0.13.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.12.0...@venusui/components@0.13.0) (2023-02-10)
 
 ### Features
