@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.12.0...@venusui/components@0.13.0) (2023-02-10)
+
+### Features
+
+- **components:** improve TextField component ([6f21588](https://github.com/rcasachi/venus/commit/6f21588ae5dd6cbd52ba0d1a989111aa366e5f96))
+
 # [0.12.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.11.0...@venusui/components@0.12.0) (2023-02-07)
 
 ### Bug Fixes
