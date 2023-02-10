@@ -1,7 +1,7 @@
 import { styled } from '@theme'
 
 import { Button } from '@components/interaction/Button'
-import { TextField } from '@components/TextField'
+import { TextField } from '@components/interaction/TextField'
 import { Select } from '@components/Select'
 
 export const ControlGroup = styled('div', {
