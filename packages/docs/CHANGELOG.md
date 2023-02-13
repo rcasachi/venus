@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.16.0...@venusui/docs@0.17.0) (2023-02-13)
+
+### Features
+
+- **docs:** improve avatar docs ([d0573c3](https://github.com/rcasachi/venus/commit/d0573c3d64cd6831516e265d09b18c3bcecb7983))
+
 # [0.16.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.15.0...@venusui/docs@0.16.0) (2023-02-10)
 
 ### Features

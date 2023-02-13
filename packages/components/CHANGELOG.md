@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.14.0...@venusui/components@0.15.0) (2023-02-13)
+
+### Features
+
+- **components:** improve avatar component ([8284db5](https://github.com/rcasachi/venus/commit/8284db5d1026e03f5473a2c5757acdf1a3d0666f))
+
 # [0.14.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.13.0...@venusui/components@0.14.0) (2023-02-10)
 
 ### Features
