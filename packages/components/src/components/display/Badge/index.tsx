@@ -7,7 +7,8 @@ export const Badge = styled('span', {
   boxSizing: 'border-box',
   display: 'inline-flex',
   flexShrink: 0,
-  fontFamily: 'inherit',
+  fontFamily: '$untitled',
+  fontVariantNumeric: 'tabular-nums',
   justifyContent: 'center',
   lineHeight: '1',
   verticalAlign: 'middle',
@@ -15,39 +16,40 @@ export const Badge = styled('span', {
   padding: '0',
   textDecoration: 'none',
   userSelect: 'none',
-  WebkitTapHighlightColor: 'rgba(0,0,0,0)',
+  whiteSpace: 'nowrap',
+
+  backgroundColor: '$slate3',
+  borderRadius: '$pill',
+  color: '$slate11',
+
   '&:disabled': {
     backgroundColor: '$slate3',
     pointerEvents: 'none',
     color: '$slate8',
   },
+
   '&::before': {
     boxSizing: 'border-box',
     content: '""',
   },
+
   '&::after': {
     boxSizing: 'border-box',
     content: '""',
   },
 
-  backgroundColor: '$slate3',
-  borderRadius: '$pill',
-  color: '$slate11',
-  whiteSpace: 'nowrap',
-  fontVariantNumeric: 'tabular-nums',
-
   variants: {
     size: {
       '1': {
         height: '$4',
-        paddingRight: '$1',
-        paddingLeft: '$1',
+        paddingRight: '$2',
+        paddingLeft: '$2',
         fontSize: '$1',
       },
       '2': {
         height: '$5',
-        paddingRight: '$2',
-        paddingLeft: '$2',
+        paddingRight: '$3',
+        paddingLeft: '$3',
         fontSize: '$2',
       },
     },
@@ -450,7 +452,7 @@ export const Badge = styled('span', {
     },
   ],
   defaultVariants: {
-    size: '1',
+    size: 1,
     variant: 'gray',
   },
 })
