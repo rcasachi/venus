@@ -15,12 +15,18 @@ export const Alert = styled('div', {
 
   variants: {
     size: {
-      '1': {
+      1: {
         padding: '$3',
+      },
+      2: {
+        padding: '$4',
+      },
+      3: {
+        padding: '$5',
       },
     },
     variant: {
-      loContrast: {
+      contrast: {
         backgroundColor: '$loContrast',
         borderColor: '$slate6',
       },
@@ -43,7 +49,9 @@ export const Alert = styled('div', {
     },
   },
   defaultVariants: {
-    size: '1',
+    size: 1,
     variant: 'gray',
   },
 })
+
+Alert.displayName = 'Alert'
