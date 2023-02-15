@@ -2,6 +2,14 @@ import { styled } from '@theme'
 
 export const Banner = styled('div', {
   boxSizing: 'border-box',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  gap: '$3',
+  fontFamily: '$untitled',
+  fontSize: '$2',
+  fontVariantNumeric: 'tabular-nums',
+
   '&::before': {
     boxSizing: 'border-box',
   },
@@ -9,33 +17,41 @@ export const Banner = styled('div', {
     boxSizing: 'border-box',
   },
 
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  gap: '$3',
-
   variants: {
     size: {
-      '1': {
+      1: {
         py: '$1',
         px: '$4',
       },
+      2: {
+        py: '$2',
+        px: '$6',
+      },
+      3: {
+        py: '$3',
+        px: '$7',
+      },
     },
     variant: {
-      loContrast: {
+      contrast: {
         backgroundColor: '$loContrast',
+        color: '$gray12',
       },
       gray: {
-        backgroundColor: '$slate3',
+        backgroundColor: '$slate4',
+        color: '$gray12',
       },
       blue: {
-        backgroundColor: '$blue3',
+        backgroundColor: '$blue4',
+        color: '$gray12',
       },
       green: {
-        backgroundColor: '$green3',
+        backgroundColor: '$green4',
+        color: '$gray12',
       },
       red: {
-        backgroundColor: '$red3',
+        backgroundColor: '$red4',
+        color: '$gray12',
       },
     },
     rounded: {
@@ -51,29 +67,29 @@ export const Banner = styled('div', {
   },
   compoundVariants: [
     {
-      border: 'true',
+      border: true,
       variant: 'gray',
       css: {
         borderColor: '$slate6',
       },
     },
     {
-      border: 'true',
+      border: true,
       variant: 'blue',
       css: {
         borderColor: '$blue11',
       },
     },
     {
-      border: 'true',
-      variant: 'loContrast',
+      border: true,
+      variant: 'contrast',
       css: {
         borderColor: '$slate6',
       },
     },
   ],
   defaultVariants: {
-    size: '1',
-    variant: 'gray',
+    size: 1,
+    variant: 'contrast',
   },
 })
