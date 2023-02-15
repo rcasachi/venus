@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.16.0...@venusui/components@0.17.0) (2023-02-15)
+
+### Features
+
+- **components:** improve card component ([65a5007](https://github.com/rcasachi/venus/commit/65a5007f04a3fc7d1ee770da823cbbc3ccd620f1))
+
 # [0.16.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.15.0...@venusui/components@0.16.0) (2023-02-15)
 
 ### Features

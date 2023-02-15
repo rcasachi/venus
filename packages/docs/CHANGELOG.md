@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.18.0...@venusui/docs@0.19.0) (2023-02-15)
+
+### Features
+
+- **docs:** improve card docs ([d306276](https://github.com/rcasachi/venus/commit/d3062765c771a79755e3407644cc51a1bd3809f1))
+
 # [0.18.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.17.0...@venusui/docs@0.18.0) (2023-02-15)
 
 ### Features
