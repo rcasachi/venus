@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.15.0...@venusui/components@0.16.0) (2023-02-15)
+
+### Features
+
+- **components:** improve Alert component ([8dcb0f3](https://github.com/rcasachi/venus/commit/8dcb0f3bc9a506385d65103c4ff3e9e2ce575f68))
+- **components:** improve Badge component ([bd46deb](https://github.com/rcasachi/venus/commit/bd46debe9c9131c0ac93f2f5d5ae76187d445ea1))
+- **components:** improve Banner component ([a7c578b](https://github.com/rcasachi/venus/commit/a7c578b4b49720e440bac512bc50beb480f03d3a))
+
 # [0.15.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.14.0...@venusui/components@0.15.0) (2023-02-13)
 
 ### Features

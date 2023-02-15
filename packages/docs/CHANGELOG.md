@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.17.0...@venusui/docs@0.18.0) (2023-02-15)
+
+### Features
+
+- **docs:** improve alert docs ([c878f55](https://github.com/rcasachi/venus/commit/c878f55609f07ce909a7064379d45521aff78a30))
+- **docs:** improve badge docs ([86a5699](https://github.com/rcasachi/venus/commit/86a5699b9934c17d285a49f4c248d7cf12b36eb3))
+- **docs:** improve banner docs ([55063e9](https://github.com/rcasachi/venus/commit/55063e972c873d955fd5b13f4d481dc6b72dba15))
+
 # [0.17.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.16.0...@venusui/docs@0.17.0) (2023-02-13)
 
 ### Features
