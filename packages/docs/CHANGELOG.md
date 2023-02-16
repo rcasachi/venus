@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.19.0...@venusui/docs@0.20.0) (2023-02-16)
+
+### Features
+
+- **docs:** improve ControlGroup docs ([cb9cf7d](https://github.com/rcasachi/venus/commit/cb9cf7dbfb41dafb61c8501857b324e4b79eaf31))
+
 # [0.19.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.18.0...@venusui/docs@0.19.0) (2023-02-15)
 
 ### Features

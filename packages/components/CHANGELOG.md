@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.17.0...@venusui/components@0.18.0) (2023-02-16)
+
+### Features
+
+- **components:** improve ControlGroup ([db7bf25](https://github.com/rcasachi/venus/commit/db7bf25d2f7145791083be96b02322c731667eef))
+
 # [0.17.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.16.0...@venusui/components@0.17.0) (2023-02-15)
 
 ### Features
