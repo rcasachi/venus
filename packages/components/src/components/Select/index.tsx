@@ -15,4 +15,4 @@
 
 // Select.toString = () => `.${SelectWrapper.className}`
 
-export const Select = <></>
+export const Select = () => <></>
