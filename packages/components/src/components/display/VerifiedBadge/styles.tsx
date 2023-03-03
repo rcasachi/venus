@@ -1,7 +1,7 @@
 import { styled } from '@theme'
 import { Flex } from '@components/surfaces/Flex'
 
-export const StyledVerifiedBadge = styled('div', Flex, {
+export const VerifiedBadgeContainer = styled('div', Flex, {
   alignItems: 'center',
   backgroundColor: '$blue9',
   borderRadius: '$round',
@@ -10,4 +10,8 @@ export const StyledVerifiedBadge = styled('div', Flex, {
   justifyContent: 'center',
   width: '$3',
   height: '$3',
+
+  svg: {
+    alignSelf: 'center',
+  },
 })
