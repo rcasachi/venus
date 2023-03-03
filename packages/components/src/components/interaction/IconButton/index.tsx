@@ -1,87 +1,94 @@
 import { styled } from '@theme'
 
 export const IconButton = styled('button', {
-  alignItems: 'center',
-  appearance: 'none',
-  borderWidth: '0',
   boxSizing: 'border-box',
   display: 'inline-flex',
-  flexShrink: 0,
-  fontFamily: 'inherit',
-  fontSize: '14px',
+  alignItems: 'center',
   justifyContent: 'center',
-  lineHeight: '1',
-  outline: 'none',
-  padding: '0',
+  flexShrink: 0,
+  padding: 0,
+  fontFamily: 'inherit',
+  fontSize: '$3',
+  lineHeight: 1,
   textDecoration: 'none',
+  appearance: 'none',
+  outline: 'none',
   userSelect: 'none',
-  WebkitTapHighlightColor: 'transparent',
   color: '$hiContrast',
+  backgroundColor: '$loContrast',
+  border: '1px solid $slate7',
+
   '&::before': {
     boxSizing: 'border-box',
   },
   '&::after': {
     boxSizing: 'border-box',
   },
-  backgroundColor: '$loContrast',
-  border: '1px solid $slate7',
+
   '@hover': {
     '&:hover': {
       borderColor: '$slate8',
     },
   },
+
   '&:active': {
     backgroundColor: '$slate2',
   },
+
   '&:focus': {
     borderColor: '$slate8',
     boxShadow: '0 0 0 1px $colors$slate8',
   },
+
   '&:disabled': {
     pointerEvents: 'none',
     backgroundColor: 'transparent',
-    color: '$slate6',
+    color: '$slate8',
   },
 
   variants: {
     size: {
-      '1': {
+      1: {
         borderRadius: '$1',
-        height: '$5',
-        width: '$5',
-      },
-      '2': {
-        borderRadius: '$2',
         height: '$6',
         width: '$6',
       },
-      '3': {
+      2: {
         borderRadius: '$2',
         height: '$7',
         width: '$7',
       },
-      '4': {
-        borderRadius: '$3',
+      3: {
+        borderRadius: '$2',
         height: '$8',
         width: '$8',
+      },
+      4: {
+        borderRadius: '$3',
+        height: '$10',
+        width: '$10',
       },
     },
     variant: {
       ghost: {
         backgroundColor: 'transparent',
         borderWidth: '0',
+
         '@hover': {
           '&:hover': {
             backgroundColor: '$slateA3',
           },
         },
+
         '&:focus': {
           boxShadow:
             'inset 0 0 0 1px $colors$slateA8, 0 0 0 1px $colors$slateA8',
         },
+
         '&:active': {
           backgroundColor: '$slateA4',
         },
+
         '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
           {
             backgroundColor: '$slateA4',
@@ -90,17 +97,20 @@ export const IconButton = styled('button', {
       raised: {
         boxShadow:
           '0 0 transparent, 0 16px 32px hsl(206deg 12% 5% / 25%), 0 3px 5px hsl(0deg 0% 0% / 10%)',
+
         '@hover': {
           '&:hover': {
             boxShadow:
               '0 0 transparent, 0 16px 32px hsl(206deg 12% 5% / 25%), 0 3px 5px hsl(0deg 0% 0% / 10%)',
           },
         },
+
         '&:focus': {
           borderColor: '$slate8',
           boxShadow:
             '0 0 0 1px $colors$slate8, 0 16px 32px hsl(206deg 12% 5% / 25%), 0 3px 5px hsl(0deg 0% 0% / 10%)',
         },
+
         '&:active': {
           backgroundColor: '$slate4',
         },
@@ -134,7 +144,7 @@ export const IconButton = styled('button', {
     },
   },
   defaultVariants: {
-    size: '1',
+    size: 1,
     variant: 'ghost',
   },
 })

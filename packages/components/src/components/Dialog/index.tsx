@@ -1,7 +1,7 @@
 import * as DialogPrimitive from '@radix-ui/react-dialog'
 import { Cross1Icon } from '@radix-ui/react-icons'
 
-import { IconButton } from '@components/IconButton'
+import { IconButton } from '@components/interaction/IconButton'
 import { StyledCloseButton, StyledContent, StyledOverlay } from './styles'
 import { ElementRef, forwardRef } from 'react'
 import { DialogContentProps } from './types'
