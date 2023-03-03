@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.21.0...@venusui/docs@0.22.0) (2023-03-03)
+
+### Features
+
+- **docs:** improve IconButton docs ([2dad66a](https://github.com/rcasachi/venus/commit/2dad66a8fa17dd70cda0f918dea9b28ce5effd6f))
+
 # [0.21.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.20.0...@venusui/docs@0.21.0) (2023-03-03)
 
 ### Bug Fixes

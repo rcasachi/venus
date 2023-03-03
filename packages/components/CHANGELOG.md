@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.19.0...@venusui/components@0.20.0) (2023-03-03)
+
+### Features
+
+- **components:** improve IconButton component ([601bdc3](https://github.com/rcasachi/venus/commit/601bdc376e4bf6deb594df6be6745a6fe304cb8f))
+
 # [0.19.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.18.0...@venusui/components@0.19.0) (2023-03-03)
 
 ### Features
