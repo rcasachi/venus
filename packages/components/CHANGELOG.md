@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.18.0...@venusui/components@0.19.0) (2023-03-03)
+
+### Features
+
+- **components:** add AspectRatio component ([48f80af](https://github.com/rcasachi/venus/commit/48f80afa2234ac37865263b79dfb40c426cef884))
+- **components:** improve Image component ([dad2b7a](https://github.com/rcasachi/venus/commit/dad2b7a5a7dd2b3c0a8e3d19209f1d2cc7704be2))
+- **components:** improve Status component ([711eae6](https://github.com/rcasachi/venus/commit/711eae678d436baaae28ee9cac8a845a70a3d2d1))
+- **components:** improve VerifiedBadge component ([567ed18](https://github.com/rcasachi/venus/commit/567ed1828e7840ac2a0d522a2ee238caad644c2b))
+
 # [0.18.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.17.0...@venusui/components@0.18.0) (2023-02-16)
 
 ### Features

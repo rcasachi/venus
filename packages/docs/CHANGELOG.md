@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.20.0...@venusui/docs@0.21.0) (2023-03-03)
+
+### Bug Fixes
+
+- **docs:** improve Multistep docs ([adf043f](https://github.com/rcasachi/venus/commit/adf043f7efcb2e506d95e73da8116c863a1444a4))
+
+### Features
+
+- **docs:** create AspectRatio docs ([94172fa](https://github.com/rcasachi/venus/commit/94172fa983fd900b3a470ab50aa669dc4db8a18c))
+- **docs:** improve Image docs ([a5a740a](https://github.com/rcasachi/venus/commit/a5a740ae0a3fe5f125a4056cee86967a7377a47e))
+- **docs:** improve Status docs ([1bf49a4](https://github.com/rcasachi/venus/commit/1bf49a4348c306b681eb49277a6fc52b5a060a71))
+- **docs:** improve VerifiedBadge docs ([c00b57a](https://github.com/rcasachi/venus/commit/c00b57a0113c99837015efc2cd32e5ccf8ef0768))
+
 # [0.20.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.19.0...@venusui/docs@0.20.0) (2023-02-16)
 
 ### Features
