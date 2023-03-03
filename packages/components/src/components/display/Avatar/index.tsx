@@ -1,4 +1,4 @@
-import { Status } from '@components/Status'
+import { Status } from '@components/display/Status'
 import { Box } from '@components/surfaces/Box'
 import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 import { AvatarProps } from './types'

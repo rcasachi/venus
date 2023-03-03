@@ -6,11 +6,11 @@ export const Status = styled('div', {
 
   variants: {
     size: {
-      '1': {
+      1: {
         width: 5,
         height: 5,
       },
-      '2': {
+      2: {
         width: 9,
         height: 9,
       },
@@ -34,7 +34,7 @@ export const Status = styled('div', {
     },
   },
   defaultVariants: {
-    size: '2',
+    size: 2,
     variant: 'gray',
   },
 })
