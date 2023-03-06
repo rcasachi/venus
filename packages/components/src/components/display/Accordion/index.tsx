@@ -1,22 +1,20 @@
-import * as AccordionPrimitive from '@radix-ui/react-accordion'
+import { ElementRef, forwardRef } from 'react'
 import { ChevronDownIcon } from '@radix-ui/react-icons'
-
-import { styled } from '@theme'
 
 import {
   StyledAccordion,
+  StyledContent,
   StyledHeader,
   StyledItem,
   StyledTrigger,
 } from './styles'
-import { AccordionProps, AccordionTriggerProps } from './types'
-import { ElementRef, forwardRef } from 'react'
+import { AccordionContentProps, AccordionProps, AccordionTriggerProps } from './types'
+import { Box } from '@components/surfaces/Box'
 
 export const Accordion = forwardRef<
   ElementRef<typeof StyledAccordion>,
   AccordionProps
->(function AccordionRef({ children, ...props }, forwardedRef) {
-  return (
+>(({ children, ...props }, forwardedRef) => (
     <StyledAccordion
       ref={forwardedRef}
       {...props}
@@ -25,25 +23,28 @@ export const Accordion = forwardRef<
       {children}
     </StyledAccordion>
   )
-})
+)
 
 export const AccordionTrigger = forwardRef<
   ElementRef<typeof StyledTrigger>,
   AccordionTriggerProps
->(function AccordionTriggerRef({ children, ...props }, forwardedRef) {
-  return (
-    <StyledHeader>
-      <StyledTrigger {...props} ref={forwardedRef}>
-        {children}
-        <ChevronDownIcon />
-      </StyledTrigger>
-    </StyledHeader>
+>(({ children, ...props }, forwardedRef) => (
+  <StyledHeader>
+    <StyledTrigger {...props} ref={forwardedRef}>
+      {children}
+      <ChevronDownIcon />
+    </StyledTrigger>
+  </StyledHeader>
   )
-})
+)
 
-const StyledContent = styled(AccordionPrimitive.Content, {
-  p: '$2',
-})
+export const AccordionContent = forwardRef<
+  ElementRef<typeof StyledContent>,
+  AccordionContentProps
+>(({ children, ...props }, forwardedRef) => (
+  <StyledContent {...props} ref={forwardedRef}>
+    <Box css={{ p: '$2' }}>{children}</Box>
+  </StyledContent>
+))
 
 export const AccordionItem = StyledItem
-export const AccordionContent = StyledContent

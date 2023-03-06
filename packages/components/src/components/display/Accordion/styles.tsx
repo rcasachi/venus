@@ -1,49 +1,61 @@
-import { Root, Item, Header, Trigger } from '@radix-ui/react-accordion'
+import { Root, Item, Header, Trigger, Content } from '@radix-ui/react-accordion'
 
-import { styled } from '@theme'
+import { keyframes, styled } from '@theme'
 
 export const StyledAccordion = styled(Root, {
-  backgroundColor: '$amber1',
+  borderRadius: '$4',
+  backgroundColor: '$mauve1',
+  boxShadow: '0 2px 10px $colors$blackA4',
 })
 
 export const StyledItem = styled(Item, {
-  borderTop: '1px solid $colors$slate6',
+  overflow: 'hidden',
+  marginTop: 1,
 
-  '&:last-of-type': {
-    borderBottom: '1px solid $colors$slate6',
+  '&:first-child': {
+    marginTop: 0,
+    borderTopLeftRadius: 4,
+    borderTopRightRadius: 4,
+  },
+
+  '&:last-child': {
+    borderBottomLeftRadius: 4,
+    borderBottomRightRadius: 4,
+  },
+
+  '&:focus-within': {
+    position: 'relative',
+    zIndex: 1,
+    boxShadow: '0 0 0 2px $colors$mauve12',
   },
 })
 
-export const StyledHeader = styled(Header, {})
+export const StyledHeader = styled(Header, {
+  all: 'unset',
+  display: 'flex',
+})
 
 export const StyledTrigger = styled(Trigger, {
   all: 'unset',
   boxSizing: 'border-box',
   userSelect: 'none',
-  '&::before': {
-    boxSizing: 'border-box',
-  },
-  '&::after': {
-    boxSizing: 'border-box',
-  },
-
+  fontFamily: 'inherit',
+  backgroundColor: 'transparent',
+  padding: '0 $5',
+  height: 45,
+  flex: 1,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '$2',
+  fontSize: 15,
+  lineHeight: 1,
   color: '$hiContrast',
-  width: '100%',
+  boxShadow: '0 1px 0 $colors$mauve6',
 
-  '@hover': {
-    '&:hover': {
-      backgroundColor: '$slate2',
-    },
-  },
+  '&::before': { boxSizing: 'border-box' },
+  '&::after': { boxSizing: 'border-box' },
 
-  '&:focus': {
-    outline: 'none',
-    boxShadow: 'inset 0 0 0 1px $colors$slate8, 0 0 0 1px $colors$slate8',
-  },
+  '&:hover': { backgroundColor: '$mauve2' },
 
   svg: {
     transition: 'transform 175ms cubic-bezier(0.65, 0, 0.35, 1)',
@@ -55,3 +67,28 @@ export const StyledTrigger = styled(Trigger, {
     },
   },
 })
+
+const slideDown = keyframes({
+  from: { height: 0 },
+  to: { height: 'var(--radix-accordion-content-height)' },
+});
+
+const slideUp = keyframes({
+  from: { height: 'var(--radix-accordion-content-height)' },
+  to: { height: 0 },
+});
+
+export const StyledContent = styled(Content, {
+  overflow: 'hidden',
+  fontSize: 15,
+  color: 'inherit',
+  backgroundColor: '$mauve2',
+
+  '&[data-state="open"]': {
+    animation: `${slideDown} 200ms cubic-bezier(0.87, 0, 0.13, 1)`,
+  },
+
+  '&[data-state="closed"]': {
+    animation: `${slideUp} 200ms cubic-bezier(0.87, 0, 0.13, 1)`,
+  },
+});
