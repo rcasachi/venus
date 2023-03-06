@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.22.0...@venusui/docs@0.23.0) (2023-03-06)
+
+### Features
+
+- **docs:** improve accordion docs ([2fc0250](https://github.com/rcasachi/venus/commit/2fc025010cf2a41264382c1bf3185a332ea915c8))
+- **docs:** improve separator docs ([0034fe3](https://github.com/rcasachi/venus/commit/0034fe3136ca8e6091188909982e79253c6bb6b2))
+- **docs:** improve skeleton component ([da2b4a4](https://github.com/rcasachi/venus/commit/da2b4a47444673638a5d05733fbc501665b60fe8))
+
 # [0.22.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.21.0...@venusui/docs@0.22.0) (2023-03-03)
 
 ### Features
