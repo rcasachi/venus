@@ -1,5 +1,5 @@
 import { ElementRef, forwardRef } from 'react'
-import { Separator } from '@components/Separator'
+import { Separator } from '@components/display/Separator'
 import {
   StyledTabsContent,
   StyledTabsList,
