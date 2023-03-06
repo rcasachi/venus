@@ -1,16 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
 import {
   Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  Text,
   AccordionContent,
+  AccordionItem,
+  AccordionProps,
+  AccordionTrigger,
+  Text
 } from '@venusui/components'
+import type { Meta, StoryObj } from '@storybook/react'
 
-export default { title: 'Accordion' }
-
-export const accordions = () => (
-  <>
+export default {
+  title: 'Display/Accordion',
+  render: () => (
     <Accordion type="single">
       <AccordionItem value="accordion-one">
         <AccordionTrigger>
@@ -77,5 +77,7 @@ export const accordions = () => (
         </AccordionContent>
       </AccordionItem>
     </Accordion>
-  </>
-)
+  )
+} as Meta<AccordionProps>
+
+export const Default: StoryObj<AccordionProps> = {}
