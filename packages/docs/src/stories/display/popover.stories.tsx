@@ -1,24 +1,27 @@
-/* eslint-disable react/no-unescaped-entities */
 import {
-  Flex,
-  Box,
-  Popover,
-  Button,
-  Text,
-  PopoverTrigger,
-  PopoverContent,
-  IconButton,
-  VideoIcon,
   Badge,
+  Box,
+  Button,
   CaretDownIcon,
+  IconButton,
+  Popover,
+  PopoverContent,
+  PopoverProps,
+  PopoverTrigger,
+  Text,
+  VideoIcon
 } from '@venusui/components'
+import type { Meta, StoryObj } from '@storybook/react'
 
-export default { title: 'Popover' }
+export default {
+  title: 'Display/Popover',
+  component: Popover,
+} as Meta<PopoverProps>
 
-export const popovers = () => (
-  <>
-    <Flex css={{ gap: '$6', flexWrap: 'wrap' }}>
-      <Popover>
+export const ButtonTrigger: StoryObj<PopoverProps> = {
+  args: {
+    children: (
+      <>
         <PopoverTrigger asChild>
           <Button>Popover</Button>
         </PopoverTrigger>
@@ -28,8 +31,15 @@ export const popovers = () => (
             a lot. With horizontal overflow on small devices and when zoomed in.
           </Text>
         </PopoverContent>
-      </Popover>
-      <Popover>
+      </>
+    )
+  },
+}
+
+export const HideArrow: StoryObj<PopoverProps> = {
+  args: {
+    children: (
+      <>
         <PopoverTrigger asChild>
           <Button>Hide arrow</Button>
         </PopoverTrigger>
@@ -39,41 +49,15 @@ export const popovers = () => (
             a lot. With horizontal overflow on small devices and when zoomed in.
           </Text>
         </PopoverContent>
-      </Popover>
-      <Popover>
-        <PopoverTrigger asChild>
-          <Button variant="blue">Blue</Button>
-        </PopoverTrigger>
-        <PopoverContent css={{ padding: '$3' }}>
-          <Text size="2" css={{ lineHeight: '18px' }}>
-            The other main improvement is with tables, which we'll probably use
-            a lot. With horizontal overflow on small devices and when zoomed in.
-          </Text>
-        </PopoverContent>
-      </Popover>
-      <Popover>
-        <PopoverTrigger asChild>
-          <Button variant="green">Green</Button>
-        </PopoverTrigger>
-        <PopoverContent css={{ padding: '$3' }}>
-          <Text size="2" css={{ lineHeight: '18px' }}>
-            The other main improvement is with tables, which we'll probably use
-            a lot. With horizontal overflow on small devices and when zoomed in.
-          </Text>
-        </PopoverContent>
-      </Popover>
-      <Popover>
-        <PopoverTrigger asChild>
-          <Button variant="red">Red</Button>
-        </PopoverTrigger>
-        <PopoverContent css={{ padding: '$3' }}>
-          <Text size="2" css={{ lineHeight: '18px' }}>
-            The other main improvement is with tables, which we'll probably use
-            a lot. With horizontal overflow on small devices and when zoomed in.
-          </Text>
-        </PopoverContent>
-      </Popover>
-      <Popover>
+      </>
+    )
+  },
+}
+
+export const GhostTrigger: StoryObj<PopoverProps> = {
+  args: {
+    children: (
+      <>
         <PopoverTrigger asChild>
           <Button ghost>Ghost</Button>
         </PopoverTrigger>
@@ -83,8 +67,15 @@ export const popovers = () => (
             a lot. With horizontal overflow on small devices and when zoomed in.
           </Text>
         </PopoverContent>
-      </Popover>
-      <Popover>
+      </>
+    )
+  },
+}
+
+export const IconButtonTrigger: StoryObj<PopoverProps> = {
+  args: {
+    children: (
+      <>
         <PopoverTrigger asChild>
           <IconButton>
             <VideoIcon />
@@ -96,8 +87,15 @@ export const popovers = () => (
             a lot. With horizontal overflow on small devices and when zoomed in.
           </Text>
         </PopoverContent>
-      </Popover>
-      <Popover>
+      </>
+    )
+  },
+}
+
+export const BadgeTrigger: StoryObj<PopoverProps> = {
+  args: {
+    children: (
+      <>
         <PopoverTrigger asChild>
           <Badge size="2" variant="violet" interactive>
             Badge
@@ -112,7 +110,7 @@ export const popovers = () => (
             a lot. With horizontal overflow on small devices and when zoomed in.
           </Text>
         </PopoverContent>
-      </Popover>
-    </Flex>
-  </>
-)
+      </>
+    )
+  },
+}
