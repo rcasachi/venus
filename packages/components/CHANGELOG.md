@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.21.0...@venusui/components@0.22.0) (2023-03-07)
+
+### Features
+
+- **components:** improve Popover component ([7425e79](https://github.com/rcasachi/venus/commit/7425e79a58cb7917615db33a47201d7006ba897a))
+- **components:** improve ProgressBar component ([876568e](https://github.com/rcasachi/venus/commit/876568e7cdf35b79f78f40955a35745dadfe65cc))
+
 # [0.21.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.20.0...@venusui/components@0.21.0) (2023-03-06)
 
 ### Features

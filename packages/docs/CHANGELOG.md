@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.23.0...@venusui/docs@0.24.0) (2023-03-07)
+
+### Features
+
+- **docs:** improve Popover docs ([0f70bd3](https://github.com/rcasachi/venus/commit/0f70bd3a347d6a01b0621fbee2c4490e905da5cd))
+- **docs:** improve ProgressBar docs ([94fd694](https://github.com/rcasachi/venus/commit/94fd694f3b7072c974b2f35cad522cfc0289b79a))
+
 # [0.23.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.22.0...@venusui/docs@0.23.0) (2023-03-06)
 
 ### Features
