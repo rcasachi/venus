@@ -19,9 +19,9 @@ export const indeterminateProgress = keyframes({
 export const StyledProgressBar = styled(Root, {
   boxSizing: 'border-box',
   position: 'relative',
-  height: '$1',
   overflow: 'hidden',
   borderRadius: '$pill',
+  transform: 'translateZ(0)',
 
   '&[data-state="indeterminate"]': {
     backgroundColor: '$slate4',
@@ -55,9 +55,21 @@ export const StyledProgressBar = styled(Root, {
           'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)',
       },
     },
+    size: {
+      1: {
+        height: '$1',
+      },
+      2: {
+        height: '$2',
+      },
+      3: {
+        height: '$3',
+      },
+    },
   },
   defaultVariants: {
     variant: 'gray',
+    size: 1,
   },
 })
 
@@ -69,6 +81,7 @@ export const ProgressBarIndicator = styled(Indicator, {
   bottom: 0,
   left: 0,
   width: '100%',
+  height: '100%',
   backgroundColor: '$slate4',
   transition: 'transform 150ms cubic-bezier(0.65, 0, 0.35, 1)',
 })

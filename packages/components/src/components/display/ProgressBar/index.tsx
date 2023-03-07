@@ -1,11 +1,12 @@
 import { ElementRef, forwardRef } from 'react'
+
 import { ProgressBarIndicator, StyledProgressBar } from './styles'
 import { ProgressBarProps } from './types'
 
 export const ProgressBar = forwardRef<
   ElementRef<typeof StyledProgressBar>,
   ProgressBarProps
->(function ProgressBarRef({ value, max = 100, ...props }, forwardedRef) {
+>(({ value, max = 100, ...props }, forwardedRef) => {
   const percentage = value != null ? Math.round((value / max) * 100) : null
 
   return (
