@@ -2,8 +2,7 @@ import { Content } from '@radix-ui/react-popover'
 import { CSS } from '@stitches/react'
 import { ComponentProps } from 'react'
 
-export type PopoverContentPrimitiveProps = ComponentProps<typeof Content>
-export type PopoverContentProps = PopoverContentPrimitiveProps & {
+export type PopoverContentProps =  ComponentProps<typeof Content> & {
   css?: CSS
   hideArrow?: boolean
 }
