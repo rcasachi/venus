@@ -2,7 +2,8 @@ import * as TooltipPrimitive from '@radix-ui/react-tooltip'
 
 import { Box } from '@components/surfaces/Box'
 import { Text } from '@components/typography/Text'
-import { StyledContent } from './styles'
+
+import { TooltipContent, TooltipArrow } from './styles'
 import { TooltipProps } from './types'
 
 export function Tooltip({
@@ -23,11 +24,12 @@ export function Tooltip({
     delayDuration,
     disableHoverableContent,
   }
+
   return (
     <TooltipPrimitive.Root {...rootProps}>
       <TooltipPrimitive.Trigger asChild>{children}</TooltipPrimitive.Trigger>
       <TooltipPrimitive.Portal>
-        <StyledContent
+        <TooltipContent
           side="top"
           align="center"
           sideOffset={5}
@@ -45,13 +47,9 @@ export function Tooltip({
             {content}
           </Text>
           <Box css={{ color: '$transparentExtreme' }}>
-            <TooltipPrimitive.Arrow
-              width={11}
-              height={5}
-              style={{ fill: 'currentColor' }}
-            />
+            <TooltipArrow width={11} height={5} />
           </Box>
-        </StyledContent>
+        </TooltipContent>
       </TooltipPrimitive.Portal>
     </TooltipPrimitive.Root>
   )
