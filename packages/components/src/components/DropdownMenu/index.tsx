@@ -4,7 +4,6 @@ import { ElementRef, forwardRef } from 'react'
 
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu'
 
-import { menuCss, separatorCss, itemCss, labelCss } from '../Menu/styles'
 import { Box } from '@components/surfaces/Box'
 import { Flex } from '../surfaces/Flex'
 import { panelStyles } from '../surfaces/Panel'
@@ -19,7 +18,6 @@ const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger
 
 const StyledContent = styled(
   DropdownMenuPrimitive.Content,
-  menuCss,
   panelStyles,
 )
 
@@ -34,17 +32,15 @@ const DropdownMenuContent = forwardRef<
   )
 })
 
-const DropdownMenuItem = styled(DropdownMenuPrimitive.Item, itemCss)
+const DropdownMenuItem = styled(DropdownMenuPrimitive.Item)
 const DropdownMenuGroup = styled(DropdownMenuPrimitive.Group, {})
-const DropdownMenuLabel = styled(DropdownMenuPrimitive.Label, labelCss)
+const DropdownMenuLabel = styled(DropdownMenuPrimitive.Label)
 const DropdownMenuSeparator = styled(
-  DropdownMenuPrimitive.Separator,
-  separatorCss,
+  DropdownMenuPrimitive.Separator
 )
 
 const StyledDropdownMenuCheckboxItem = styled(
-  DropdownMenuPrimitive.CheckboxItem,
-  itemCss,
+  DropdownMenuPrimitive.CheckboxItem
 )
 
 const DropdownMenuCheckboxItem = forwardRef<
@@ -65,8 +61,7 @@ const DropdownMenuCheckboxItem = forwardRef<
 
 const DropdownMenuRadioGroup = styled(DropdownMenuPrimitive.RadioGroup, {})
 const StyledDropdownMenuRadioItem = styled(
-  DropdownMenuPrimitive.RadioItem,
-  itemCss,
+  DropdownMenuPrimitive.RadioItem
 )
 
 const DropdownMenuRadioItem = forwardRef<
