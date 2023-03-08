@@ -82,11 +82,9 @@ export const Default: StoryObj<ContextMenuProps> = {
             <ContextMenuSeparator />
 
             <ContextMenuCheckboxItem checked={bookmarksChecked} onCheckedChange={setBookmarksChecked}>
-              <ContextMenuItemIndicator />
               Show Bookmarks <RightSlot>⌘+B</RightSlot>
             </ContextMenuCheckboxItem>
             <ContextMenuCheckboxItem checked={urlsChecked} onCheckedChange={setUrlsChecked}>
-              <ContextMenuItemIndicator />
               Show Full URLs
             </ContextMenuCheckboxItem>
 
@@ -95,11 +93,9 @@ export const Default: StoryObj<ContextMenuProps> = {
             <ContextMenuLabel>People</ContextMenuLabel>
             <ContextMenuRadioGroup value={person} onValueChange={setPerson}>
               <ContextMenuRadioItem value="pedro">
-                <ContextMenuItemIndicator />
                 Pedro Duarte
               </ContextMenuRadioItem>
               <ContextMenuRadioItem value="colm">
-                <ContextMenuItemIndicator />
                 Colm Tuite
               </ContextMenuRadioItem>
             </ContextMenuRadioGroup>
