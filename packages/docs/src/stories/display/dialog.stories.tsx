@@ -1,51 +1,56 @@
+import type { Meta, StoryObj } from '@storybook/react'
 import {
-  Dialog,
-  DialogTrigger,
   Button,
+  Dialog,
   DialogContent,
-  Text,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+  DialogProps,
   Popover,
   PopoverTrigger,
   PopoverContent,
-  PopoverClose,
-} from '@venusui/components'
+  PopoverClose
+} from '@venusui/components';
 
-export default { title: 'Dialog' }
+export default {
+  title: 'Display/Dialog',
+} as Meta<DialogProps>
 
-export const dialogs = () => (
-  <>
+export const Default: StoryObj<DialogProps> = {
+  render: () => (
     <Dialog>
       <DialogTrigger asChild>
         <Button>Open dialog</Button>
       </DialogTrigger>
       <DialogContent>
-        <Text size="5" as="h6" css={{ fontWeight: 500, marginBottom: '$3' }}>
-          Dialog Heading
-        </Text>
-        <Text size="3" as="p" css={{ lineHeight: '25px' }}>
+        <DialogTitle>Dialog Heading</DialogTitle>
+        <DialogDescription>
           There are 5 variants to choose from. Use is for positive states. This
           is a link Traditional business literature won’t help you solve it-
           most of that stuff is focused on life after product/market fit, after
           the Trough of Sorrow.
-        </Text>
+        </DialogDescription>
       </DialogContent>
     </Dialog>
+  )
+}
 
+export const WithPopover: StoryObj<DialogProps> = {
+  render: () => (
     <Dialog>
       <DialogTrigger asChild>
         <Button>Dialog</Button>
       </DialogTrigger>
 
       <DialogContent>
-        <Text size="5" as="h6" css={{ fontWeight: 500, marginBottom: '$3' }}>
-          Dialog Heading
-        </Text>
-        <Text size="3" as="p" css={{ lineHeight: '25px' }}>
+        <DialogTitle>Dialog Heading</DialogTitle>
+        <DialogDescription>
           There are 5 variants to choose from. Use is for positive states. This
           is a link Traditional business literature won’t help you solve it-
           most of that stuff is focused on life after product/market fit, after
           the Trough of Sorrow.
-        </Text>
+        </DialogDescription>
 
         <Popover>
           <PopoverTrigger asChild>
@@ -59,5 +64,5 @@ export const dialogs = () => (
         </Popover>
       </DialogContent>
     </Dialog>
-  </>
-)
+  )
+}

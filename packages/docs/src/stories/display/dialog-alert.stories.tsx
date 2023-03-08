@@ -1,3 +1,4 @@
+import type { Meta, StoryObj } from '@storybook/react'
 import {
   Flex,
   AlertDialog,
@@ -5,39 +6,36 @@ import {
   Button,
   AlertDialogContent,
   AlertDialogTitle,
-  Heading,
   AlertDialogDescription,
-  Text,
   AlertDialogCancel,
   AlertDialogAction,
+  AlertDialogProps
 } from '@venusui/components'
 
-export default { title: 'DialogAlert' }
+export default {
+  title: 'Display/AlertDialog',
+} as Meta<AlertDialogProps>
 
-export const dialogAlerts = () => (
-  <>
+export const Default: StoryObj<AlertDialogProps> = {
+  render: () => (
     <AlertDialog>
       <AlertDialogTrigger asChild>
         <Button>Alert Dialog</Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
-        <AlertDialogTitle asChild>
-          <Heading>Are you sure?</Heading>
-        </AlertDialogTitle>
-        <AlertDialogDescription asChild>
-          <Text css={{ marginTop: '$2' }}>
-            This will do a very dangerous thing. Thar be dragons!
-          </Text>
+        <AlertDialogTitle>Are you sure?</AlertDialogTitle>
+        <AlertDialogDescription>
+          This will do a very dangerous thing. Thar be dragons!
         </AlertDialogDescription>
-        <Flex css={{ justifyContent: 'flex-end', gap: '$3', marginTop: '$5' }}>
+        <Flex justify="end" gap="3" css={{ mt: '$5' }}>
           <AlertDialogCancel asChild>
             <Button ghost>Cancel</Button>
           </AlertDialogCancel>
           <AlertDialogAction asChild>
-            <Button variant="red">Delete</Button>
+            <Button>Delete</Button>
           </AlertDialogAction>
         </Flex>
       </AlertDialogContent>
     </AlertDialog>
-  </>
-)
+  )
+}
