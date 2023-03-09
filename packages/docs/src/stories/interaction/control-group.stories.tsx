@@ -4,6 +4,9 @@ import {
   ControlGroup,
   ControlGroupProps,
   Select,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
   TextField,
 } from '@venusui/components'
 
@@ -64,12 +67,14 @@ export const WithSelectTextField: StoryObj<ControlGroupProps> = {
   render: ({ size }) => (
     <ControlGroup>
       <TextField size={size} placeholder="Hello world" />
-      <Select size={size}>
-        <option>Button</option>
-        <option>Button</option>
-        <option>Button</option>
-        <option>Button</option>
-        <option>Button</option>
+      <Select placeholder="Select your meat">
+        <SelectGroup>
+          <SelectLabel>Meat</SelectLabel>
+          <SelectItem value="beef">Beef</SelectItem>
+          <SelectItem value="chicken">Chicken</SelectItem>
+          <SelectItem value="lamb">Lamb</SelectItem>
+          <SelectItem value="pork">Pork</SelectItem>
+        </SelectGroup>
       </Select>
     </ControlGroup>
   ),
