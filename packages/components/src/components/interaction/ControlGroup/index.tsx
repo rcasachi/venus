@@ -1,8 +1,8 @@
 import { styled } from '@theme'
 
 import { Button } from '@components/interaction/Button'
-import { Select } from '@components/Select'
 import { TextInputContainer } from '@components/interaction/TextField/styles'
+import { SelectTrigger } from '@components/interaction/Select/styles'
 
 export const ControlGroup = styled('div', {
   display: 'flex',
@@ -43,7 +43,10 @@ export const ControlGroup = styled('div', {
       borderRadius: 0,
     },
   },
-  [`& ${Select}`]: {
+  [`& ${SelectTrigger}`]: {
+    border: '1px solid $colors$gray9',
+    boxShadow: 'none',
+
     '&:first-child:not(:only-child)': {
       borderTopRightRadius: 0,
       borderBottomRightRadius: 0,
