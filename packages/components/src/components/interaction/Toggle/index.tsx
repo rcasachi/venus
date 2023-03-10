@@ -2,38 +2,30 @@ import { styled } from '@theme'
 import * as TogglePrimitive from '@radix-ui/react-toggle'
 
 export const Toggle = styled(TogglePrimitive.Root, {
-  alignItems: 'center',
   appearance: 'none',
-  borderWidth: '0',
+  userSelect: 'none',
   boxSizing: 'border-box',
   display: 'inline-flex',
   flexShrink: 0,
-  fontFamily: 'inherit',
-  fontSize: '14px',
+  alignItems: 'center',
   justifyContent: 'center',
-  lineHeight: '1',
+  padding: 0,
+  borderWidth: 0,
   outline: 'none',
-  padding: '0',
+  fontFamily: 'inherit',
+  lineHeight: 1,
   textDecoration: 'none',
-  userSelect: 'none',
-  WebkitTapHighlightColor: 'transparent',
-  color: '$hiContrast',
-  '&::before': {
-    boxSizing: 'border-box',
-  },
-  '&::after': {
-    boxSizing: 'border-box',
-  },
-  height: '$5',
-  width: '$5',
   backgroundColor: 'transparent',
+  color: '$hiContrast',
+
+  '&::before': { boxSizing: 'border-box' },
+  '&::after': { boxSizing: 'border-box' },
+  '&:active': {  backgroundColor: '$slateA4' },
+
   '@hover': {
     '&:hover': {
       backgroundColor: '$slateA3',
     },
-  },
-  '&:active': {
-    backgroundColor: '$slateA4',
   },
   '&:focus': {
     boxShadow: 'inset 0 0 0 1px $slateA8, 0 0 0 1px $slateA8',
@@ -53,6 +45,23 @@ export const Toggle = styled(TogglePrimitive.Root, {
   },
 
   variants: {
+    size: {
+      1: {
+        height: '$5',
+        width: '$5',
+        fontSize: '$3',
+      },
+      2: {
+        height: '$7',
+        width: '$7',
+        fontSize: '$4',
+      },
+      3: {
+        height: '$10',
+        width: '$10',
+        fontSize: '$5',
+      }
+    },
     shape: {
       circle: {
         borderRadius: '$round',
@@ -62,4 +71,8 @@ export const Toggle = styled(TogglePrimitive.Root, {
       },
     },
   },
+  defaultVariants: {
+    size: 1,
+    shape: 'circle',
+  }
 })
