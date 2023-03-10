@@ -4,27 +4,23 @@ import { styled } from '@theme'
 export const SliderTrack = styled(Track, {
   position: 'relative',
   flexGrow: 1,
-  backgroundColor: '$slate7',
+  backgroundColor: '$blackA10',
   borderRadius: '$pill',
-  '&[data-orientation="horizontal"]': {
-    height: 2,
-  },
+
+  '&[data-orientation="horizontal"]': { height: 3 },
   '&[data-orientation="vertical"]': {
-    width: 2,
+    width: 3,
     height: 100,
   },
 })
 
 export const SliderRange = styled(Range, {
   position: 'absolute',
-  background: '$blue9',
+  background: '$hiContrast',
   borderRadius: 'inherit',
-  '&[data-orientation="horizontal"]': {
-    height: '100%',
-  },
-  '&[data-orientation="vertical"]': {
-    width: '100%',
-  },
+
+  '&[data-orientation="horizontal"]': { height: '100%' },
+  '&[data-orientation="vertical"]': { width: '100%' },
 })
 
 export const SliderThumb = styled(Thumb, {
@@ -33,8 +29,7 @@ export const SliderThumb = styled(Thumb, {
   width: 15,
   height: 15,
   outline: 'none',
-  opacity: '0',
-  backgroundColor: 'white',
+  backgroundColor: '$hiContrast',
   boxShadow: '0 0 1px rgba(0,0,0,.3), 0 1px 4px rgba(0,0,0,.15)',
   borderRadius: '$round',
 
@@ -59,29 +54,24 @@ export const SliderThumb = styled(Thumb, {
   },
 })
 
-export const StyledSlider = styled(Root, {
+export const SliderRoot = styled(Root, {
   position: 'relative',
   display: 'flex',
   alignItems: 'center',
   flexShrink: 0,
   userSelect: 'none',
   touchAction: 'none',
-  height: 15,
+  height: '$4',
   flexGrow: 1,
 
   '&[data-orientation="vertical"]': {
     flexDirection: 'column',
-    width: 15,
+    width: '$4',
   },
 
   '@hover': {
     '&:hover': {
-      [`& ${SliderTrack}`]: {
-        backgroundColor: '$slate8',
-      },
-      [`& ${SliderThumb}`]: {
-        opacity: '1',
-      },
+      [`& ${SliderTrack}`]: { backgroundColor: '$blackA8' }
     },
   },
 })
