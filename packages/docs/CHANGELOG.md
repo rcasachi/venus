@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.26.0...@venusui/docs@0.27.0) (2023-03-14)
+
+### Features
+
+- **docs:** remove AppBar doc ([883d576](https://github.com/rcasachi/venus/commit/883d5760b3e230ca332cbea49d41fa97d2448d3c))
+- **docs:** remove TreeItem docs ([f79347a](https://github.com/rcasachi/venus/commit/f79347ae50bccd09a59601be4a8756e04aefbf2c))
+
 # [0.26.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.25.0...@venusui/docs@0.26.0) (2023-03-14)
 
 ### Features

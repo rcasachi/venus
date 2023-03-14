@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.24.0...@venusui/components@0.25.0) (2023-03-14)
+
+### Features
+
+- **components:** remove AppBar component ([d4c8452](https://github.com/rcasachi/venus/commit/d4c8452df8a0601d3f917de2c0410e66e4c1105e))
+- **components:** remove TreeItem component ([5638f2b](https://github.com/rcasachi/venus/commit/5638f2b8b64a541b2deccb2818ecb8a08564470b))
+
 # [0.24.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.23.0...@venusui/components@0.24.0) (2023-03-14)
 
 ### Features
