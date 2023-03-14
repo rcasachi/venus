@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.22.0...@venusui/components@0.23.0) (2023-03-14)
+
+### Features
+
+- **components:** improve context menu component ([be5b481](https://github.com/rcasachi/venus/commit/be5b481d7feb60fe686d86467d6c110b8e7007f1))
+- **components:** improve contextmenu component ([c91a941](https://github.com/rcasachi/venus/commit/c91a9418e3aacc6ce47a1a8e524d1228ee4aa93f))
+- **components:** improve dialog and alert dialog components ([170868f](https://github.com/rcasachi/venus/commit/170868f14787a0fa8e93de256e10cf3629f41d3c))
+- **components:** improve dropdown menu component ([013449d](https://github.com/rcasachi/venus/commit/013449d5f5d00b9f0bc8af4ea43b634625785ac5))
+- **components:** improve dropdown menu component ([a0aa24b](https://github.com/rcasachi/venus/commit/a0aa24b3efe57df7c29b8aa6074a8558f42d4479))
+- **components:** improve Radio component ([2f9e206](https://github.com/rcasachi/venus/commit/2f9e20647431a2149618491b4c0e88f3abf527cb))
+- **components:** improve RadioCard component ([2edce62](https://github.com/rcasachi/venus/commit/2edce620d4bedcc88a728b4eda766ae51a1d4c8b))
+- **components:** improve RadioGrid component ([949ca23](https://github.com/rcasachi/venus/commit/949ca235e4565ea28f505e419022d1aac3da61bd))
+- **components:** improve Select component ([d70e022](https://github.com/rcasachi/venus/commit/d70e022c0b131b90199f479afe9c1fd025179456))
+- **components:** improve slider component ([5c5aa0a](https://github.com/rcasachi/venus/commit/5c5aa0ad3f2cc5cdfd75e5be7a893d25191d3dc2))
+- **components:** improve switch component ([88388c8](https://github.com/rcasachi/venus/commit/88388c8c582f28fd59cc6bc507f51999b197beb8))
+- **components:** improve tabs component ([2173fbf](https://github.com/rcasachi/venus/commit/2173fbf76689d1f05491f8a7c95ca2cdfdd55bae))
+- **components:** improve Toggle component ([b3174ed](https://github.com/rcasachi/venus/commit/b3174ed06419efeb5d18c5f672e4254ef470e32a))
+- **components:** improve tooltip components ([3d8f471](https://github.com/rcasachi/venus/commit/3d8f4711c2d9c3d33bc881f4d98f3533ceede6df))
+- **components:** remove tablink ([d52d2b4](https://github.com/rcasachi/venus/commit/d52d2b40b312559a08c4c78afa0d55521c464ea3))
+- **components:** removed menu component ([bb26cc1](https://github.com/rcasachi/venus/commit/bb26cc143e0a85249653997fe69d9d7bd617d91f))
+
 # [0.22.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.21.0...@venusui/components@0.22.0) (2023-03-07)
 
 ### Features

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.24.0...@venusui/docs@0.25.0) (2023-03-14)
+
+### Bug Fixes
+
+- **docs:** dropdown and context menu component ([17d3920](https://github.com/rcasachi/venus/commit/17d39202c84d9267a03b3a93614f8c8170f41101))
+
+### Features
+
+- **docs:** improve contextmenu docs ([ab8b97d](https://github.com/rcasachi/venus/commit/ab8b97def734419b579104fabf9212820570878d))
+- **docs:** improve dialog and alert dialog docs ([c1d61ee](https://github.com/rcasachi/venus/commit/c1d61eef7ebe244d01f82aed1cfb2784d412e1ce))
+- **docs:** improve radio docs ([b008e78](https://github.com/rcasachi/venus/commit/b008e7821c45a9f4465b4e6d19dfd1ef5c14e449))
+- **docs:** improve RadioCard docs ([9833b13](https://github.com/rcasachi/venus/commit/9833b13df5a66f39bc553ab9084ef490fc22c535))
+- **docs:** improve RadioGrid docs ([5f2560f](https://github.com/rcasachi/venus/commit/5f2560f13f21967cfac897420e62a99d7801cc76))
+- **docs:** improve Select docs ([243221a](https://github.com/rcasachi/venus/commit/243221a2e4de9ba4968d0890cc347766500e39b0))
+- **docs:** improve slider docs ([da6b168](https://github.com/rcasachi/venus/commit/da6b16874e5a6dad7b3662df246abe0a9c04da98))
+- **docs:** improve switch docs ([18e1333](https://github.com/rcasachi/venus/commit/18e1333e61c0503a67084451a1a487189bacff88))
+- **docs:** improve tabs docs ([d0cb9f1](https://github.com/rcasachi/venus/commit/d0cb9f1cbda0f7c1493a60c2dd80624890771689))
+- **docs:** improve Toggle docs ([d5e1ac3](https://github.com/rcasachi/venus/commit/d5e1ac3776269f5022c60f71b7508f13bd9fba80))
+- **docs:** improve tooltips docs ([ffa8da7](https://github.com/rcasachi/venus/commit/ffa8da7b894b3bcf836e96fa1cb330fa8c921d8f))
+- **docs:** remove menu docs ([fa6e317](https://github.com/rcasachi/venus/commit/fa6e317a4f3d8a3e19294c3b08ab1f246822234b))
+- **docs:** remove tablink ([ceb2447](https://github.com/rcasachi/venus/commit/ceb244702508a63ecb07a6705dd48e5302a2c940))
+
 # [0.24.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.23.0...@venusui/docs@0.24.0) (2023-03-07)
 
 ### Features
