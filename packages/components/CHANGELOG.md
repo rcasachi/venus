@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.23.0...@venusui/components@0.24.0) (2023-03-14)
+
+### Features
+
+- **components:** improve table component ([9412896](https://github.com/rcasachi/venus/commit/94128960a1e1918a3ebb7a65fd8b3e5c1db47efd))
+
 # [0.23.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.22.0...@venusui/components@0.23.0) (2023-03-14)
 
 ### Features
