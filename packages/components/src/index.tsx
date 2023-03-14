@@ -1,6 +1,5 @@
 export * from './components/display/Accordion'
 export * from './components/display/Alert'
-export * from './components/AppBar'
 export * from './components/display/Avatar'
 export * from './components/display/AspectRatio'
 export * from './components/display/Badge'
