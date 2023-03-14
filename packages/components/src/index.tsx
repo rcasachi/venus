@@ -52,7 +52,6 @@ export * from './components/interaction/TextField'
 export * from './components/ThemeProvider'
 export * from './components/interaction/Toggle'
 export * from './components/display/Tooltip'
-export * from './components/TreeItem'
 export * from './components/display/VerifiedBadge'
 
 export * from '@radix-ui/react-icons'
