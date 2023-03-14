@@ -1,29 +1,36 @@
 import { Content, List, Root, Trigger } from '@radix-ui/react-tabs'
 import { styled } from '@theme'
 
-export const StylesTabs = styled(Root, {
-  display: 'flex',
+export const Tabs = styled(Root, {
+  boxShadow: '0 2px 10px $colors$blackA4}',
+
   '&[data-orientation="horizontal"]': {
-    flexDirection: 'column',
+    display: 'flex',
+    flexDirection: 'column'
+  },
+  '&[data-orientation="vertical"]': {
+    display: 'flex',
+    flexDirection: 'row'
   },
 })
 
-export const StyledTabsTrigger = styled(Trigger, {
-  flexShrink: 0,
-  height: '$5',
-  display: 'inline-flex',
-  lineHeight: 1,
-  fontSize: '$1',
-  px: '$2',
+export const TabsTrigger = styled(Trigger, {
+  all: 'unset',
   userSelect: 'none',
-  outline: 'none',
+  display: 'inline-flex',
   alignItems: 'center',
   justifyContent: 'center',
-  color: '$slate11',
+  flexShrink: 0,
+  height: '$10',
+  px: '$2',
+  zIndex: 10,
   border: '1px solid transparent',
-  borderTopLeftRadius: '$2',
-  borderTopRightRadius: '$2',
-  zIndex: '10',
+  outline: 'none',
+  fontFamily: '$untitled',
+  fontSize: '$2',
+  lineHeight: 1,
+  color: '$hiContrast',
+  backgroundColor: '$loContrast',
 
   '@hover': {
     '&:hover': {
@@ -39,8 +46,6 @@ export const StyledTabsTrigger = styled(Trigger, {
 
   '&[data-orientation="vertical"]': {
     justifyContent: 'flex-start',
-    borderTopRightRadius: 0,
-    borderBottomLeftRadius: '$2',
     borderBottomColor: 'transparent',
 
     '&[data-state="active"]': {
@@ -48,23 +53,38 @@ export const StyledTabsTrigger = styled(Trigger, {
       borderRightColor: 'transparent',
     },
   },
+
+  '&[data-orientation="horizontal"]': {
+    flex: 1,
+  },
 })
 
-export const StyledTabsList = styled(List, {
-  flexShrink: 0,
+export const TabsList = styled(List, {
   display: 'flex',
+  flexShrink: 0,
+
   '&:focus': {
     outline: 'none',
     boxShadow: 'inset 0 0 0 1px $slate8, 0 0 0 1px $slate8',
   },
+
   '&[data-orientation="vertical"]': {
     flexDirection: 'column',
     boxShadow: 'inset -1px 0 0 $slate6',
+    maxWidth: 200,
+    minWidth: 120,
+    borderRight: '1px solid $colors$slate6',
+  },
+
+  '&[data-orientation="horizontal"]': {
+    borderBottom: '1px solid $colors$slate6',
   },
 })
 
-export const StyledTabsContent = styled(Content, {
+export const TabsContent = styled(Content, {
   flexGrow: 1,
+  padding: 20,
+  backgroundColor: '$loContrast',
   '&:focus': {
     outline: 'none',
     boxShadow: 'inset 0 0 0 1px $slate8, 0 0 0 1px $slate8',
