@@ -8,22 +8,25 @@ import {
   StyledItem,
   StyledTrigger,
 } from './styles'
-import { AccordionContentProps, AccordionProps, AccordionTriggerProps } from './types'
+import {
+  AccordionContentProps,
+  AccordionProps,
+  AccordionTriggerProps,
+} from './types'
 import { Box } from '@components/surfaces/Box'
 
 export const Accordion = forwardRef<
   ElementRef<typeof StyledAccordion>,
   AccordionProps
 >(({ children, ...props }, forwardedRef) => (
-    <StyledAccordion
-      ref={forwardedRef}
-      {...props}
-      {...(props.type === 'single' ? { collapsible: true } : {})}
-    >
-      {children}
-    </StyledAccordion>
-  )
-)
+  <StyledAccordion
+    ref={forwardedRef}
+    {...props}
+    {...(props.type === 'single' ? { collapsible: true } : {})}
+  >
+    {children}
+  </StyledAccordion>
+))
 
 export const AccordionTrigger = forwardRef<
   ElementRef<typeof StyledTrigger>,
@@ -35,8 +38,7 @@ export const AccordionTrigger = forwardRef<
       <ChevronDownIcon />
     </StyledTrigger>
   </StyledHeader>
-  )
-)
+))
 
 export const AccordionContent = forwardRef<
   ElementRef<typeof StyledContent>,
@@ -48,3 +50,8 @@ export const AccordionContent = forwardRef<
 ))
 
 export const AccordionItem = StyledItem
+
+Accordion.displayName = 'Accordion'
+AccordionTrigger.displayName = 'AccordionTrigger'
+AccordionContent.displayName = 'AccordionContent'
+AccordionItem.displayName = 'AccordionItem'

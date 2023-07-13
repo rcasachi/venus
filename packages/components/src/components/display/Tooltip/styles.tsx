@@ -2,7 +2,7 @@ import { styled } from '@theme'
 import { Arrow, Content } from '@radix-ui/react-tooltip'
 
 export const TooltipContent = styled(Content, {
-  backgroundColor: '$transparentPanel',
+  backgroundColor: '$panel',
   borderRadius: '$2',
   padding: '$1 $2',
   userSelect: 'none',
@@ -18,5 +18,5 @@ export const TooltipContent = styled(Content, {
 })
 
 export const TooltipArrow = styled(Arrow, {
-  fill: '$transparentPanel',
+  fill: '$panel',
 })

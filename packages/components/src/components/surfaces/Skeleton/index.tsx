@@ -63,7 +63,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$5',
         width: '$5',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -71,7 +71,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$6',
         width: '$6',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -79,7 +79,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$7',
         width: '$7',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -87,7 +87,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$8',
         width: '$8',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -95,7 +95,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$10',
         width: '$10',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -103,7 +103,7 @@ export const Skeleton = styled('div', {
       css: {
         height: '$12',
         width: '$12',
-      }
+      },
     },
     {
       variant: 'avatar',
@@ -111,8 +111,8 @@ export const Skeleton = styled('div', {
       css: {
         height: '$16',
         width: '$16',
-      }
-    }
+      },
+    },
   ],
   defaultVariants: {
     variant: 'text',

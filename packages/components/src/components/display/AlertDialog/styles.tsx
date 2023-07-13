@@ -1,4 +1,9 @@
-import { Content, Description, Overlay, Title } from '@radix-ui/react-alert-dialog'
+import {
+  Content,
+  Description,
+  Overlay,
+  Title,
+} from '@radix-ui/react-alert-dialog'
 
 import { styled } from '@theme'
 import { overlayStyles } from '@components/surfaces/Overlay'
@@ -24,7 +29,8 @@ export const StyledAlertContent = styled(Content, panelStyles, {
   marginTop: '-5vh',
   willChange: 'transform',
   borderRadius: '$3',
-  boxShadow: 'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
+  boxShadow:
+    'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
 
   '&:focus': {
     outline: 'none',
@@ -35,14 +41,14 @@ export const AlertDialogTitle = styled(Title, {
   margin: 0,
   fontFamily: '$untitled',
   fontWeight: '$2',
-  color: '$mauve12',
+  color: '$text',
   fontSize: '$4',
 })
 
 export const AlertDialogDescription = styled(Description, {
   margin: '10px 0 20px',
   fontFamily: '$untitled',
-  color: '$mauve11',
+  color: '$mauve12',
   fontSize: '$3',
   lineHeight: '$5',
 })

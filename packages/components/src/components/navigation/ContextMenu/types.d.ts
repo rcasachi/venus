@@ -1,4 +1,9 @@
-import { RadioItem, Content, CheckboxItem, Root } from '@radix-ui/react-context-menu'
+import {
+  RadioItem,
+  Content,
+  CheckboxItem,
+  Root,
+} from '@radix-ui/react-context-menu'
 import { CSS } from '@stitches/react'
 import { ComponentProps } from 'react'
 

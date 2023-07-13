@@ -16,9 +16,38 @@ export const Step = styled('div', {
 
   variants: {
     active: {
-      true: {
+      true: {},
+    },
+    variant: {
+      default: {},
+      primary: {},
+      secondary: {},
+    },
+  },
+  compoundVariants: [
+    {
+      active: true,
+      variant: 'default',
+      css: {
         backgroundColor: '$blackA8',
       },
     },
+    {
+      active: true,
+      variant: 'primary',
+      css: {
+        backgroundColor: '$primary',
+      },
+    },
+    {
+      active: true,
+      variant: 'secondary',
+      css: {
+        backgroundColor: '$secondary',
+      },
+    },
+  ],
+  defaultVariants: {
+    variant: 'default',
   },
 })

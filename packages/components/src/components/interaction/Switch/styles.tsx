@@ -6,7 +6,7 @@ export const SwitchThumb = styled(Thumb, {
   left: 0,
   width: 12,
   height: 12,
-  backgroundColor: '$loContrast',
+  backgroundColor: '$darkPrimary',
   borderRadius: '$round',
   boxShadow: 'rgba(0, 0, 0, 0.3) 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 1px 2px;',
   transition: 'transform 100ms cubic-bezier(0.22, 1, 0.36, 1)',

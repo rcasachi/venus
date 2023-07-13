@@ -15,4 +15,6 @@ export const RadioCard = forwardRef<
   </StyledRadio>
 ))
 
+RadioCard.displayName = 'RadioCard'
+
 export { RadioCardGroup } from './styles'

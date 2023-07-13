@@ -6,11 +6,11 @@ export const Tabs = styled(Root, {
 
   '&[data-orientation="horizontal"]': {
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
   },
   '&[data-orientation="vertical"]': {
     display: 'flex',
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
 })
 
@@ -24,33 +24,32 @@ export const TabsTrigger = styled(Trigger, {
   height: '$10',
   px: '$2',
   zIndex: 10,
-  border: '1px solid transparent',
+  border: '2px solid transparent',
   outline: 'none',
   fontFamily: '$untitled',
   fontSize: '$2',
   lineHeight: 1,
-  color: '$hiContrast',
-  backgroundColor: '$loContrast',
+  color: '$text',
+  backgroundColor: '$panel',
 
   '@hover': {
     '&:hover': {
-      color: '$hiContrast',
+      borderBottomColor: '$primary',
     },
   },
 
   '&[data-state="active"]': {
-    color: '$hiContrast',
-    borderColor: '$slate6',
-    borderBottomColor: 'transparent',
+    backgroundColor: '$background',
   },
 
   '&[data-orientation="vertical"]': {
     justifyContent: 'flex-start',
     borderBottomColor: 'transparent',
 
-    '&[data-state="active"]': {
-      borderBottomColor: '$slate6',
-      borderRightColor: 'transparent',
+    '@hover': {
+      '&:hover': {
+        borderRightColor: '$primary',
+      },
     },
   },
 
@@ -73,18 +72,13 @@ export const TabsList = styled(List, {
     boxShadow: 'inset -1px 0 0 $slate6',
     maxWidth: 200,
     minWidth: 120,
-    borderRight: '1px solid $colors$slate6',
-  },
-
-  '&[data-orientation="horizontal"]': {
-    borderBottom: '1px solid $colors$slate6',
   },
 })
 
 export const TabsContent = styled(Content, {
   flexGrow: 1,
   padding: 20,
-  backgroundColor: '$loContrast',
+  backgroundColor: '$background',
   '&:focus': {
     outline: 'none',
     boxShadow: 'inset 0 0 0 1px $slate8, 0 0 0 1px $slate8',

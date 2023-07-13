@@ -2,8 +2,17 @@ import { ElementRef, forwardRef } from 'react'
 import * as ContextMenuPrimitive from '@radix-ui/react-context-menu'
 import { CheckIcon, DotFilledIcon } from '@radix-ui/react-icons'
 
-import { ContextMenuItemIndicator, StyledContent, StyledContextMenuCheckboxItem, StyledContextMenuRadioItem } from './styles'
-import { ContextMenuCheckboxItemProps, ContextMenuContentProps, ContextMenuRadioItemProps } from './types'
+import {
+  ContextMenuItemIndicator,
+  StyledContent,
+  StyledContextMenuCheckboxItem,
+  StyledContextMenuRadioItem,
+} from './styles'
+import {
+  ContextMenuCheckboxItemProps,
+  ContextMenuContentProps,
+  ContextMenuRadioItemProps,
+} from './types'
 
 export const ContextMenu = ContextMenuPrimitive.Root
 export const ContextMenuTrigger = ContextMenuPrimitive.Trigger
@@ -52,6 +61,5 @@ export {
   ContextMenuItemIndicator,
   ContextMenuSubContent,
   ContextMenuSubTrigger,
-  RightSlot
+  RightSlot,
 } from './styles'
-

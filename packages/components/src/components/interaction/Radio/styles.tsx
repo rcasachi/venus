@@ -21,7 +21,7 @@ export const RadioIndicator = styled(Indicator, {
     width: 7,
     height: 7,
     borderRadius: '50%',
-    backgroundColor: '$hiContrast',
+    backgroundColor: '$primary',
   },
 })
 
@@ -40,15 +40,15 @@ export const StyledRadio = styled(Item, {
   outline: 'none',
   textDecoration: 'none',
   borderRadius: '100%',
-  color: '$hiContrast',
-  boxShadow: 'inset 0 0 0 1px $colors$gray9',
+  color: '$primary',
+  boxShadow: 'inset 0 0 0 1px $colors$primary',
 
   '&::before': { boxSizing: 'border-box' },
   '&::after': { boxSizing: 'border-box' },
 
   '@hover': {
     '&:hover': {
-      boxShadow: 'inset 0 0 0 1px $colors$gray8',
+      boxShadow: 'inset 0 0 0 1px $colors$lightPrimary',
     },
   },
   '&:focus': {

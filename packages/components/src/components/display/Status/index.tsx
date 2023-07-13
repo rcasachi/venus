@@ -16,6 +16,15 @@ export const Status = styled('div', {
       },
     },
     variant: {
+      primary: {
+        backgroundColor: '$primary',
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+      },
+      accent: {
+        backgroundColor: '$accent',
+      },
       gray: {
         backgroundColor: '$slate7',
       },

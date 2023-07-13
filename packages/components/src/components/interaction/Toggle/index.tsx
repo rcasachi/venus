@@ -20,7 +20,7 @@ export const Toggle = styled(TogglePrimitive.Root, {
 
   '&::before': { boxSizing: 'border-box' },
   '&::after': { boxSizing: 'border-box' },
-  '&:active': {  backgroundColor: '$slateA4' },
+  '&:active': { backgroundColor: '$slateA4' },
 
   '@hover': {
     '&:hover': {
@@ -60,7 +60,7 @@ export const Toggle = styled(TogglePrimitive.Root, {
         height: '$10',
         width: '$10',
         fontSize: '$5',
-      }
+      },
     },
     shape: {
       circle: {
@@ -74,5 +74,5 @@ export const Toggle = styled(TogglePrimitive.Root, {
   defaultVariants: {
     size: 1,
     shape: 'circle',
-  }
+  },
 })

@@ -8,14 +8,11 @@ export const Code = styled('code', {
 
   variants: {
     variant: {
-      gray: {
-        backgroundColor: '$slate3',
-        color: '$slate11',
-      },
-      violet: {
-        backgroundColor: '$violet3',
-        color: '$violet11',
-      },
+      primary: { backgroundColor: '$slate3', color: '$lightPrimary' },
+      secondary: { backgroundColor: '$slate3', color: '$secondary' },
+      accent: { backgroundColor: '$slate3', color: '$accent' },
+      gray: { backgroundColor: '$slate3', color: '$slate11' },
+      violet: { backgroundColor: '$violet3', color: '$violet11' },
     },
   },
   defaultVariants: {

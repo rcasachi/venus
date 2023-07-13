@@ -21,3 +21,5 @@ export const Slider = forwardRef<ElementRef<typeof SliderRoot>, SliderProps>(
     )
   },
 )
+
+Slider.displayName = 'Slider'

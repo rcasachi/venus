@@ -7,9 +7,13 @@ import {
   StyledDropdownMenuCheckboxItem,
   StyledDropdownMenuContent,
   StyledDropdownMenuRadioItem,
-  DropdownMenuArrow
+  DropdownMenuArrow,
 } from './styles'
-import { DialogMenuCheckboxItemProps, DialogMenuRadioItemProps, DropdownMenuContentProps } from './types'
+import {
+  DialogMenuCheckboxItemProps,
+  DialogMenuRadioItemProps,
+  DropdownMenuContentProps,
+} from './types'
 
 export const DropdownMenu = DropdownMenuPrimitive.Root
 export const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger
@@ -21,7 +25,7 @@ export const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup
 export const DropdownMenuContent = forwardRef<
   ElementRef<typeof StyledDropdownMenuContent>,
   DropdownMenuContentProps
-  >(({ children,...props }, forwardedRef) => (
+>(({ children, ...props }, forwardedRef) => (
   <DropdownMenuPrimitive.Portal>
     <StyledDropdownMenuContent {...props} ref={forwardedRef}>
       {children}
@@ -53,6 +57,10 @@ export const DropdownMenuRadioItem = forwardRef<
     {children}
   </StyledDropdownMenuRadioItem>
 ))
+
+DropdownMenuContent.displayName = 'DropdownMenuContent'
+DropdownMenuCheckboxItem.displayName = 'DropdownMenuCheckboxItem'
+DropdownMenuRadioItem.displayName = 'DropdownMenuRadioItem'
 
 export {
   DropdownMenuItem,

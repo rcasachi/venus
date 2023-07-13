@@ -5,6 +5,7 @@ export const Text = styled('span', {
   fontWeight: '$1',
   margin: '$0',
   lineHeight: '$_1',
+  color: '$text',
 
   variants: {
     size: {

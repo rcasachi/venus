@@ -26,6 +26,7 @@ export const ControlGroup = styled('div', {
     },
   },
   [`& ${TextInputContainer}`]: {
+    alignItems: 'center',
     '&:focus': {
       zIndex: '$1',
     },

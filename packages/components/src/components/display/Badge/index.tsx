@@ -54,6 +54,29 @@ export const Badge = styled('span', {
       },
     },
     variant: {
+      primary: {
+        backgroundColor: '$primary',
+        color: '$text',
+        '&:focus': {
+          boxShadow:
+            'inset 0 0 0 1px $colors$darkPrimary, 0 0 0 1px $colors$darkPrimary',
+        },
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+        color: '$text',
+        '&:focus': {
+          boxShadow:
+            'inset 0 0 0 1px $colors$darkSecondary, 0 0 0 1px $colors$darkSecondary',
+        },
+      },
+      accent: {
+        backgroundColor: '$accent',
+        color: '$text',
+        '&:focus': {
+          boxShadow: 'inset 0 0 0 1px $colors$accent, 0 0 0 1px $colors$accent',
+        },
+      },
       gray: {
         backgroundColor: '$slate3',
         color: '$slate11',
@@ -180,6 +203,60 @@ export const Badge = styled('span', {
   },
 
   compoundVariants: [
+    {
+      interactive: true,
+      variant: 'primary',
+      css: {
+        '@hover': {
+          '&:hover': {
+            backgroundColor: '$darkPrimary',
+          },
+        },
+        '&:active': {
+          backgroundColor: '$primary',
+        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$primary',
+          },
+      },
+    },
+    {
+      interactive: true,
+      variant: 'secondary',
+      css: {
+        '@hover': {
+          '&:hover': {
+            backgroundColor: '$darkSecondary',
+          },
+        },
+        '&:active': {
+          backgroundColor: '$secondary',
+        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$secondary',
+          },
+      },
+    },
+    {
+      interactive: true,
+      variant: 'accent',
+      css: {
+        '@hover': {
+          '&:hover': {
+            backgroundColor: '$accent',
+          },
+        },
+        '&:active': {
+          backgroundColor: '$accent',
+        },
+        '&[data-radix-popover-trigger][data-state="open"], &[data-radix-dropdown-menu-trigger][data-state="open"]':
+          {
+            backgroundColor: '$accent',
+          },
+      },
+    },
     {
       interactive: true,
       variant: 'red',

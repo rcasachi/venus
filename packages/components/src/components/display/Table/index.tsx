@@ -85,17 +85,17 @@ export const Td = styled('td', {
 export const Thead = styled('thead', {
   [`& ${Th}`]: {
     fontSize: '$1',
-    color: '$gray11',
+    color: '$mauve11',
   },
   [`& ${Td}`]: {
     fontSize: '$1',
-    color: '$gray11',
+    color: '$mauve11',
   },
 })
 
 export const Table = styled('table', {
   fontFamily: '$untitled',
-  color: '$hiContrast',
+  color: '$text',
   width: '100%',
   tableLayout: 'fixed',
   borderSpacing: 0,

@@ -17,3 +17,5 @@ export const ProgressBar = forwardRef<
     </StyledProgressBar>
   )
 })
+
+ProgressBar.displayName = 'ProgressBar'

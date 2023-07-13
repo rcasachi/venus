@@ -8,7 +8,9 @@ export const Radio = forwardRef<ElementRef<typeof StyledRadio>, RadioProps>(
     <StyledRadio {...props} ref={forwardedRef}>
       <RadioIndicator />
     </StyledRadio>
-  )
+  ),
 )
+
+Radio.displayName = 'Radio'
 
 export { RadioGroup } from './styles'

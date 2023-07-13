@@ -33,6 +33,18 @@ export const Banner = styled('div', {
       },
     },
     variant: {
+      primary: {
+        backgroundColor: '$primary',
+        color: '$text',
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+        color: '$text',
+      },
+      accent: {
+        backgroundColor: '$accent',
+        color: '$text',
+      },
       contrast: {
         backgroundColor: '$loContrast',
         color: '$gray12',
@@ -66,6 +78,27 @@ export const Banner = styled('div', {
     },
   },
   compoundVariants: [
+    {
+      border: true,
+      variant: 'primary',
+      css: {
+        borderColor: '$darkPrimary',
+      },
+    },
+    {
+      border: true,
+      variant: 'secondary',
+      css: {
+        borderColor: '$darkSecondary',
+      },
+    },
+    {
+      border: true,
+      variant: 'accent',
+      css: {
+        borderColor: '$accent',
+      },
+    },
     {
       border: true,
       variant: 'gray',

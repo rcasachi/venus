@@ -7,5 +7,7 @@ export const Switch = forwardRef<ElementRef<typeof SwitchRoot>, SwitchProps>(
     <SwitchRoot {...props} ref={forwardedRef}>
       <SwitchThumb />
     </SwitchRoot>
-  )
+  ),
 )
+
+Switch.displayName = 'Switch'

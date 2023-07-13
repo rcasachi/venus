@@ -46,7 +46,7 @@ const slideOut = keyframes({
 export const Content = styled(PrimitiveContent, {
   backgroundColor: '$panel',
   boxShadow:
-    '$colors$shadowLight 0 0 38px -10px, $colors$shadowDark 0 0 35px -15px',
+    '$colors$shadowLight 0 0 26px -10px, $colors$shadowDark 0 0 23px -15px',
   position: 'fixed',
   top: 0,
   bottom: 0,

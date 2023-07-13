@@ -71,7 +71,7 @@ export const SliderRoot = styled(Root, {
 
   '@hover': {
     '&:hover': {
-      [`& ${SliderTrack}`]: { backgroundColor: '$blackA8' }
+      [`& ${SliderTrack}`]: { backgroundColor: '$blackA8' },
     },
   },
 })

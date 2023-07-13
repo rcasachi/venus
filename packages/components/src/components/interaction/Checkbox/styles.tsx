@@ -7,7 +7,7 @@ export const CheckboxContainer = styled(Root, {
   lineHeight: 0,
   overflow: 'hidden',
   boxSizing: 'border-box',
-  backgroundColor: '$gray4',
+  backgroundColor: '$panel',
   border: '1px solid $gray9',
   borderRadius: '$2',
   display: 'flex',
@@ -16,7 +16,7 @@ export const CheckboxContainer = styled(Root, {
   cursor: 'pointer',
   '&:hover': { backgroundColor: '$gray3' },
   '&:focus': { boxShadow: `0 0 0 2px black` },
-  '&[data-state="checked"]': { backgroundColor: '$gray3' },
+  '&[data-state="checked"]': { backgroundColor: '$primary' },
 
   variants: {
     size: {
@@ -40,7 +40,7 @@ export const CheckboxContainer = styled(Root, {
 })
 
 export const CheckboxIndicator = styled(Indicator, {
-  color: '$hiContrast',
+  color: '$whiteA12',
   width: '100%',
   height: '100%',
 })

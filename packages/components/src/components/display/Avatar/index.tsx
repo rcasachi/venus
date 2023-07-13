@@ -40,7 +40,7 @@ export function Avatar({
             position: 'absolute',
             bottom: '0',
             right: '0',
-            boxShadow: '0 0 0 2px $colors$loContrast',
+            boxShadow: '0 0 0 2px $colors$background',
             borderRadius: '$round',
           }}
         >

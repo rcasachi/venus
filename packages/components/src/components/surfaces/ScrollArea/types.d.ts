@@ -1,10 +1,9 @@
 import { CSS } from '@stitches/react'
-import React, { ComponentProps, ElementType } from 'react'
-import { ScrollArea } from '.'
+import React from 'react'
 
-export type ScrollAreaType = "auto" | "always" | "scroll" | "hover"
-export type ScrollAreaDir = "ltr" | "rtl"
-export type ScrollAreaOrientation = "horizontal" | "vertical"
+export type ScrollAreaType = 'auto' | 'always' | 'scroll' | 'hover'
+export type ScrollAreaDir = 'ltr' | 'rtl'
+export type ScrollAreaOrientation = 'horizontal' | 'vertical'
 
 export interface ScrollAreaProps {
   asChild?: boolean

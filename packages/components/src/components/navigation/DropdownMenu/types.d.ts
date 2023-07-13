@@ -1,4 +1,9 @@
-import { Content, CheckboxItem, RadioItem, Root } from '@radix-ui/react-dropdown-menu'
+import {
+  Content,
+  CheckboxItem,
+  RadioItem,
+  Root,
+} from '@radix-ui/react-dropdown-menu'
 import { CSS } from '@stitches/react'
 import { ComponentProps } from 'react'
 

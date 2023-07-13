@@ -1,13 +1,23 @@
-import { CheckboxItem, Content, Item, ItemIndicator, Label, RadioItem, Separator, SubContent, SubTrigger } from "@radix-ui/react-context-menu"
+import {
+  CheckboxItem,
+  Content,
+  Item,
+  ItemIndicator,
+  Label,
+  RadioItem,
+  Separator,
+  SubContent,
+  SubTrigger,
+} from '@radix-ui/react-context-menu'
 
-import { styled } from "@theme"
+import { styled } from '@theme'
 
 const contentStyles = {
   overflow: 'hidden',
   minWidth: 220,
   padding: '$1',
   borderRadius: '$3',
-  backgroundColor: '$loContrast',
+  backgroundColor: '$panel',
   fontFamily: '$untitled',
   boxShadow:
     '0px 10px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)',
@@ -36,8 +46,8 @@ const itemStyles = {
   },
 
   '&[data-highlighted]': {
-    backgroundColor: '$hiContrast',
-    color: '$loContrast',
+    backgroundColor: '$primary',
+    color: '$whiteA12',
   },
 }
 

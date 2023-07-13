@@ -1,5 +1,11 @@
-import { ScrollAreaCorner, ScrollAreaRoot, ScrollAreaScrollbar, ScrollAreaThumb, ScrollAreaViewport } from './styles'
-import { ScrollAreaProps } from './types';
+import {
+  ScrollAreaCorner,
+  ScrollAreaRoot,
+  ScrollAreaScrollbar,
+  ScrollAreaThumb,
+  ScrollAreaViewport,
+} from './styles'
+import { ScrollAreaProps } from './types'
 
 export const ScrollArea = ({
   asChild = false,
@@ -7,7 +13,7 @@ export const ScrollArea = ({
   scrollHideDelay = 600,
   children,
   dir,
-  css
+  css,
 }: ScrollAreaProps) => {
   return (
     <ScrollAreaRoot
@@ -17,9 +23,7 @@ export const ScrollArea = ({
       dir={dir}
       css={css}
     >
-      <ScrollAreaViewport>
-        {children}
-      </ScrollAreaViewport>
+      <ScrollAreaViewport>{children}</ScrollAreaViewport>
       <ScrollAreaScrollbar orientation="vertical">
         <ScrollAreaThumb />
       </ScrollAreaScrollbar>
@@ -29,6 +33,6 @@ export const ScrollArea = ({
       <ScrollAreaCorner />
     </ScrollAreaRoot>
   )
-};
+}
 
 ScrollArea.displayName = 'ScrollArea'

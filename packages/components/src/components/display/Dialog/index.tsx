@@ -26,8 +26,6 @@ export const DialogContent = forwardRef<
   </DialogPrimitive.Portal>
 ))
 
-export {
-  DialogCloseButton,
-  DialogTitle,
-  DialogDescription
-} from './styles'
+export { DialogCloseButton, DialogTitle, DialogDescription } from './styles'
+
+DialogContent.displayName = 'DialogContent'

@@ -8,10 +8,10 @@ import {
   SelectIcon as Icon,
   SelectTrigger as Trigger,
   Separator,
-  Viewport
-} from "@radix-ui/react-select";
+  Viewport,
+} from '@radix-ui/react-select'
 
-import { styled } from "@theme";
+import { styled } from '@theme'
 
 export const SelectTrigger = styled(Trigger, {
   all: 'unset',
@@ -26,8 +26,7 @@ export const SelectTrigger = styled(Trigger, {
   height: 35,
   gap: 5,
   backgroundColor: '$loContrast',
-  color: '$hiContrast',
-  boxShadow: '0 2px 10px $colors$blackA7',
+  color: '$text',
 
   '&:focus': { boxShadow: `0 0 0 2px black` },
   '&[data-placeholder]': { color: '$hiContrast' },
@@ -37,24 +36,24 @@ export const SelectTrigger = styled(Trigger, {
     color: '$hiContrast',
     '[data-placeholder]': { color: '$hiContrast' },
   },
-});
+})
 
 export const SelectIcon = styled(Icon, {
-  color: '$hiContrast',
-});
+  color: '$text',
+})
 
 export const SelectContent = styled(Content, {
   overflow: 'hidden',
   fontFamily: '$untitled',
-  backgroundColor: '$loContrast',
+  backgroundColor: '$panel', // loContrast
   borderRadius: '$3',
   boxShadow:
     '0px 10px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)',
-});
+})
 
 export const SelectViewport = styled(Viewport, {
   padding: '$1',
-});
+})
 
 export const StyledItem = styled(Item, {
   userSelect: 'none',
@@ -66,7 +65,7 @@ export const StyledItem = styled(Item, {
   borderRadius: '$2',
   fontSize: '$2',
   lineHeight: 1,
-  color: '$hiContrast',
+  color: '$text',
 
   '&[data-disabled]': {
     color: '$mauve8',
@@ -75,23 +74,23 @@ export const StyledItem = styled(Item, {
 
   '&[data-highlighted]': {
     outline: 'none',
-    backgroundColor: '$hiContrast',
-    color: '$loContrast',
+    backgroundColor: '$primary',
+    color: '$whiteA12',
   },
-});
+})
 
 export const SelectLabel = styled(Label, {
   padding: '0 $6',
   fontSize: '$1',
   lineHeight: '$4',
   color: '$mauve11',
-});
+})
 
 export const SelectSeparator = styled(Separator, {
   height: 1,
   backgroundColor: '$gray6',
   margin: '$3',
-});
+})
 
 export const SelectItemIndicator = styled(ItemIndicator, {
   position: 'absolute',
@@ -100,7 +99,7 @@ export const SelectItemIndicator = styled(ItemIndicator, {
   display: 'inline-flex',
   alignItems: 'center',
   justifyContent: 'center',
-});
+})
 
 const scrollButtonStyles = {
   display: 'flex',
@@ -108,9 +107,12 @@ const scrollButtonStyles = {
   justifyContent: 'center',
   height: '$6',
   backgroundColor: '$loConstrast',
-  color: '$hiConstrast',
+  color: '$text',
   cursor: 'default',
-};
+}
 
-export const SelectScrollUpButton = styled(ScrollUpButton, scrollButtonStyles);
-export const SelectScrollDownButton = styled(ScrollDownButton, scrollButtonStyles);
+export const SelectScrollUpButton = styled(ScrollUpButton, scrollButtonStyles)
+export const SelectScrollDownButton = styled(
+  ScrollDownButton,
+  scrollButtonStyles,
+)

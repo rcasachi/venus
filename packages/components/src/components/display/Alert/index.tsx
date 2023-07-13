@@ -30,6 +30,34 @@ export const Alert = styled('div', {
         backgroundColor: '$loContrast',
         borderColor: '$slate6',
       },
+      primary: {
+        backgroundColor: '$primary',
+        borderColor: '$darkPrimary',
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+        borderColor: '$darkSecondary',
+      },
+      accent: {
+        backgroundColor: '$accent',
+        borderColor: '$accent',
+      },
+      success: {
+        backgroundColor: '$success',
+        borderColor: '$success',
+      },
+      error: {
+        backgroundColor: '$error',
+        borderColor: '$error',
+      },
+      warning: {
+        backgroundColor: '$warning',
+        borderColor: '$warning',
+      },
+      info: {
+        backgroundColor: '$info',
+        borderColor: '$info',
+      },
       gray: {
         backgroundColor: '$slate2',
         borderColor: '$slate6',

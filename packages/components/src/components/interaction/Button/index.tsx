@@ -40,6 +40,30 @@ export const Button = styled('button', {
 
   variants: {
     color: {
+      primary: {
+        backgroundColor: '$primary',
+        color: '$whiteA12',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$darkPrimary',
+          color: '$whiteA12',
+        },
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+        color: '$whiteA12',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$darkSecondary',
+          color: '$whiteA12',
+        },
+      },
+      accent: {
+        backgroundColor: '$accent',
+        color: '$whiteA12',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$cyan8',
+          color: '$whiteA12',
+        },
+      },
       highcontrast: {
         backgroundColor: '$hiContrast',
         color: '$loContrast',
@@ -109,7 +133,7 @@ export const Button = styled('button', {
         borderRadius: '$3',
         px: '$4',
         py: '$0',
-        fontSize: '$3',
+        fontSize: '$2',
         lineHeight: '$sizes$6',
 
         svg: {
@@ -159,6 +183,45 @@ export const Button = styled('button', {
     },
 
     {
+      color: 'primary',
+      outlined: true,
+      css: {
+        backgroundColor: 'transparent',
+        border: '1px solid $lightPrimary',
+        color: '$lightPrimary',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$lightPrimary',
+          color: '$whiteA12',
+        },
+      },
+    },
+    {
+      color: 'secondary',
+      outlined: true,
+      css: {
+        backgroundColor: 'transparent',
+        border: '1px solid $secondary',
+        color: '$secondary',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$secondary',
+          color: '$whiteA12',
+        },
+      },
+    },
+    {
+      color: 'accent',
+      outlined: true,
+      css: {
+        backgroundColor: 'transparent',
+        border: '1px solid $accent',
+        color: '$accent',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$accent',
+          color: '$whiteA12',
+        },
+      },
+    },
+    {
       color: 'highcontrast',
       outlined: true,
       css: {
@@ -185,6 +248,42 @@ export const Button = styled('button', {
       },
     },
 
+    {
+      color: 'primary',
+      ghost: true,
+      css: {
+        backgroundColor: 'transparent',
+        color: '$lightPrimary',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$lightPrimary',
+          color: '$whiteA12',
+        },
+      },
+    },
+    {
+      color: 'secondary',
+      ghost: true,
+      css: {
+        backgroundColor: 'transparent',
+        color: '$secondary',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$secondary',
+          color: '$whiteA12',
+        },
+      },
+    },
+    {
+      color: 'accent',
+      ghost: true,
+      css: {
+        backgroundColor: 'transparent',
+        color: '$accent',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$accent',
+          color: '$whiteA12',
+        },
+      },
+    },
     {
       color: 'highcontrast',
       ghost: true,

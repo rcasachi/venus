@@ -44,6 +44,15 @@ export const StyledProgressBar = styled(Root, {
 
   variants: {
     variant: {
+      primary: {
+        background: '$primary',
+      },
+      secondary: {
+        background: '$secondary',
+      },
+      accent: {
+        background: '$accent',
+      },
       gray: {
         background: '$slate8',
       },

@@ -14,9 +14,9 @@ export const IconButton = styled('button', {
   appearance: 'none',
   outline: 'none',
   userSelect: 'none',
-  color: '$hiContrast',
-  backgroundColor: '$loContrast',
-  border: '1px solid $slate7',
+  color: '$text',
+  backgroundColor: '$panel',
+  border: '1px solid $border',
 
   '&::before': {
     boxSizing: 'border-box',

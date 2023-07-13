@@ -78,6 +78,15 @@ export const AvatarContainer = styled(Avatar.Root, {
     },
 
     variant: {
+      primary: {
+        backgroundColor: '$primary',
+      },
+      secondary: {
+        backgroundColor: '$secondary',
+      },
+      accent: {
+        backgroundColor: '$accent',
+      },
       black: {
         backgroundColor: '$blackA5',
       },
@@ -178,7 +187,7 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  color: '$hiContrast',
+  color: '$text',
   lineHeight: 1,
   fontWeight: '$2',
 
@@ -218,7 +227,7 @@ export const AvatarFallback = styled(Avatar.Fallback, {
 })
 
 export const AvatarNestedItem = styled('div', {
-  boxShadow: '0 0 0 2px $colors$loContrast',
+  boxShadow: '0 0 0 2px $colors$background',
   borderRadius: '$full',
 })
 

@@ -27,6 +27,21 @@ export const Link = styled('a', {
 
   variants: {
     variant: {
+      primary: {
+        color: '$link',
+        textDecoration: 'underline',
+        textDecorationColor: '$link',
+
+        '@hover': {
+          '&:hover': {
+            textDecorationColor: '$blue8',
+          },
+        },
+
+        '&:focus': {
+          outlineColor: '$blue12',
+        },
+      },
       blue: {
         color: '$blue11',
         textDecoration: 'underline',

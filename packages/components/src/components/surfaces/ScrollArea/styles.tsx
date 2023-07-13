@@ -1,5 +1,11 @@
-import { Corner, Root, Scrollbar, Thumb, Viewport } from '@radix-ui/react-scroll-area';
-import { styled } from '@theme';
+import {
+  Corner,
+  Root,
+  Scrollbar,
+  Thumb,
+  Viewport,
+} from '@radix-ui/react-scroll-area'
+import { styled } from '@theme'
 
 const SCROLLBAR_SIZE = 4
 
@@ -7,13 +13,13 @@ export const ScrollAreaRoot = styled(Root, {
   width: '100%',
   height: '100%',
   borderRadius: '$2',
-  overflow: 'hidden'
+  overflow: 'hidden',
 })
 
 export const ScrollAreaViewport = styled(Viewport, {
   width: '100%',
   height: '100%',
-  borderRadius: 'inherit'
+  borderRadius: 'inherit',
 })
 
 export const ScrollAreaScrollbar = styled(Scrollbar, {
@@ -31,7 +37,7 @@ export const ScrollAreaScrollbar = styled(Scrollbar, {
   '&[data-orientation="horizontal"]': {
     flexDirection: 'column',
     height: SCROLLBAR_SIZE,
-  }
+  },
 })
 
 export const ScrollAreaThumb = styled(Thumb, {
@@ -49,10 +55,10 @@ export const ScrollAreaThumb = styled(Thumb, {
     width: '100%',
     height: '100%',
     minWidth: 36,
-    minHeight: 36
-  }
+    minHeight: 36,
+  },
 })
 
 export const ScrollAreaCorner = styled(Corner, {
-  background: '$blackA8'
+  background: '$blackA8',
 })

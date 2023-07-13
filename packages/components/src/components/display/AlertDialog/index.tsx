@@ -22,7 +22,6 @@ export const AlertDialogContent = forwardRef<
 export const AlertDialogAction = AlertDialogPrimitive.Action
 export const AlertDialogCancel = AlertDialogPrimitive.Cancel
 
-export {
-  AlertDialogTitle,
-  AlertDialogDescription
-} from './styles'
+export { AlertDialogTitle, AlertDialogDescription } from './styles'
+
+AlertDialogContent.displayName = 'AlertDialogContent'

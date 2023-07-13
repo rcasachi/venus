@@ -14,14 +14,14 @@ export const RadioButton = styled('div', {
   height: '$4',
   boxShadow: 'inset 0 0 0 1px $colors$gray9',
   flexShrink: 0,
-  mr: '$3'
+  mr: '$3',
 })
 
 export const RadioIndicator = styled('div', {
   borderRadius: '$round',
   width: '$2',
   height: '$2',
-  backgroundColor: '$hiContrast',
+  backgroundColor: '$primary',
   transform: 'scale(0)',
 })
 
@@ -40,12 +40,12 @@ export const StyledRadio = styled(Item, {
 
   '@hover': {
     '&:hover': {
-      boxShadow: 'inset 0 0 0 1px $colors$gray8',
+      boxShadow: 'inset 0 0 0 1px $colors$lightPrimary',
     },
   },
   '&[data-state="checked"]': {
     boxShadow:
-      'inset 0 0 0 1px $colors$hiContrast, 0 0 0 1px $colors$hiContrast !important',
+      'inset 0 0 0 1px $colors$primary, 0 0 0 1px $colors$primary !important',
     [`& ${RadioIndicator}`]: {
       transform: 'scale(1)',
     },
