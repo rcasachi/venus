@@ -10,7 +10,16 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['gray', 'red', 'blue', 'green', 'yellow'],
+      options: [
+        'primary',
+        'secondary',
+        'accent',
+        'gray',
+        'red',
+        'blue',
+        'green',
+        'yellow',
+      ],
       control: {
         type: 'inline-radio',
       },

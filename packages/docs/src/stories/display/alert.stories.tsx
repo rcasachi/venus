@@ -8,7 +8,7 @@ export default {
     variant: 'contrast',
     size: 1,
     children: (
-      <Text size="2" variant="gray">
+      <Text size="2">
         A modal dialog that interrupts the user with{' '}
         <Link href="#">important content</Link> and expects a response.
       </Text>
@@ -16,7 +16,20 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['contrast', 'gray', 'red', 'blue', 'green'],
+      options: [
+        'contrast',
+        'gray',
+        'primary',
+        'secondary',
+        'accent',
+        'success',
+        'error',
+        'warning',
+        'info',
+        'red',
+        'blue',
+        'green',
+      ],
       control: {
         type: 'inline-radio',
       },
@@ -48,7 +61,7 @@ export const WithHeading: StoryObj<AlertProps> = {
         >
           Alert heading
         </Heading>
-        <Text size="2" variant="gray" css={{ lineHeight: '17px' }}>
+        <Text size="2" css={{ lineHeight: '17px' }}>
           A modal dialog that interrupts the user with{' '}
           <Link href="#">important content</Link> and expects a response.
         </Text>

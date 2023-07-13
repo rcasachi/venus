@@ -7,6 +7,15 @@ export default {
   args: {
     size: 4,
     currentStep: 1,
+    variant: 'default',
+  },
+  argTypes: {
+    variant: {
+      options: ['default', 'primary', 'secondary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
   decorators: [
     (Story) => (
@@ -20,7 +29,7 @@ export default {
   ],
 } as Meta<MultiStepProps>
 
-export const Primary: StoryObj<MultiStepProps> = {
+export const Default: StoryObj<MultiStepProps> = {
   args: {},
 }
 

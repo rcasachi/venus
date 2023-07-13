@@ -27,7 +27,13 @@ export default {
       },
     },
     color: {
-      options: ['highcontrast', 'lowcontrast'],
+      options: [
+        'highcontrast',
+        'lowcontrast',
+        'primary',
+        'secondary',
+        'accent',
+      ],
       control: {
         type: 'inline-radio',
       },

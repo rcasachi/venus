@@ -11,7 +11,7 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['gray', 'blue', 'gradient'],
+      options: ['primary', 'secondary', 'accent', 'gray', 'blue', 'gradient'],
       control: {
         type: 'inline-radio',
       },
@@ -46,6 +46,6 @@ export const UITest: StoryObj<ProgressBarProps> = {
           46 hours remaining
         </Text>
       </Box>
-    )
-  ]
+    ),
+  ],
 }

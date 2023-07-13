@@ -1,4 +1,13 @@
-import { Text, Flex, Grid, Box, Table, Tbody, Tr, Td } from '@venusui/components'
+import {
+  Text,
+  Flex,
+  Grid,
+  Box,
+  Table,
+  Tbody,
+  Tr,
+  Td,
+} from '@venusui/components'
 
 const variations = Array.from({ length: 12 }, (_, i) => i + 1)
 const colors = [
@@ -61,15 +70,30 @@ const colors = [
   'whiteA',
   'blackA',
 ]
+
 const extraColors = [
   '$hiContrast',
   '$loContrast',
   '$canvas',
-  '$panel',
   '$transparentPanel',
   '$shadowLight',
   '$shadowDark',
-  '$default'
+  '$background',
+  '$panel',
+  '$text',
+  '$primary',
+  '$darkPrimary',
+  '$lightPrimary',
+  '$secondary',
+  '$darkSecondary',
+  '$lightSecondary',
+  '$accent',
+  '$success',
+  '$error',
+  '$warning',
+  '$info',
+  '$border',
+  '$link',
 ]
 
 export function ColorsGrid() {
@@ -79,29 +103,42 @@ export function ColorsGrid() {
         <Tbody>
           <Tr>
             <Td></Td>
-            {variations.map(n => (
-              <Td align="center"><Text variant="contrast">{n}</Text></Td>
+            {variations.map((n) => (
+              <Td align="center" key={n}>
+                <Text variant="contrast">{n}</Text>
+              </Td>
             ))}
           </Tr>
-          {colors.map(c => (
-            <Tr>
-              <Td><Text variant="contrast">${c}</Text></Td>
-              {variations.map(n => (
-                <Td css={{ backgroundColor: `$${c}${n}` }}></Td>
+          {colors.map((c) => (
+            <Tr key={c}>
+              <Td>
+                <Text variant="contrast">${c}</Text>
+              </Td>
+              {variations.map((n) => (
+                <Td key={n} css={{ backgroundColor: `$${c}${n}` }}></Td>
               ))}
             </Tr>
           ))}
         </Tbody>
       </Table>
 
-      <br/>
+      <br />
 
       <Grid columns="8" align="center" gapX="3" gapY="6">
         {extraColors.map((color) => {
           return (
-            <Flex direction="column">
-              <Box key={color} css={{ backgroundColor: `${color}`, padding: '2rem' }} />
-              <Text css={{fontWeight: '$3', display: 'block'}} variant="yellow" as="div">{color}</Text>
+            <Flex direction="column" key={color}>
+              <Box
+                key={color}
+                css={{ backgroundColor: `${color}`, padding: '2rem' }}
+              />
+              <Text
+                css={{ fontWeight: '$3', display: 'block' }}
+                variant="yellow"
+                as="div"
+              >
+                {color}
+              </Text>
             </Flex>
           )
         })}

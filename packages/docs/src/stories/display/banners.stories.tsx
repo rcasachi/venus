@@ -13,7 +13,16 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['contrast', 'gray', 'red', 'blue', 'green'],
+      options: [
+        'primary',
+        'secondary',
+        'accent',
+        'contrast',
+        'gray',
+        'red',
+        'blue',
+        'green',
+      ],
       control: {
         type: 'inline-radio',
       },

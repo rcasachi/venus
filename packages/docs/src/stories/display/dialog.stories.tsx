@@ -10,8 +10,8 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  PopoverClose
-} from '@venusui/components';
+  PopoverClose,
+} from '@venusui/components'
 
 export default {
   title: 'Display/Dialog',
@@ -33,7 +33,7 @@ export const Default: StoryObj<DialogProps> = {
         </DialogDescription>
       </DialogContent>
     </Dialog>
-  )
+  ),
 }
 
 export const WithPopover: StoryObj<DialogProps> = {
@@ -64,5 +64,5 @@ export const WithPopover: StoryObj<DialogProps> = {
         </Popover>
       </DialogContent>
     </Dialog>
-  )
+  ),
 }

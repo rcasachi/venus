@@ -55,6 +55,9 @@ export default {
     },
     variant: {
       options: [
+        'primary',
+        'secondary',
+        'accent',
         'black',
         'gray',
         'tomato',
@@ -85,7 +88,16 @@ export default {
       },
     },
     status: {
-      options: ['gray', 'red', 'blue', 'green', 'yellow'],
+      options: [
+        'primary',
+        'secondary',
+        'accent',
+        'gray',
+        'red',
+        'blue',
+        'green',
+        'yellow',
+      ],
       control: {
         type: 'inline-radio',
       },

@@ -19,6 +19,9 @@ export default {
   argTypes: {
     variant: {
       options: [
+        'primary',
+        'secondary',
+        'accent',
         'gray',
         'red',
         'crimson',

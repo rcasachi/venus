@@ -9,7 +9,7 @@ import {
   AlertDialogDescription,
   AlertDialogCancel,
   AlertDialogAction,
-  AlertDialogProps
+  AlertDialogProps,
 } from '@venusui/components'
 
 export default {
@@ -37,5 +37,5 @@ export const Default: StoryObj<AlertDialogProps> = {
         </Flex>
       </AlertDialogContent>
     </AlertDialog>
-  )
+  ),
 }
