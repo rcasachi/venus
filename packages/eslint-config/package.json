@@ -12,15 +12,8 @@
     "config"
   ],
   "private": false,
-  "main": "./dist",
   "license": "MIT",
   "repository": "https://github.com/rcasachi/venus.git",
-  "directories": {
-    "lib": "dist"
-  },
-  "files": [
-    "dist/*"
-  ],
   "scripts": {
     "start": "echo 'No start CI script'",
     "build": "echo 'No build CI script'",
