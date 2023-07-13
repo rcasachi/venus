@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.26.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.25.0...@venusui/components@0.26.0) (2023-07-13)
+
+### Features
+
+- **components:** add colors variations at components ([5df91cd](https://github.com/rcasachi/venus/commit/5df91cd631adc15d28fe10ce087818826348e9d8))
+
 # [0.25.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.24.0...@venusui/components@0.25.0) (2023-03-14)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.28.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.27.0...@venusui/docs@0.28.0) (2023-07-13)
+
+### Features
+
+- **docs:** adjust new variations ([4d5996c](https://github.com/rcasachi/venus/commit/4d5996c15ab4e7c3fb35c5017c6508adf737286b))
+
 # [0.27.0](https://github.com/rcasachi/venus/compare/@venusui/docs@0.26.0...@venusui/docs@0.27.0) (2023-03-14)
 
 ### Features

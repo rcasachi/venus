@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.4...@venusui/tokens@0.3.0) (2023-07-13)
+
+### Features
+
+- **tokens:** add theme colors ([9a247e8](https://github.com/rcasachi/venus/commit/9a247e8ea0b5755c1fe328fd7bc9a7320cd43a1a))
+
 ## [0.2.4](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.3...@venusui/tokens@0.2.4) (2023-01-23)
 
 ### Bug Fixes
