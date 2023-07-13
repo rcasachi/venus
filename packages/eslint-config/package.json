@@ -1,0 +1,61 @@
+{
+  "name": "@venusui/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint Config for React and Node",
+  "author": "Rafael Alessandro Casachi",
+  "homepage": "https://github.com/rcasachi/venus#readme",
+  "keywords": [
+    "venus",
+    "venus-ui",
+    "VenusUI",
+    "eslint",
+    "config"
+  ],
+  "private": false,
+  "main": "./dist",
+  "license": "MIT",
+  "repository": "https://github.com/rcasachi/venus.git",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "start": "echo 'No start CI script'",
+    "build": "echo 'No build CI script'",
+    "lint": "eslint src/**/*.ts* --fix",
+    "test:ci": "echo 'No test CI script'",
+    "test:cov": "echo 'No test coverage script'",
+    "test": "echo 'No test script'"
+  },
+  "bugs": {
+    "url": "https://github.com/rcasachi/venus/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.3.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
