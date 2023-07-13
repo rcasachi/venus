@@ -6,9 +6,10 @@ A set of tools and guidelines to empower developers to create universal experien
 
 This codebase is a monorepo with a set of individually versioned libraries.
 
-- [@venus/tokens](https://github.com/rcasachi/venus/tree/main/packages/tokens) : Design tokens are a tech-agnostic way to store variables
-- [@venus/docs](https://github.com/rcasachi/venus/tree/main/packages/docs) : Our documentation website/stories
-- [@venus/components](https://github.com/rcasachi/venus/tree/main/packages/components) : A set of React styled components that follow our design tokens
+- [@venusui/tokens](https://github.com/rcasachi/venus/tree/main/packages/tokens) : Design tokens are a tech-agnostic way to store variables
+- [@venusui/docs](https://github.com/rcasachi/venus/tree/main/packages/docs) : Our documentation website/stories
+- [@venusui/components](https://github.com/rcasachi/venus/tree/main/packages/components) : A set of React styled components that follow our design tokens
+- [@venusui/eslint-config](https://github.com/rcasachi/venus/tree/main/packages/eslint-config) : ESlint configuration
 
 ## Documentation
 

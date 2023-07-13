@@ -33,7 +33,7 @@
     "tsup": "^6.2.3"
   },
   "scripts": {
-    "start": "lerna run --parallel start",
+    "start": "lerna run --parallel --stream start",
     "build": "lerna run --parallel build",
     "lint": "lerna run --parallel lint",
     "clean": "npx lerna clean -y",
