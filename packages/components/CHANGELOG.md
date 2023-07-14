@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.26.0...@venusui/components@0.27.0) (2023-07-14)
+
+### Features
+
+- **components:** add use client into components export ([6ec3bd6](https://github.com/rcasachi/venus/commit/6ec3bd6c0ac7953ec9f0171eb17e02615c3ceccc))
+
 # [0.26.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.25.0...@venusui/components@0.26.0) (2023-07-13)
 
 ### Features
