@@ -1,3 +1,4 @@
+'use client'
 export * from './components/display/Accordion'
 export * from './components/display/Alert'
 export * from './components/display/Avatar'
