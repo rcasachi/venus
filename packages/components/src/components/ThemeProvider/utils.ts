@@ -12,7 +12,7 @@ export const saveColorMode = (newMode: ColorMode) => {
 
 export const getSavedColorModePreference = (): ColorMode => {
   try {
-    const savedMode = window.localStorage.getItem('color-mode')
+    const savedMode = window?.localStorage?.getItem('color-mode')
     if (typeof savedMode === 'string') return savedMode
   } catch (e) {
     console.warn(e)

@@ -13,7 +13,7 @@ const DEFAULT_THEME = 'light'
 
 export const useColorMode = (): ColorModeType => {
   const [colorMode, setColorMode] = useState('')
-  const html = document.documentElement
+  const html = document?.documentElement
 
   const applyColorMode = (newMode: ColorMode) => {
     html.classList.remove(availableThemes[colorMode].className)
