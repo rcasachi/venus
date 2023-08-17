@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'sort-destructure-keys', 'import'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -24,6 +24,26 @@ module.exports = {
         trailingComma: 'all',
         arrowParens: 'always',
         semi: false,
+      },
+    ],
+    'sort-destructure-keys/sort-destructure-keys': 2,
+    'sort-imports': [
+      'error',
+      {
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        allowSeparatedGroups: true,
+      },
+    ],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
       },
     ],
   },
