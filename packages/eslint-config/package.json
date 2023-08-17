@@ -1,6 +1,6 @@
 {
   "name": "@venusui/eslint-config",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Eslint Config for React and Node",
   "author": "Rafael Alessandro Casachi",
   "homepage": "https://github.com/rcasachi/venus#readme",

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/rcasachi/venus/compare/@venusui/eslint-config@1.1.2...@venusui/eslint-config@1.2.0) (2023-08-17)
+
+### Features
+
+- **eslint-config:** add sort imports and destructure keys ([5111358](https://github.com/rcasachi/venus/commit/5111358bd62edeb3dcc83f89b7a155389c753078))
+
 ## [1.1.2](https://github.com/rcasachi/venus/compare/@venusui/eslint-config@1.1.1...@venusui/eslint-config@1.1.2) (2023-07-13)
 
 ### Bug Fixes
