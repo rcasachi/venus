@@ -1,0 +1,2 @@
+import{cP as e,u as t}from"./index.3e9a8271.js";import{j as r}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const a={title:"Surfaces/Panel",component:e,args:{children:r(t,{children:"Panel element testing"})},argTypes:{children:{control:{type:null}}}},c={},i=["Default"];export{c as Default,i as __namedExportsOrder,a as default};
+//# sourceMappingURL=panel.stories.ef1dc5a5.js.map

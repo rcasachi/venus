@@ -1,0 +1,2 @@
+import{bJ as t}from"./index.3e9a8271.js";import"./jsx-runtime.9c618e4b.js";import"./iframe.020113d5.js";import"./index.c956a7b8.js";const i={title:"Display/Status",component:t,args:{size:2,variant:"gray"},argTypes:{variant:{options:["primary","secondary","accent","gray","red","blue","green","yellow"],control:{type:"inline-radio"}},size:{options:[1,2],control:{type:"inline-radio"}}}},n={},s=["Default"];export{n as Default,s as __namedExportsOrder,i as default};
+//# sourceMappingURL=status.stories.2eab46ed.js.map

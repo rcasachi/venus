@@ -1,0 +1,2 @@
+import{bP as t,h as o}from"./index.3e9a8271.js";import{j as e}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const s={title:"Display/Tooltip",component:t,args:{content:"Tooltip for this box",children:e(o,{css:{width:"$8",height:"$8",backgroundColor:"$blue9"}}),multiline:!1},argTypes:{content:{control:{type:"text"}},multiline:{control:{type:"boolean"}}}},p={},a=["Default"];export{p as Default,a as __namedExportsOrder,s as default};
+//# sourceMappingURL=tooltip.stories.d81028f4.js.map

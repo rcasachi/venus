@@ -1,0 +1,2 @@
+import{be as s,bf as r,h as e}from"./index.3e9a8271.js";import{j as t}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const c={title:"Display/AspectRatio",component:s,args:{children:t(r,{src:"https://images.unsplash.com/photo-1535025183041-0991a977e25b?w=300&dpr=2&q=80"}),ratio:16/9},decorators:[o=>t(e,{css:{width:300,borderRadius:6,overflow:"hidden"},children:o()})]},m={},n=["Default"];export{m as Default,n as __namedExportsOrder,c as default};
+//# sourceMappingURL=aspect-ratio.stories.55f070ae.js.map

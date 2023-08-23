@@ -1,0 +1,2 @@
+import{cR as t,cN as o}from"./index.3e9a8271.js";import{j as e}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const c={title:"Surfaces/Section",component:t,args:{children:e(o,{size:"4",css:{textAlign:"center"},children:"Section"}),css:{backgroundColor:"$slate3"}},argTypes:{size:{options:[1,2,3],control:{type:"inline-radio"}}}},a={},l=["Default"];export{a as Default,l as __namedExportsOrder,c as default};
+//# sourceMappingURL=section.stories.534f7363.js.map

@@ -1,0 +1,2 @@
+import{cV as t}from"./index.3e9a8271.js";import"./jsx-runtime.9c618e4b.js";import"./iframe.020113d5.js";import"./index.c956a7b8.js";const r={title:"Surfaces/Skeleton",component:t,args:{variant:"text",size:void 0},argTypes:{variant:{options:["avatar","text","title","heading","button"],control:{type:"inline-radio"}},size:{options:[1,2,3,4,5,6,7,void 0],control:{type:"inline-radio"}}}},a={},s=["Default"];export{a as Default,s as __namedExportsOrder,r as default};
+//# sourceMappingURL=skeleton.stories.4e8b1f57.js.map

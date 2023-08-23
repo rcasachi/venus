@@ -1,0 +1,2 @@
+import{cS as s,cT as r,bt as o,cU as i}from"./index.3e9a8271.js";import{a,j as e}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const p={title:"Surfaces/Sheet",render:({side:t})=>a(s,{children:[e(r,{asChild:!0,children:e(o,{children:"Open Sheet"})}),e(i,{side:t})]}),args:{side:"right"},argTypes:{side:{options:["top","right","bottom","left"],control:{type:"inline-radio"}}}},h={},m=["Default"];export{h as Default,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=sheet.stories.a7b43bc2.js.map

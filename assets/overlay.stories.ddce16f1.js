@@ -1,0 +1,2 @@
+import{cO as e,u as t}from"./index.3e9a8271.js";import{j as r}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const n={title:"Surfaces/Overlay",component:e,args:{children:r(t,{children:"Overlay element testing"}),css:{width:"100vh",height:"50vh"}},argTypes:{children:{control:{type:null}}}},i={},c=["Default"];export{i as Default,c as __namedExportsOrder,n as default};
+//# sourceMappingURL=overlay.stories.ddce16f1.js.map

@@ -1,0 +1,2 @@
+import{cb as o,cc as e}from"./index.3e9a8271.js";import{j as t}from"./jsx-runtime.9c618e4b.js";import"./index.c956a7b8.js";import"./iframe.020113d5.js";const a={title:"Interaction/Toggle",component:o,args:{size:1,shape:"circle",children:t(e,{})},argTypes:{size:{options:[1,2,3],control:{type:"inline-radio"}},shape:{options:["circle","square"],control:{type:"inline-radio"}}}},c={},p=["Default"];export{c as Default,p as __namedExportsOrder,a as default};
+//# sourceMappingURL=toggle.stories.b2fa3c74.js.map

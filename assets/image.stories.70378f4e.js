@@ -1,0 +1,2 @@
+import{bf as t}from"./index.3e9a8271.js";import"./jsx-runtime.9c618e4b.js";import"./iframe.020113d5.js";import"./index.c956a7b8.js";const i={title:"Display/Image",component:t,args:{src:"https://images.unsplash.com/photo-1453235421161-e41b42ebba05?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw"}},r={},m=["Default"];export{r as Default,m as __namedExportsOrder,i as default};
+//# sourceMappingURL=image.stories.70378f4e.js.map
