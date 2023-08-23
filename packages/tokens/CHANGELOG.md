@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.4.0...@venusui/tokens@0.5.0) (2023-08-23)
+
+### Features
+
+- **tokens:** add new tsup config ([a4b83f0](https://github.com/rcasachi/venus/commit/a4b83f070a8663b877d43a1033cc344febbcfa9e))
+
 # [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.3.0...@venusui/tokens@0.4.0) (2023-08-23)
 
 ### Features

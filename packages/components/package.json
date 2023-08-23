@@ -1,6 +1,6 @@
 {
   "name": "@venusui/components",
-  "version": "0.28.0",
+  "version": "0.28.1",
   "description": "VenusUI Design System Components",
   "author": "Rafael Alessandro Casachi",
   "homepage": "https://github.com/rcasachi/venus#readme",
@@ -46,7 +46,7 @@
     "@radix-ui/react-tooltip": "^1.0.2",
     "@radix-ui/react-use-layout-effect": "^1.0.0",
     "@stitches/react": "^1.2.8",
-    "@venusui/tokens": "^0.4.0"
+    "@venusui/tokens": "^0.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
