@@ -23,8 +23,8 @@
     "dist/*"
   ],
   "scripts": {
-    "start": "rm -rf dist && tsup src/index.ts --format esm,cjs --dts --watch",
-    "build": "rm -rf dist && tsup src/index.ts --format esm,cjs --dts",
+    "start": "rm -rf dist && tsup --watch",
+    "build": "rm -rf dist && tsup",
     "lint": "eslint src/**/*.ts* --fix",
     "test:ci": "echo 'No test CI script'",
     "test:cov": "echo 'No test coverage script'",
@@ -38,5 +38,13 @@
   },
   "dependencies": {
     "@radix-ui/colors": "^0.1.8"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   }
 }
