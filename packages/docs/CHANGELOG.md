@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.28.5](https://github.com/rcasachi/venus/compare/@venusui/docs@0.28.4...@venusui/docs@0.28.5) (2023-08-23)
+
+**Note:** Version bump only for package @venusui/docs
+
 ## [0.28.4](https://github.com/rcasachi/venus/compare/@venusui/docs@0.28.3...@venusui/docs@0.28.4) (2023-08-23)
 
 **Note:** Version bump only for package @venusui/docs

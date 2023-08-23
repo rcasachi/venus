@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.27.4](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.3...@venusui/components@0.27.4) (2023-08-23)
+
+### Bug Fixes
+
+- **components:** add nullable possibility to ThemeProvider ([340d0d4](https://github.com/rcasachi/venus/commit/340d0d4576d3084ecbff65265933a87f0c75053b))
+
 ## [0.27.3](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.2...@venusui/components@0.27.3) (2023-08-23)
 
 ### Bug Fixes
