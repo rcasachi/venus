@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.27.3](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.2...@venusui/components@0.27.3) (2023-08-23)
+
+### Bug Fixes
+
+- **components:** interface exports ([a835b16](https://github.com/rcasachi/venus/commit/a835b1610c8674e46481763df1a06f4612afe440))
+
 ## [0.27.2](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.1...@venusui/components@0.27.2) (2023-08-23)
 
 **Note:** Version bump only for package @venusui/components
