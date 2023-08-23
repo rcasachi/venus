@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.3.0...@venusui/tokens@0.4.0) (2023-08-23)
+
+### Features
+
+- **tokens:** update background token for dark mode ([0a84b83](https://github.com/rcasachi/venus/commit/0a84b83ba3546fdc4c21d15c4b067ab18ee4da6c))
+
 # [0.3.0](https://github.com/rcasachi/venus/compare/@venusui/tokens@0.2.4...@venusui/tokens@0.3.0) (2023-07-13)
 
 ### Features
