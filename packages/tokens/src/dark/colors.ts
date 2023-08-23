@@ -1,6 +1,6 @@
 export const darkColors = {
-  background: '#212529',
-  panel: '#343a40',
+  background: '#262626',
+  panel: '#323130',
   transparentPanel: 'hsl(0 100% 100% / 97%)',
   hiContrast: '$slate12',
   loContrast: '$slate1',
