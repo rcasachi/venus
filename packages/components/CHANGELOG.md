@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.28.0](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.4...@venusui/components@0.28.0) (2023-08-23)
+
+### Features
+
+- **components:** add new tsup config ([3ab80cd](https://github.com/rcasachi/venus/commit/3ab80cd557eaeb64863cb999b07648c073539df6))
+
 ## [0.27.4](https://github.com/rcasachi/venus/compare/@venusui/components@0.27.3...@venusui/components@0.27.4) (2023-08-23)
 
 ### Bug Fixes
