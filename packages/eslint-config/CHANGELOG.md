@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/rcasachi/venus/compare/@venusui/eslint-config@1.2.0...@venusui/eslint-config@1.2.1) (2023-09-22)
+
+### Bug Fixes
+
+- **eslint-config:** change package at eslint config ([43d7c78](https://github.com/rcasachi/venus/commit/43d7c78a904159be22b21e054a4ddaba593cf249))
+
 # [1.2.0](https://github.com/rcasachi/venus/compare/@venusui/eslint-config@1.1.2...@venusui/eslint-config@1.2.0) (2023-08-17)
 
 ### Features
