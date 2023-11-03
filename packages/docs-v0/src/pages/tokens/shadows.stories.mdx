@@ -1,0 +1,33 @@
+import { Meta } from "@storybook/addon-docs";
+import { TokensGrid } from "../../components/TokensGrid";
+import { Shadows } from "@venusui/tokens";
+
+<Meta title="Tokens/Shadows" />
+
+# Shadows
+
+Shadow is the property used to represent depth by blocking light by some opaque object. Simulating shadow in UI design helps create a material look to screen elements and gives cues of the elevation they are at.
+
+---
+
+#### Blur
+
+The shadow blur token defines feathering, or blurring, of the shadow.
+
+<TokensGrid tokens={Shadows.blur} />
+
+---
+
+#### Position
+
+The shadow position token defines the shadow's direction in space.
+
+<TokensGrid tokens={Shadows.position} />
+
+---
+
+#### Opacity
+
+The shadow opacity token sets the opacity of the shadow.
+
+<TokensGrid tokens={Shadows.opacity} />

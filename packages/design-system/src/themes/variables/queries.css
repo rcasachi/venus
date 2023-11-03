@@ -1,0 +1,14 @@
+:root {
+  --breakpoint-1: (min-width: 320px);
+  --breakpoint-2: (min-width: 720px);
+  --breakpoint-3: (min-width: 1080px);
+  --breakpoint-4: (min-width: 1280px);
+  --breakpoint-5: (min-width: 1440px);
+  --breakpoint-6: (min-width: 1600px);
+
+  --theme-dark: (prefers-color-scheme: dark);
+  --theme-light: (prefers-color-scheme: light);
+
+  --motion: (prefers-reduced-motion);
+  --hover: (any-hover: hover);
+}

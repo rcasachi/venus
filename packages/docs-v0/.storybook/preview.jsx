@@ -1,15 +1,11 @@
-import './styles.css'
-import { ThemeProvider as TPComponents } from '@venusui/components'
-import { ThemeProvider } from '@venusui/design-system'
+import { ThemeProvider } from '@venusui/components';
 import { themes } from '@storybook/theming'
 import { theme, darkTheme } from '@venusui/components'
 
 export const decorators = [
   Story => (
     <ThemeProvider>
-      <TPComponents>
-        <Story />
-      </TPComponents>
+      <Story />
     </ThemeProvider>
   ),
 ];

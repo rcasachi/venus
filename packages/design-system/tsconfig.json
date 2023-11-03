@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "ES2015"],
+    "module": "ESNext",
+    "target": "es6",
+    "baseUrl": "src",
+    "paths": {
+      "@theme": ["theme/index.tsx"],
+      "@utils/*": ["utils/*"],
+      "@components/*": ["components/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["src", "global.d.ts"]
+}

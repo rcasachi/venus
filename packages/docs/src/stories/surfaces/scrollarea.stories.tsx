@@ -1,19 +1,37 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, ScrollAreaProps, ScrollArea } from '@venusui/components'
+import { Box, type ScrollAreaProps, ScrollArea } from '@venusui/design-system'
 
 export default {
   title: 'Surfaces/ScrollArea',
   component: ScrollArea,
-  args:{
+  args: {
     children: (
       <>
-        <Box css={{ width: '100px', height: '100px', backgroundColor: '$blue9' }}></Box>
-        <Box css={{ width: '150px', height: '150px', backgroundColor: '$blue8' }}></Box>
-        <Box css={{ width: '200px', height: '200px', backgroundColor: '$blue11' }}></Box>
+        <Box
+          style={{
+            width: '100px',
+            height: '100px',
+            backgroundColor: '#3399ff',
+          }}
+        ></Box>
+        <Box
+          style={{
+            width: '150px',
+            height: '150px',
+            backgroundColor: '#33ddff',
+          }}
+        ></Box>
+        <Box
+          style={{
+            width: '200px',
+            height: '200px',
+            backgroundColor: '#0099ff',
+          }}
+        ></Box>
       </>
     ),
-    css: { height: '200px' }
-  }
+    style: { height: '200px' },
+  },
 } as Meta<ScrollAreaProps>
 
 export const Default: StoryObj<ScrollAreaProps> = {}

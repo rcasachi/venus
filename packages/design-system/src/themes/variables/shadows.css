@@ -1,0 +1,24 @@
+:root {
+  --shadow-blur-4: 4px;
+  --shadow-blur-8: 8px;
+  --shadow-blur-16: 16px;
+  --shadow-blur-32: 32px;
+  --shadow-blur-64: 64px;
+
+  --shadow-position-0: 0px 0px;
+  --shadow-position-2: 0px 2px;
+  --shadow-position-4: 0px 4px;
+  --shadow-position-8: 0px 8px;
+  --shadow-position-16: 0px 16px;
+  --shadow-position-32: 0px 32px;
+  --shadow-position-64: 0px 64px;
+
+  --shadow-opacity-4: 4%;
+  --shadow-opacity-6: 6%;
+  --shadow-opacity-8: 8%;
+  --shadow-opacity-10: 10%;
+  --shadow-opacity-12: 12%;
+  --shadow-opacity-16: 16%;
+  --shadow-opacity-24: 24%;
+  --shadow-opacity-32: 32%;
+}

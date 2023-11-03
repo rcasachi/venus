@@ -1,0 +1,29 @@
+@import './variables/borders.css';
+@import './variables/fonts.css';
+@import './variables/queries.css';
+@import './variables/shadows.css';
+@import './variables/spacing.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+}
+
+svg {
+  display: block;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: var(--font-untitled);
+}

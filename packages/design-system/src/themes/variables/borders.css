@@ -1,0 +1,79 @@
+:root {
+  --border-radio-1: 1px;
+  --border-radio-2: 2px;
+  --border-radio-3: 4px;
+  --border-radio-4: 6px;
+  --border-radio-5: 8px;
+  --border-radio-6: 12px;
+  --border-radio-7: 16px;
+  --border-radio-8: 20px;
+  --border-radio-9: 24px;
+  --border-radio-10: 28px;
+  --border-radio-11: 32px;
+  --border-radio-round: 50%;
+  --border-radio-pill: 9999px;
+  --border-radio-full: 99999px;
+
+  --border-width-0: 0;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
+  --border-width-4: 4px;
+  --border-width-5: 5px;
+  --border-width-6: 6px;
+
+  --border-solid: solid;
+  --border-hidden: hidden;
+  --border-dotted: dotted;
+  --border-dashed: dashed;
+  --border-double: double;
+  --border-groove: groove;
+  --border-inset: inset;
+  --border-ridge: ridge;
+  --border-outset: outset;
+  --border-initial: initial;
+  --border-inherit: inherit;
+}
+
+.border-radio-1{
+  border-radius: var(--border-radio-1);
+}
+.border-radio-2{
+  border-radius: var(--border-radio-2);
+}
+.border-radio-3{
+  border-radius: var(--border-radio-3);
+}
+.border-radio-4{
+  border-radius: var(--border-radio-4);
+}
+.border-radio-5{
+  border-radius: var(--border-radio-5);
+}
+.border-radio-6{
+  border-radius: var(--border-radio-6);
+}
+.border-radio-7{
+  border-radius: var(--border-radio-7);
+}
+.border-radio-8{
+  border-radius: var(--border-radio-8);
+}
+.border-radio-9{
+  border-radius: var(--border-radio-9);
+}
+.border-radio-10{
+  border-radius: var(--border-radio-10);
+}
+.border-radio-11{
+  border-radius: var(--border-radio-11);
+}
+.border-radio-round{
+  border-radius: var(--border-radio-round);
+}
+.border-radio-pill{
+  border-radius: var(--border-radio-pill);
+}
+.border-radio-full{
+  border-radius: var(--border-radio-full);
+}

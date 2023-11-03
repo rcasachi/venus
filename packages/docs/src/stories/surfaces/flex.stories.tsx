@@ -1,4 +1,4 @@
-import { Box, Flex, FlexProps } from '@venusui/components'
+import { Box, Flex, type FlexProps } from '@venusui/design-system'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -7,55 +7,52 @@ export default {
   args: {
     children: (
       <>
-        <Box css={{ width: '$8', height: '$8', backgroundColor: '$blue9' }}></Box>
-        <Box css={{ width: '$5', height: '$5', backgroundColor: '$cyan9' }}></Box>
-        <Box css={{ width: '$7', height: '$7', backgroundColor: '$indigo9' }}></Box>
+        <Box
+          style={{
+            width: 'var(--space-8)',
+            height: 'var(--space-8)',
+            backgroundColor: '#335544',
+          }}
+        ></Box>
+        <Box
+          style={{
+            width: 'var(--space-5)',
+            height: 'var(--space-5)',
+            backgroundColor: '#3399ff',
+          }}
+        ></Box>
+        <Box
+          style={{
+            width: 'var(--space-7)',
+            height: 'var(--space-7)',
+            backgroundColor: '#993355',
+          }}
+        ></Box>
       </>
     ),
-    css: { backgroundColor: '$gray4', px: '$2', py: '$4' },
+    style: { backgroundColor: '#222232', padding: 'var(--space-2)' },
   },
   argTypes: {
     direction: {
-      options: [
-        'row',
-        'column',
-        'rowReverse',
-        'columnReverse',
-      ],
+      options: ['row', 'column', 'rowReverse', 'columnReverse'],
       control: {
         type: 'inline-radio',
       },
     },
     align: {
-      options: [
-        'start',
-        'center',
-        'end',
-        'stretch',
-        'baseline',
-      ],
+      options: ['start', 'center', 'end', 'stretch', 'baseline'],
       control: {
         type: 'inline-radio',
       },
     },
     justify: {
-      options: [
-        'start',
-        'center',
-        'end',
-        'between',
-        'around',
-      ],
+      options: ['start', 'center', 'end', 'between', 'around'],
       control: {
         type: 'inline-radio',
       },
     },
     wrap: {
-      options: [
-        'noWrap',
-        'wrap',
-        'wrapReverse',
-      ],
+      options: ['noWrap', 'wrap', 'wrapReverse'],
       control: {
         type: 'inline-radio',
       },

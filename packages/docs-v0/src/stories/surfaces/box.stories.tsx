@@ -1,5 +1,4 @@
-import { Text } from '@venusui/components'
-import { Box, type BoxProps } from '@venusui/design-system'
+import { Box, BoxProps, Text } from '@venusui/components'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -7,10 +6,7 @@ export default {
   component: Box,
   args: {
     children: <Text>Box element testing</Text>,
-    className: 'm-2 p-2',
-    style: {
-      backgroundColor: '#353599',
-    },
+    css: { backgroundColor: '$blue9', px: '$2', py: '$4' },
   },
   argTypes: {
     children: {

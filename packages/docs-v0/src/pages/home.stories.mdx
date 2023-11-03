@@ -1,0 +1,72 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Home" />
+
+# VenusUI Design System
+
+A set of tools and guidelines to empower developers to create universal experiences faster, more scalable and more consistently.
+
+## Packages
+
+This codebase is a monorepo with a set of individually versioned libraries.
+
+- [@venusui/tokens](https://github.com/rcasachi/venus/tree/main/packages/tokens) : Design tokens are a tech-agnostic way to store variables
+- [@venusui/docs](https://github.com/rcasachi/venus/tree/main/packages/docs) : Our documentation website/stories
+- [@venusui/components](https://github.com/rcasachi/venus/tree/main/packages/components) : A set of React styled components that follow our design tokens
+
+## Install
+
+In order to install VenusUI components, you should run:
+
+```bash
+yarn add @venusui/components
+```
+
+If you want to get access to VenusUI tokens, you may run:
+
+```bash
+yarn add @venusui/tokens
+```
+
+## Usage
+
+You should wrap your application with ThemeProvider and use the components normally:
+
+```javascript
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
+import { ThemeProvider } from "@venusui/components";
+
+import App from "./App";
+
+ReactDOM.render(
+  <StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </StrictMode>,
+  document.getElementById("root")
+);
+```
+
+### How to switch through themes
+
+You may create a button to change your theme:
+
+```javascript
+const ThemeToggleButton = () => {
+  return (
+    <ThemeContext.Consumer>
+      {(context: any) => (
+        <Button onClick={context.cycleToggleMode}>
+          Mode: {context.colorMode}
+        </Button>
+      )}
+    </ThemeContext.Consumer>
+  );
+};
+```
+
+## Contributing
+
+We welcome all kind of contributions. Please read our CONTRIBUTING.md first, we follow some practices to keep a common and standarized architecture in our changes.
